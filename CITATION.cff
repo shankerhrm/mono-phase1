@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "MONO Whitepaper v1.0"
+authors:
+  - family-names: "K"
+    given-names: "Jaishanker"
+version: "1.0"
+date-released: 2026-02-27
+repository-code: "https://github.com/developerstechbilla/server-source"
+license: "MIT + CC BY 4.0"
