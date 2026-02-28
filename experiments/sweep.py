@@ -29,7 +29,11 @@ base_params = {
     'mutation_rate': 0.1,
     'initial_energy': 100, 'basal_burn': 1, 'action_cost_multiplier': 1,
     'initial_structure_size': 10, 'decay_rate': 0.05, 'split_ratio': 0.5,
-    'E_quiescence': 20, 'S_quiescence': 3
+    'E_quiescence': 20, 'S_quiescence': 3,
+    'S_critical': 5, 'E_maintenance_min': 20, 'repair_efficiency': 0.5,
+    'E_repro': 150, 'S_repro': 8, 'r': 0.4, 'C_divide': 20,
+    'epsilon_E': 5, 'epsilon_S': 1, 'stability_window': 10,
+    'child_survival_cycles': 10, 'birth_stress_cycles': 5
 }
 
 results = []

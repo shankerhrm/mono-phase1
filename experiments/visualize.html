@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONO Test Results Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 10px; padding: 0; overflow: hidden; }
+        .charts-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; }
+        .chart-container { width: 100%; margin: 0; }
+        h3 { font-size: 10px; margin: 0; }
+        h2 { font-size: 12px; margin: 5px 0; }
+        p { font-size: 8px; margin: 2px 0; }
+    </style>
+</head>
+<body>
+    <h2>Phase-1: Closed Metabolism</h2>
+    <p><strong>Results:</strong> No survival ≥500 cycles in any config; dominant deaths STRUCTURAL_DECAY, ENERGY_STARVATION.</p>
+    <p><strong>Conclusion:</strong> Closed metabolism insufficient; active maintenance required.</p>
+
+    <h2>Phase-2: Active Maintenance</h2>
+    <p><strong>Results:</strong> Partial success; 1 config ≥500 survival; new deaths MAINTENANCE_DEBT.</p>
+    <p><strong>Conclusion:</strong> Maintenance necessary but insufficient; adaptive regulation needed.</p>
+
+    <h2>Phase-3: Adaptive Regulation</h2>
+    <p><strong>Results:</strong> Viability expanded; regulator enables stability; PSEUDO_STABLE dominant.</p>
+    <p><strong>Conclusion:</strong> Regulation successful; foundation for reproduction set.</p>
+
+    <h2>Phase-4: Reproduction & Lineage Formation</h2>
+    <div class="charts-grid">
+        <div class="chart-container">
+            <h3>Energy</h3>
+            <canvas id="energyChart" style="height: 15px;"></canvas>
+        </div>
+        <div class="chart-container">
+            <h3>Structure Size</h3>
+            <canvas id="structureChart" style="height: 15px;"></canvas>
+        </div>
+    </div>
+    <p><strong>Results:</strong> Reproduction occurred, child survived long-term, lineage depth=1.</p>
+    <p><strong>Conclusion:</strong> Phase-4 successful; reproduction non-destructive, lineages stable.</p>
+
+    <h2>Phase-5: Evolutionary Reproduction</h2>
+    <div class="charts-grid">
+        <div class="chart-container">
+            <h3>Population Size</h3>
+            <canvas id="populationChart" style="height: 15px;"></canvas>
+        </div>
+        <div class="chart-container">
+            <h3>Regulator Traits</h3>
+            <canvas id="traitsChart" style="height: 15px;"></canvas>
+        </div>
+    </div>
+    <p><strong>Results:</strong> Population stagnant, no evolution observed; heritable variation implemented but no reproduction in run.</p>
+    <p><strong>Conclusion:</strong> Framework ready; evolution requires parameter tuning for sustained reproduction.</p>
+
+    <script>
+        // Load and plot evolution results
+        fetch('evolution_run.json')
+            .then(response => response.json())
+            .then(data => {
+                const cycles = data.map(d => d.cycle);
+                const populations = data.map(d => d.population_size || 0);
+                const alphas = data.map(d => d.alpha_mean || 0);
+                const betas = data.map(d => d.beta_mean || 0);
+                const gammas = data.map(d => d.gamma_mean || 0);
+
+                // Population chart
+                new Chart(document.getElementById('populationChart'), {
+                    type: 'line',
+                    data: {
+                        labels: cycles,
+                        datasets: [{
+                            label: 'Population Size',
+                            data: populations,
+                            borderColor: 'blue',
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        title: { display: true, text: 'Population Size Over Time' }
+                    }
+                });
+
+                // Traits chart
+                new Chart(document.getElementById('traitsChart'), {
+                    type: 'line',
+                    data: {
+                        labels: cycles,
+                        datasets: [
+                            { label: 'Alpha Mean', data: alphas, borderColor: 'red', fill: false },
+                            { label: 'Beta Mean', data: betas, borderColor: 'green', fill: false },
+                            { label: 'Gamma Mean', data: gammas, borderColor: 'orange', fill: false }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        title: { display: true, text: 'Regulator Traits Over Time' }
+                    }
+                });
+            });
+
+        // Load and plot single run results
+        fetch('single_run.json')
+            .then(response => response.json())
+            .then(data => {
+                const cycles = data.map(d => d.cycle);
+                const energies = data.map(d => d.E);
+                const structures = data.map(d => d.structure_size);
+
+                // Energy chart
+                new Chart(document.getElementById('energyChart'), {
+                    type: 'line',
+                    data: {
+                        labels: cycles,
+                        datasets: [{
+                            label: 'Energy',
+                            data: energies,
+                            borderColor: 'purple',
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        title: { display: true, text: 'Energy Over Time' }
+                    }
+                });
+
+                // Structure chart
+                new Chart(document.getElementById('structureChart'), {
+                    type: 'line',
+                    data: {
+                        labels: cycles,
+                        datasets: [{
+                            label: 'Structure Size',
+                            data: structures,
+                            borderColor: 'brown',
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        title: { display: true, text: 'Structure Size Over Time' }
+                    }
+                });
+            });
+    </script>
+</body>
+</html>

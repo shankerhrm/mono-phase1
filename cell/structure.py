@@ -7,6 +7,8 @@ class Structure:
             self.graph[i] = {'metadata': {'type': 'default', 'age': 0, 'utility': 0}, 'edges': {}}
 
     def size(self) -> int:
+        if hasattr(self, '_size'):
+            return int(self._size)
         return len(self.graph)
 
     def mutate(self, identity):
@@ -29,6 +31,11 @@ class Structure:
         return 0
 
     def decay(self, decay_rate):
+        if hasattr(self, '_size'):
+            if random.random() < decay_rate:
+                self._size = max(0, self._size - 1)
+                return -1
+            return 0
         to_remove = [node_id for node_id in list(self.graph.keys()) if random.random() < decay_rate]
         delta = -len(to_remove)
         for node_id in to_remove:

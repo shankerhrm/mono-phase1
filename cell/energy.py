@@ -5,6 +5,6 @@ class Energy:
         self.E = E0
         self.id = identity
 
-    def update(self, C_t):
-        self.E = min(self.id.E_m, self.E + self.id.E_i - C_t - self.id.basal_burn)
+    def update(self, C_t, extra_burn=0):
+        self.E = min(self.id.E_m, self.E - C_t - self.id.basal_burn - extra_burn)
         self.E = max(0, self.E)

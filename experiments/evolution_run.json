@@ -1,0 +1,41 @@
+[
+  {
+    "population_size": 1,
+    "alpha_mean": 0.1,
+    "beta_mean": 0.05,
+    "gamma_mean": 0.5,
+    "max_generation": 0,
+    "energy_pool": 9990,
+    "cycle": 0
+  },
+  {
+    "population_size": 1,
+    "alpha_mean": 0.1,
+    "beta_mean": 0.05,
+    "gamma_mean": 0.5,
+    "max_generation": 0,
+    "energy_pool": 9980,
+    "cycle": 1
+  },
+  {
+    "population_size": 1,
+    "alpha_mean": 0.1,
+    "beta_mean": 0.05,
+    "gamma_mean": 0.5,
+    "max_generation": 0,
+    "energy_pool": 9970,
+    "cycle": 2
+  },
+  {
+    "population_size": 1,
+    "alpha_mean": 0.1,
+    "beta_mean": 0.05,
+    "gamma_mean": 0.5,
+    "max_generation": 0,
+    "energy_pool": 9960,
+    "cycle": 3
+  },
+  {
+    "cycle": 4
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "cycle": 0,
+    "E": 32.0,
+    "C": 15.0,
+    "burn": 0.15000000000000002,
+    "structure_size": 10,
+    "actions": [
+      "B",
+      "M",
+      "R",
+      "P"
+    ],
+    "maintenance_cost": 0.0,
+    "maintenance_delta": 0.0,
+    "maintenance_mode": "CONSERVE",
+    "regulator_signals": {
+      "E_trend": 0,
+      "S_trend": 0,
+      "E_var": 0,
+      "S_var": 0,
+      "decay_pressure": 0,
+      "burn_pressure": 0
+    },
+    "regulator_params": {
+      "alpha": 0.1,
+      "beta": 0.05,
+      "gamma": 0.5
+    },
+    "reproduced": true,
+    "child_id": 2
+  },
+  {
+    "cycle": 0,
+    "E": 17.0,
+    "C": 7.5,
+    "burn": 0.16388888888888892,
+    "structure_size": 9,
+    "actions": [
+      "B",
+      "K"
+    ],
+    "maintenance_cost": 0.0,
+    "maintenance_delta": 0.0,
+    "maintenance_mode": "CONSERVE",
+    "regulator_signals": {
+      "E_trend": 0,
+      "S_trend": 0,
+      "E_var": 0,
+      "S_var": 0,
+      "decay_pressure": 0,
+      "burn_pressure": 0
+    },
+    "regulator_params": {
+      "alpha": 0.10792144740949791,
+      "beta": 0.05125518275703261,
+      "gamma": 0.5027359900655838
+    },
+    "reproduced": false,
+    "child_id": null
+  },
+  {
+    "cycle": 1,
+    "E": 8.0,
+    "C": 7.5,
+    "burn": 0.16250000000000003,
+    "structure_size": 8,
+    "actions": [
+      "B",
+      "K"
+    ],
+    "maintenance_cost": 0.0,
+    "maintenance_delta": 0.0,
+    "maintenance_mode": "CONSERVE",
+    "regulator_signals": {
+      "E_trend": 0,
+      "S_trend": 0,
+      "E_var": 0,
+      "S_var": 0,
+      "decay_pressure": 0,
+      "burn_pressure": 0
+    },
+    "regulator_params": {
+      "alpha": 0.10792144740949791,
+      "beta": 0.05125518275703261,
+      "gamma": 0.5027359900655838
+    },
+    "reproduced": false,
+    "child_id": null
+  },
+  {
+    "cycle": 2,
+    "E": 0,
+    "C": 7.5,
+    "burn": 0.16071428571428573,
+    "structure_size": 7,
+    "actions": [
+      "B",
+      "K"
+    ],
+    "maintenance_cost": 0.0,
+    "maintenance_delta": 0.0,
+    "maintenance_mode": "LIGHT_REPAIR",
+    "regulator_signals": {
+      "E_trend": -9.0,
+      "S_trend": -1,
+      "E_var": 0,
+      "S_var": 0,
+      "decay_pressure": 1,
+      "burn_pressure": 0.16319444444444448
+    },
+    "regulator_params": {
+      "alpha": 0.10792144740949791,
+      "beta": 0.05125518275703261,
+      "gamma": 0.5027359900655838
+    },
+    "reproduced": false,
+    "child_id": null
+  }
+]

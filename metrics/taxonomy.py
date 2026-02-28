@@ -18,8 +18,18 @@ class DeathClass:
     ENERGY_STARVATION = "ENERGY_STARVATION"
     STRUCTURAL_DECAY = "STRUCTURAL_DECAY"
     REPRODUCTION_OVERLOAD = "REPRODUCTION_OVERLOAD"
+    MAINTENANCE_DEBT = "MAINTENANCE_DEBT"
+    REPAIR_OSCILLATION = "REPAIR_OSCILLATION"
+    FALSE_STABILITY = "FALSE_STABILITY"
+    REPRODUCTION_COLLAPSE = "REPRODUCTION_COLLAPSE"
+    LINEAGE_EXTINCTION = "LINEAGE_EXTINCTION"
+    MUTATIONAL_INSTABILITY = "MUTATIONAL_INSTABILITY"
+    REPRODUCTIVE_STARVATION = "REPRODUCTIVE_STARVATION"
+    INHERITED_MAINTENANCE_DEBT = "INHERITED_MAINTENANCE_DEBT"
     ENTROPIC_DRIFT = "ENTROPIC_DRIFT"
     OSCILLATORY_COLLAPSE = "OSCILLATORY_COLLAPSE"
+    LATENCY_EXCEEDED = "LATENCY_EXCEEDED"
+    COORD_OVERLOAD = "COORD_OVERLOAD"
 
 # Stability Classes
 class StabilityClass:
@@ -71,6 +81,28 @@ def classify_death(logs):
             return DeathClass.ENERGY_STARVATION
         else:
             return DeathClass.STRUCTURAL_DECAY
+    return None  # survived
+
+    # Phase-2 death classes
+    total_maintenance_cost = sum(log.get('maintenance_cost', 0) for log in logs)
+    lifespan = len(logs)
+    if total_maintenance_cost > lifespan * 10:  # assuming E_i=10
+        return DeathClass.MAINTENANCE_DEBT
+
+    maintenance_deltas = [log.get('maintenance_delta', 0) for log in logs]
+    if std(maintenance_deltas) > 1 and len(maintenance_deltas) > 10:
+        return DeathClass.REPAIR_OSCILLATION
+
+    structures = [log['structure_size'] for log in logs]
+    if std(structures) < 1 and logs[-1]['E'] < 20:
+        return DeathClass.FALSE_STABILITY
+
+    # Phase-6 death classes
+    if 'tau_coord' in final_log and final_log['tau_coord'] > final_log.get('tau_max', float('inf')):
+        return DeathClass.COORD_OVERLOAD
+    if 'tau_organism' in final_log and 'tau_failure' in final_log and final_log['tau_organism'] > final_log['tau_failure']:
+        return DeathClass.LATENCY_EXCEEDED
+
     return None  # survived
 
 def classify_stability(logs):
