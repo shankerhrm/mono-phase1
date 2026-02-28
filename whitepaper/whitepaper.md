@@ -7,7 +7,7 @@
 **Author:** Jaishanker K.  
 **Affiliation:** Independent Researcher  
 **Project:** MONO (Monolithic Cell AI System)  
-**GitHub Repository:** https://github.com/developerstechbilla/server-source  
+**GitHub Repository:** https://github.com/shankerhrm/mono-phase1.git  
 **Project Status:** Phase-1 through Phase-6 complete; Phase-6 introduces latency-constrained cognition  
 
 **License:**  
