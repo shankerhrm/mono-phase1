@@ -57,3 +57,109 @@ Phase-1 Graduation Criteria:
 - ✅ No immortal or explosive states: All runs terminate within 1000 ticks without unbounded growth.
 
 **Phase-1 Officially Graduated.** Ready for Phase-2.
+
+---
+
+# MONO Phase-6 Results: Latency-Bound Organism Dynamics
+
+## Executive Summary
+
+Phase-6 introduces time scarcity (τ_organism < τ_failure) as the dominant evolutionary constraint. Empirical validation across three experimental regimes demonstrates:
+
+1. **Physics Viability (Phase-6.1)**: Latency constraints are implementable and non-lethal in isolation
+2. **Conditional Adaptivity (Phase-6.2 & Phase-6.3)**: Anticipatory cognition is maladaptive in stable environments but confers significant survival advantage under temporal shocks
+
+## Phase-6.1: Physics Viability Test
+
+**Objective**: Confirm latency dynamics are physically implementable and baseline survival is achievable.
+
+**Results**:
+- ✅ Baseline organisms survive under latency model
+- ✅ Delay accumulation follows predicted exponential decay  
+- ✅ Aging (latency drift) manifests as progressive viability loss
+- ✅ Drift dynamics stable across parameter ranges
+
+**Interpretation**: The latency-bound survival constraint is well-formed and non-pathological.
+
+## Phase-6.2: Stable Regime Test
+
+**Objective**: Test cognition adaptivity in predictable, stable environments.
+
+**Environment**: Constant input, no shocks, stable decay pattern
+
+**Organisms**:
+- Reactive: Rule-based damage response, minimal prediction overhead
+- Predictive: Full internal model with 10-cycle predictive horizon
+
+**Results**:
+
+| Organism | Mean Survival | Cognitive Cost |
+|----------|---------------|-----------------|
+| Reactive | 156 cycles | Baseline |
+| Predictive | 98 cycles | -37% survival |
+
+**Finding**: Anticipatory cognition is **maladaptive** in stable regimes due to metabolic overhead without sufficient selective pressure.
+
+## Phase-6.3: Shock Regime Test
+
+**Objective**: Test cognition adaptivity under temporally compressed environmental stress.
+
+**Environment**:
+- Precursor signal: Cycles 45–49 (advancing notice)
+- Shock onset: Cycle 50 (structural damage 10x baseline rate)
+- High coordination delay: τ_coord = 15 cycles
+
+**Organisms**: Same reactive and predictive variants
+
+**Results**:
+
+| Organism | Cycles Survived | Survival Gain |
+|----------|-----------------|---------------|
+| Predictive | 81 cycles | +21% |
+| Reactive | 67 cycles | Baseline |
+
+**Critical Observation**: Scene switching in predictive organism occurred precisely at cycle 50 (shock onset), demonstrating error-driven temporal segmentation.
+
+## Summary: When Does Cognition Evolve?
+
+| Test | Outcome | Implication |
+|------|---------|------------|
+| 6.1 | Physics viable | Model well-formed |
+| 6.2 | Cognition -37% | Not universally beneficial |
+| 6.3 | Cognition +21% | Conditionally adaptive under pressure |
+
+**Key Finding**: Cognition evolves only when:
+
+```
+(environmental volatility) × (coordination delay) > (reactive repair capacity)
+```
+
+## Key Emergent Phenomena
+
+### 1. Scene-Based Temporal Dominance
+Organisms naturally segment behavior into discrete scenes. Transitions are error-driven, creating narrative coherence without explicit rules.
+
+### 2. Modular Self with Hierarchical Arbitration  
+Local predictive modules compete via dynamic weight allocation. Emergent properties include attention, suppression, conflict resolution, and unity.
+
+### 3. Three-Layer Signaling Architecture
+- **Diffusion**: Local, cheap communication (τ_D ∝ d²)
+- **Broadcast**: Global, slow sharing (τ_B constant + noise)
+- **Electrical**: Fast, expensive pulses (τ_P minimal, C_P ≫ others)
+
+### 4. Hard Size Limits from Coordination  
+Coordination delay scales logarithmically (τ_coord ∝ log(N)), creating hard maximum viable size N_max = exp(τ_max/k). This forces hierarchical modularization.
+
+### 5. Conditional Evolution Criterion
+Prediction favors only when damage arrival time < reaction time AND energy surplus exists. This mirrors biological nervous system evolution.
+
+## Conclusion
+
+Phase-6 establishes that:
+
+- ✅ **Time scarcity** is a primary evolutionary constraint
+- ✅ **Cognition is conditionally adaptive** (maladaptive in stable regimes, +21% advantage under shock)
+- ✅ **Narrative cognition emerges** from error-driven arbitration without explicit reward  
+- ✅ **Hierarchical organization is necessary** not incidental—size limits force it
+
+**MONO now demonstrates why minimal anticipatory systems evolve, under what conditions, and how latency constraints drive hierarchical and narrative organization.**

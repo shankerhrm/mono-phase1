@@ -1,169 +1,247 @@
-# MONO Phase-6 Addendum: Latency-Bound Organism Dynamics
+# MONO Phase-6 Addendum
+## Latency-Bound Organism Dynamics and the Evolution of Narrative Cognition
 
-## Overview
+## Abstract
 
-Phase-6 introduces time scarcity as the dominant evolutionary constraint. Organisms must satisfy the inequality τ_organism < τ_failure or die, regardless of energy reserves. This phase formalizes hybrid layered signaling and coordination costs that limit organism size.
+Phase-6 introduces time scarcity as the dominant evolutionary constraint in the MONO organism model. Survival is governed by a strict temporal inequality:
 
-## Key Innovations
+$$\tau_{organism} < \tau_{failure}$$
 
-### 1. Core Time Variables
+where organism response latency must remain below the environmental decay clock. Under this constraint, coordination cost, signaling architecture, prediction depth, and modular arbitration emerge as structurally necessary adaptations rather than engineered features.
 
-- **Environmental decay clock**: τ_failure = α_O * S_O, where S_O is organism structural integrity and α_O is environmental decay rate.
-- **Organism response latency**: τ_organism = τ_sense + τ_signal + τ_coord + τ_act.
-- **Survival condition**: τ_organism < τ_failure.
+We demonstrate that anticipatory cognition confers a measurable survival advantage under temporally compressed environmental shocks, while remaining maladaptive in stable regimes. This establishes narrative cognition as a conditionally adaptive latency-management strategy rather than a universally beneficial trait.
 
-### 2. Hybrid Communication Layers
+## 1. Introduction: Time as the Primary Scarcity
 
-- **Layer 1 - Diffusion**: Local, cheap, τ_D ∝ d².
-- **Layer 2 - Broadcast**: Global, slow, τ_B = constant + ε.
-- **Layer 3 - Pulses**: Fast, expensive, τ_P ≈ minimal but C_P ≫ C_D, C_B.
+Earlier phases constrained MONO by energy and structure. Phase-6 introduces time as the decisive variable.
 
-### 3. Coordination Cost
+**Regardless of energy reserves, organisms die if their response latency exceeds environmental decay dynamics.**
 
-τ_coord ∝ log N, creating a hard size limit to prevent runaway growth.
+Survival condition:
 
-### 4. Differentiation Rule
+$$\tau_{organism} < \tau_{failure}$$
 
-Cells specialize to minimize τ_local + C_role, not energy alone.
+This converts evolution from an energy-optimization problem into a latency-bounded dynamical system.
 
-### 5. Organism Viability Function
+## 2. Core Temporal Variables
 
-V_O = exp(-max(0, τ_organism - τ_failure))
+### 2.1 Environmental Decay Clock
 
-### 6. Aging under Time Scarcity
+$$\tau_{failure} = \alpha_O \cdot S_O$$
 
-Aging manifests as latency drift: τ_organism(t) ↑ ⇒ V_O(t) ↓.
+Where:
+- $S_O$ = structural integrity
+- $\alpha_O$ = environmental decay rate
 
-### 7. Reproduction under Time Pressure
+As structure declines, failure accelerates.
 
-Reproduction only when τ_organism ≪ τ_failure, but increases latency afterward.
+### 2.2 Organism Response Latency
 
-### 8. Intelligence Redefined
+$$\tau_{organism} = \tau_{sense} + \tau_{signal} + \tau_{coord} + \tau_{act} + \tau_{drift}$$
 
-Intelligence = reduction of catastrophic response delay under uncertainty.
+Includes:
+- Sensory latency
+- Signaling delay
+- Coordination cost
+- Actuation time
+- Aging drift
 
-## Phase-6A: Fixed Maximum Coordination Delay
+### 2.3 Viability Function
 
-### Constraint
+$$V_O = \exp(-\max(0, \tau_{organism} - \tau_{failure}))$$
 
-τ_coord ≤ τ_max (hard cutoff; exceedance causes instant failure).
+Viability decays exponentially once latency exceeds tolerance.
 
-### Implications
+## 3. Hybrid Communication Architecture
 
-- Maximum viable size: N_max = exp(τ_max / k)
-- Emergent phenomena: modularization, hierarchy, reflex loops, phase transitions.
-- Aging: gradual increase in τ_coord.
+To manage latency under scale constraints, MONO employs three signaling layers:
 
-### Viability Conditions
+**Layer 1 — Diffusion (Local, Cheap)**
+$$\tau_D \propto d^2$$
 
-τ_coord ≤ τ_max AND τ_organism < τ_failure
+**Layer 2 — Broadcast (Global, Slow)**
+$$\tau_B = \text{constant} + \epsilon$$
 
-### Evolutionary Landscape
+**Layer 3 — Electrical Pulses (Fast, Expensive)**
+$$\tau_P \approx \text{minimal}, \quad C_P \gg C_D, C_B$$
 
-Tradeoff between size (parallelism) and coordination speed.
+This layered design creates tradeoffs between speed, cost, and range.
 
-## Phase-6B: Hierarchical Scaling and Neural Signaling
+## 4. Coordination Scaling and Size Limits
 
-### Coordination Delay Scaling
+Coordination delay scales logarithmically:
 
-τ_coord = τ_sense + τ_signal + τ_act + k_coord * log(N)
+$$\tau_{coord} = \tau_{sense} + \tau_{signal} + \tau_{act} + k_{coord} \log(N)$$
 
-This log(N) scaling enables efficient hierarchical compression and prevents runaway growth.
+This log(N) scaling:
+- Prevents runaway growth
+- Favors hierarchical compression
+- Produces hard upper size bounds
 
-### Primary Signal Medium: Electrical/Neural
+### 4.1 Fixed Maximum Coordination Delay (Phase-6A)
 
-- **Primary**: Electrical for fast, transient control and coordination.
-- **Secondary**: Chemical for slow, persistent modulation and state biasing.
+Hard constraint:
 
-### Emergent Architecture
+$$\tau_{coord} \leq \tau_{max}$$
 
-- **Central Integrator**: Proto-brain at hierarchy apex.
-- **Reflex Subsystems**: Local electrical loops.
-- **Chemical Climate**: Slow variables for behavior modulation.
+Maximum viable size:
 
-### Critical Consequence
+$$N_{max} = \exp(\tau_{max} / k_{coord})$$
 
-Electrical signaling forces time discretization, leading to internal clocks, synchronization pulses, and attention windows.
+Emergent consequences:
+- Modularization
+- Reflex subsystems
+- Central integrators
+- Size–speed tradeoff landscapes
 
-## Phase-6C: Internal Model Depth
+## 5. Aging Under Time Scarcity
 
-### Prediction Horizon
+Aging emerges as latency drift:
 
-Δt_predict: Time into the future the organism attempts to estimate state.
+$$\tau_{organism}(t) = \tau_{organism}(0) + \delta t$$
 
-This parameter controls risk sensitivity, energy cost, and stability.
+As drift accumulates:
+- Viability declines
+- Prediction horizon contracts
+- Scene switching increases
 
-### Formal Integration
+Aging is thus defined as time-accumulated coordination inefficiency.
 
-Electrical spikes encode error signals: ε(t) = observed(t) - predicted(t)
+## 6. Prediction and Internal Model Depth (Phase-6C)
 
-Predicted state: Ŝ(t) = f(S(t-1), Δt_predict)
+### 6.1 Prediction Horizon
+
+$$\Delta t_{predict}$$
+
+Defines how far ahead the organism simulates future state.
+
+Constraint:
+
+$$\Delta t_{predict} < \tau_{failure} - \tau_{organism}$$
+
+Exceeding this leads to instability ("delusion collapse").
+
+### 6.2 Error-Based Signaling
+
+Prediction error:
+
+$$\varepsilon(t) = \text{observed}(t) - \text{predicted}(t)$$
 
 Survival depends on minimizing sustained prediction error.
 
-### Biological Interpretation
+Electrical pulses encode deviations, not steady-state signals — conserving bandwidth for novelty.
 
-- Low Δt_predict: Insect-like, reflexive.
-- Moderate Δt_predict: Mammalian, context-aware.
-- High Δt_predict: Planning, simulation (potential instability).
+## 7. Modular Self with Hierarchical Arbitration (Phase-6D)
 
-### Cognitive Viability Bound
+### 7.1 Architecture
 
-Δt_predict < τ_failure - τ_organism
+- Local predictive modules
+- Global arbitration integrator
+- Dynamic weight allocation
 
-Exceeding leads to delusion collapse.
+Local error:
 
-### Lifecycle Dependency
+$$\varepsilon_i(t) = o_i(t) - \hat{o}_i(t)$$
 
-Prediction horizon evolves: short in youth, longer in maturity, shrinks with aging.
+Global objective:
 
-## Phase-6D: Modular Self with Hierarchical Arbitration
+$$\min \sum w_i(t) |\varepsilon_i(t)|$$
 
-### Architecture
+### 7.2 Emergent Phenomena
 
-- **Local Predictive Modules**: Specialized domains (e.g., structural, energy) with adaptive horizons and local error minimization.
-- **Global Error Integrator**: Arbitrates module weights and horizons to minimize global prediction error under coordination constraints.
+- **Attention** = weight amplification
+- **Suppression** = weight reduction
+- **Conflict** = module competition
+- **Unity** = coherent arbitration
 
-### Mathematical Form
+## 8. Temporal Sequencing and Narrative Structure (Phase-6E)
 
-Local error: ε_i(t) = o_i(t) - ô_i(t)
+### 8.1 Scene-Based Temporal Dominance
 
-Global arbitration: Minimize ∑ w_i(t) |ε_i(t)| with dynamic weights.
+One module dominates per cycle.
 
-### Emergent Properties
+This produces:
+- Discrete experiential segments
+- Narrative continuity
+- Attention windows
 
-- Attention: Weight amplification.
-- Suppression: Weight reduction.
-- Conflict: Competing modules.
-- Sense of unity: Enforced coherent output.
+### 8.2 Error-Driven Scene Change
 
-### Evolutionary Stability
+Scene transition occurs when:
 
-Modules reduce local latency; arbitration reduces global chaos; scales under fixed τ_max.
+$$\int \sum |\varepsilon_i(\tau)| d\tau \geq \Theta$$
 
-## Phase-6E: Temporal Sequencing and Event-Driven Scene Change
+Properties:
+- Event-driven (not clock-driven)
+- Threshold-based
+- Context-sensitive
 
-### Conflict Resolution
+## 9. Empirical Validation
 
-Temporal sequencing: One module dominates per cycle, creating narrative coherence.
+### 9.1 Phase-6.1 — Physics Viability
 
-### Scene Change Trigger
+- Baseline survival confirmed
+- Delay alone non-lethal
+- Drift dynamics stable
 
-Event-driven: Scene ends when accumulated prediction error exceeds threshold Θ.
+### 9.2 Phase-6.2 — Stable Regime Test
 
-### Mathematical Definition
+**Result:** Predictive cognition maladaptive
 
-Scene transition: ∫ ∑ |ε_i(τ)| dτ ≥ Θ_k
+**Interpretation:** Reactive organism survived longer. Cognition incurs metabolic overhead without sufficient environmental pressure.
 
-Where ε_i(t) = prediction error of active module.
+### 9.3 Phase-6.3 — Shock Regime Test
 
-### Emergent Consequences
+**Environment:**
+- Precursor signal (cycles 45–49)
+- Shock damage onset at cycle 50
+- High coordination delay
 
-- Attention switching: Error-driven, not timer-based.
-- Learning attribution: Errors linked to previous scene.
-- Curiosity: Near-threshold events bias exploration.
-- Time subjectivity: Scene duration affects perceived time flow.
+**Results:**
 
-### Cognitive Style
+| Organism | Cycles Survived |
+|----------|-----------------|
+| Predictive | 81 |
+| Reactive | 67 |
 
-Narrative: Discrete scenes of action and evaluation.
+**+21% survival advantage under shock.**
+
+**Key observation:** Scene switching occurred precisely at shock onset.
+
+**Conclusion:** Cognition is conditionally adaptive under latency-dominant selective pressure.
+
+## 10. Evolutionary Interpretation
+
+Narrative cognition evolves when:
+
+$$(\text{environmental volatility}) \times (\text{coordination delay}) > (\text{reactive repair capacity})$$
+
+Prediction is not universally beneficial.
+
+It is favored only when:
+- Damage arrives faster than reaction time
+- Anticipatory signals exist
+- Energy surplus supports overhead
+
+This mirrors biological evolution of nervous systems.
+
+## 11. Intelligence Redefined
+
+Intelligence in MONO is not optimization.
+
+It is:
+
+**Reduction of catastrophic response delay under uncertainty.**
+
+Cognition is a latency management strategy.
+
+## 12. Conclusion
+
+Phase-6 establishes:
+
+- Time scarcity as a primary evolutionary constraint
+- Coordination cost as a hard structural limit
+- Narrative cognition as an emergent latency solution
+- Conditional adaptivity of predictive processing
+
+MONO demonstrates that minimal anticipatory systems can emerge under purely physical constraints without explicit reward engineering.

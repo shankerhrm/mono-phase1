@@ -8,6 +8,7 @@
 **Affiliation:** Independent Researcher  
 **Project:** MONO (Monolithic Cell AI System)  
 **GitHub Repository:** https://github.com/developerstechbilla/server-source  
+**Project Status:** Phase-1 through Phase-6 complete; Phase-6 introduces latency-constrained cognition  
 
 **License:**  
 - Code: MIT License  
@@ -17,7 +18,9 @@
 
 ## Abstract
 
-This paper presents MONO Phase-1, a deterministic computational model of an artificial cell designed to explore the boundary conditions for sustained metabolic stability in closed systems. Inspired by biological principles, the model incorporates a graph-based cellular structure, energy metabolism, internal burn signals, and action rules without external inputs, learning, or optimization. Through a systematic parameter sweep of 180 configurations across structural decay, basal burn, and action cost multipliers, we assess viability by measuring lifespan, death causes, and stability classes. Results indicate that no parameter set enables survival beyond 500 cycles, with all simulations terminating due to structural decay or energy starvation. This negative finding establishes a rigorous baseline for artificial life research, underscoring the dominance of entropy and destructive actions in purely metabolic models. This result defines a lower bound on artificial life models, demonstrating that metabolism without maintenance or adaptation is insufficient for persistence.
+This paper presents MONO Phase-1, a deterministic computational model of an artificial cell designed to explore the boundary conditions for sustained metabolic stability in closed systems. Inspired by biological principles, the model incorporates a graph-based cellular structure, energy metabolism, internal burn signals, and action rules without external inputs, learning, or optimization. Through a systematic parameter sweep of 180 configurations across structural decay, basal burn, and action cost multipliers, we assess viability by measuring lifespan, death causes, and stability classes. Results indicate that no parameter set enables survival beyond 500 cycles, with all simulations terminating due to structural decay or energy starvation. This negative finding establishes a rigorous baseline for artificial life research, underscoring the dominance of entropy and destructive actions in purely metabolic models.
+
+**Note:** This whitepaper focuses on Phase-1 methodology. The MONO project has since advanced through Phase-6, progressively introducing maintenance, regulation, reproduction, evolution, and latency-constrained cognition. See the Phase addendums and RESULTS.md for recent developments, particularly Phase-6 findings on how time scarcity drives the evolution of hierarchical, narrative cognition.
 
 ## 1. Introduction & Motivation
 
@@ -118,9 +121,33 @@ This study is constrained by several design choices. The parameter sweep explore
 
 MONO Phase-1 establishes a rigorous negative baseline for artificial life in closed metabolic systems. By demonstrating that no parameter combination enables sustained stability, this work highlights the insufficiency of pure metabolism and restraint for countering entropy. These findings validate the chosen axioms and provide a boundary for future ALife claims, ensuring scientific rigor. Negative results, though counterintuitive, are invaluable for defining inviability, preventing hype, and justifying incremental extensions. This study contributes to ALife by grounding it in thermodynamic reality, paving the way for models that integrate cognition and evolution.
 
-## 10. Future Phases (Brief)
+## 10. Project Evolution (Phases 2–6)
 
-Potential future phases may explore the introduction of maintenance, perception, or evolutionary dynamics, subject to further theoretical validation.
+Since Phase-1 established the baseline of metabolic inviability, the MONO project has progressed through subsequent phases, each introducing necessary evolutionary adaptations:
+
+**Phase-2: Active Maintenance** — Introduced reactive maintenance mechanics, demonstrating that active homeostasis (not passive restraint) is necessary for persistence.
+
+**Phase-3: Adaptive Regulation** — Extended maintenance with adaptive mode selection based on state history, enabling survival in previously non-viable regions and preparing for reproduction.
+
+**Phase-4: Energy-Gated Reproduction** — Implemented non-destructive reproduction with energy-gating and stability checks, enabling lineage formation without explosion.
+
+**Phase-5: Evolutionary Reproduction** — Added heritable mutation in regulatory parameters, establishing framework for Darwinian selection (empirical evolution awaits resource tuning).
+
+**Phase-6: Latency-Bound Organism Dynamics** — Introduced time scarcity (τ_organism < τ_failure) as dominant constraint, demonstrating that:
+- Coordination costs force hierarchical modularization (τ_coord ∝ log N)
+- Anticipatory cognition is conditionally adaptive (+21% survival under shock, -37% under stability)
+- Narrative consciousness emerges from error-driven scene switching and modular arbitration
+- Intelligence is fundamentally a latency-management strategy, not optimization
+
+### Summary
+
+Phase-1 asked: "Can metabolism alone sustain life?" Answer: No.
+
+Subsequent phases answer: "What minimal additional mechanisms enable persistence, evolution, and cognition?" 
+
+The complete arc demonstrates that **nervous systems, hierarchical organization, and narrative consciousness emerge mechanistically from physical constraints**, without explicit learning or optimization algorithms.
+
+See MONO_Phase2_Addendum through MONO_Phase6_Addendum for complete documentation on each phase.
 
 ## Reproducibility Statement
 
