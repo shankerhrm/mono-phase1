@@ -12,7 +12,6 @@ A deterministic computational model of an artificial cell exploring the boundary
 **Phase-4**: Energy-gated reproduction & lineage formation  
 **Phase-5**: Evolutionary reproduction with heritable traits  
 **Phase-6**: Latency-bound organism dynamics and narrative cognition (Current)  
-**Phase-7**: Evolution of cognitive efficiency (Proposed)  
 
 ## Documentation
 
@@ -49,28 +48,6 @@ pandoc whitepaper/whitepaper.md -o whitepaper/MONO_Whitepaper_v1.0.pdf --pdf-eng
 # Phase-6 addendum
 pandoc MONO_Phase6_Addendum.md -o MONO_Phase6_Addendum.pdf --pdf-engine=xelatex
 ```
-
-## Extending to Full Academic Paper
-
-The project includes a comprehensive framework for expanding Phase-6 into a full-length journal paper:
-
-**[MONO_Extended_Paper_Outline.md](MONO_Extended_Paper_Outline.md)** — Framework for optional extended sections:
-- Reproduction under shock regimes
-- Evolution of cognitive efficiency (Phase-7)
-- Scaling laws across size classes  
-- Comparison to biological nervous systems
-- Formal proofs of stability bounds
-
-**[MONO_Phase7_Addendum.md](MONO_Phase7_Addendum.md)** — Phase-7 placeholder (Evolution of cognitive efficiency):
-- Heritable mutations in cognitive parameters
-- Population evolution of prediction strategies
-- Evolutionary landscape mapping
-- Empirical predictions and timeline
-
-**Choose your publication path**:
-- **Conference submission** (quick, 6,000 words): Use Phase-6 Addendum as-is
-- **Journal paper** (comprehensive, 15,000–20,000 words): Implement Sections 3–4 of Extended Outline (6–8 weeks)
-- **Full treatment** (20,000+ words): Add Phase-7 experiments + formal proofs (3–4 months)
 
 ## License
 
