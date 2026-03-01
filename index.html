@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONO: Latency-Aware Autonomous Systems Architecture</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind Config for B&W Brutalist Theme -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        black: '#000000',
+                        white: '#ffffff',
+                        gray: {
+                            100: '#f4f4f4',
+                            200: '#e5e5e5',
+                            300: '#d4d4d4',
+                            400: '#a3a3a3',
+                            500: '#737373',
+                            800: '#262626',
+                            900: '#171717',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            /* Aggressive B&W styling */
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        /* Brutalist Design Utilities */
+        .brutal-border {
+            border: 3px solid black;
+            box-shadow: 8px 8px 0px black;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .brutal-border:hover {
+            transform: translate(4px, 4px);
+            box-shadow: 4px 4px 0px black;
+        }
+
+        .brutal-border-sm {
+            border: 2px solid black;
+            box-shadow: 4px 4px 0px black;
+        }
+
+        .brutal-border-inverted {
+            border: 3px solid white;
+            box-shadow: 8px 8px 0px white;
+        }
+
+        .brutal-badge {
+            border: 2px solid black;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Enforce Black and white on emojis */
+        .grayscale-all {
+            filter: grayscale(100%) contrast(110%);
+        }
+
+        ::selection {
+            background: black;
+            color: white;
+        }
+
+        /* Custom Scrollbar B&W */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #ffffff;
+            border-left: 2px solid #000;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #000000;
+            border: 2px solid #ffffff;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-black font-sans grayscale-all selection:bg-black selection:text-white">
+
+    <!-- Header / Nav -->
+    <nav
+        class="sticky top-0 z-50 bg-white border-b-4 border-black px-6 md:px-12 py-4 flex justify-between items-center">
+        <div class="font-black text-2xl tracking-tighter uppercase">MONO Project</div>
+        <div class="hidden md:flex gap-6 font-mono text-sm font-bold uppercase">
+            <a href="#innovation" class="hover:underline underline-offset-4 decoration-2">Innovation</a>
+            <a href="#category" class="hover:underline underline-offset-4 decoration-2">Category</a>
+            <a href="#trajectory" class="hover:underline underline-offset-4 decoration-2">Trajectory</a>
+            <a href="#positioning" class="hover:underline underline-offset-4 decoration-2">Positioning</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+        class="pt-24 pb-16 px-6 md:px-12 border-b-4 border-black bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiNlNTVlNSIgZmlsbC1vcGFjaXR5PSIwLjQiLz48L3N2Zz4=')]">
+        <div class="max-w-6xl mx-auto">
+            <div class="inline-block brutal-badge px-3 py-1 mb-8 text-xs font-mono bg-black text-white">
+                RESEARCH & DESIGN OVERVIEW
+            </div>
+            <h1 class="text-6xl md:text-8xl lg:text-[7rem] font-black uppercase tracking-tighter leading-[0.9] mb-8">
+                AI that knows when <br /> it's too late to think.
+            </h1>
+            <p class="text-2xl md:text-4xl font-medium max-w-4xl mb-16 leading-tight">
+                We separated physics failure from cognitive failure in AI systems.
+                A latency-aware autonomous systems architecture.
+            </p>
+
+            <!-- Deep Truth Contrast Blocks -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+                <div
+                    class="bg-black text-white p-8 md:p-12 brutal-border-inverted hover:translate-x-0 hover:translate-y-0">
+                    <h3
+                        class="text-sm font-mono tracking-widest uppercase text-gray-400 mb-6 border-b border-gray-800 pb-2">
+                        The Problem</h3>
+                    <div class="text-3xl font-bold mb-6">Most AI:</div>
+                    <ul class="space-y-4 font-mono text-base md:text-lg text-gray-300">
+                        <li class="flex gap-4"><span>></span> Fails silently</li>
+                        <li class="flex gap-4"><span>></span> Hallucinates under stress</li>
+                        <li class="flex gap-4"><span>></span> Collapses when time is scarce</li>
+                    </ul>
+                </div>
+                <div class="bg-white text-black p-8 md:p-12 brutal-border">
+                    <h3
+                        class="text-sm font-mono tracking-widest uppercase text-gray-500 mb-6 border-b border-gray-200 pb-2">
+                        The Deep Truth</h3>
+                    <div class="text-3xl font-bold mb-6">MONO Architecture:</div>
+                    <ul class="space-y-4 font-mono text-base md:text-lg font-bold">
+                        <li class="flex gap-4"><span>></span> Knows when it's failing</li>
+                        <li class="flex gap-4"><span>></span> Knows when thinking hurts</li>
+                        <li class="flex gap-4"><span>></span> Knows when to switch modes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 1: Innovation in Business Terms -->
+    <section id="innovation" class="py-24 px-6 md:px-12 border-b-4 border-black bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">What We've Achieved</h2>
+                <div class="h-2 w-32 bg-black mb-6"></div>
+                <p class="text-xl md:text-2xl font-mono text-gray-600">The innovation — translated into business terms.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- 1 -->
+                <div class="bg-gray-100 p-8 brutal-border flex flex-col h-full">
+                    <div class="text-5xl mb-6">1</div>
+                    <h3 class="text-2xl font-bold mb-4 uppercase leading-tight">A Time-Bounded AI Architecture</h3>
+                    <div class="bg-black text-white text-xs font-mono inline-block px-2 py-1 mb-4 w-max">NOT ANOTHER
+                        MODEL</div>
+                    <p class="mb-8 font-medium text-gray-800 leading-relaxed flex-grow">
+                        Survival, decision quality, and intelligence are constrained by <strong>response time</strong> —
+                        not accuracy, not reward. Optimizes for catastrophic delay avoidance.
+                    </p>
+                    <div class="border-t-2 border-black pt-4">
+                        <span class="block text-xs font-mono uppercase mb-1 text-gray-600">Business Value</span>
+                        <span class="font-bold text-lg leading-snug">"AI that knows when it's too late to think."</span>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="bg-white p-8 brutal-border flex flex-col h-full">
+                    <div class="text-5xl mb-6">2</div>
+                    <h3 class="text-2xl font-bold mb-4 uppercase leading-tight">General Decision Engine</h3>
+                    <div class="bg-black text-white text-xs font-mono inline-block px-2 py-1 mb-4 w-max">FOR
+                        TIME-CRITICAL SYSTEMS</div>
+                    <p class="mb-8 font-medium text-gray-800 leading-relaxed flex-grow">
+                        Cognition is not always beneficial. Prediction only pays off under shock or volatility. Reactive
+                        systems outperform cognition in stable environments. Adaptive mode-switching based on pressure.
+                    </p>
+                    <div class="border-t-2 border-black pt-4">
+                        <span class="block text-xs font-mono uppercase mb-1 text-gray-600">Business Value</span>
+                        <span class="font-bold text-lg leading-snug">"Switches between reactive and predictive
+                            modes."</span>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="bg-gray-100 p-8 brutal-border flex flex-col h-full">
+                    <div class="text-5xl mb-6">3</div>
+                    <h3 class="text-2xl font-bold mb-4 uppercase leading-tight">Cost-Aware Cognition</h3>
+                    <div class="bg-black text-white text-xs font-mono inline-block px-2 py-1 mb-4 w-max">MEASURABLE
+                        OVERHEAD</div>
+                    <p class="mb-8 font-medium text-gray-800 leading-relaxed flex-grow">
+                        Intelligence can be maladaptive. We proved cognition has measurable overhead (energy, latency,
+                        coordination costs) and quantified the tradeoffs.
+                    </p>
+                    <div class="border-t-2 border-black pt-4">
+                        <span class="block text-xs font-mono uppercase mb-1 text-gray-600">Business Value</span>
+                        <span class="font-bold text-lg leading-snug">"Built-in cost-benefit awareness for thinking
+                            itself."</span>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="bg-white p-8 brutal-border flex flex-col h-full">
+                    <div class="text-5xl mb-6">4</div>
+                    <h3 class="text-2xl font-bold mb-4 uppercase leading-tight">Narrative Control System</h3>
+                    <div class="bg-black text-white text-xs font-mono inline-block px-2 py-1 mb-4 w-max">NOT JUST
+                        PLANNING</div>
+                    <p class="mb-8 font-medium text-gray-800 leading-relaxed flex-grow">
+                        Features temporal sequencing, scene switching, and error-driven attention. This is not RL
+                        planning; this is execution governance.
+                    </p>
+                    <div class="border-t-2 border-black pt-4">
+                        <span class="block text-xs font-mono uppercase mb-1 text-gray-600">Business Value</span>
+                        <span class="font-bold text-lg leading-snug">"AI systems that don't thrash, oscillate, or
+                            overreact during incidents."</span>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="bg-black text-white p-8 brutal-border flex flex-col h-full lg:col-span-2">
+                    <div class="text-5xl mb-6 text-gray-500">5</div>
+                    <h3 class="text-2xl font-bold mb-4 uppercase leading-tight">A Scientific Proof</h3>
+                    <div class="bg-white text-black text-xs font-bold inline-block px-2 py-1 mb-4 w-max">NOT A DEMO
+                    </div>
+                    <p class="mb-8 font-medium text-gray-300 leading-relaxed flex-grow text-xl">
+                        A falsifiable theory with negative results (proving cognition hurts sometimes). This is a
+                        conditional adaptivity proof. That is research-grade innovation, not hobby work.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Categorization -->
+    <section id="category" class="py-24 px-6 md:px-12 border-b-4 border-black bg-gray-100">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-black uppercase tracking-tight mb-16 text-center">What Category This
+                Belongs To</h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <!-- NOT -->
+                <div class="bg-white p-8 md:p-12 brutal-border-sm">
+                    <h3
+                        class="text-3xl font-black uppercase mb-8 pb-4 border-b-4 border-black flex items-center justify-between">
+                        <span>Not</span>
+                        <span class="text-4xl">❌</span>
+                    </h3>
+                    <ul class="space-y-6 text-xl font-medium text-gray-600 line-through decoration-black decoration-2">
+                        <li>LLM framework</li>
+                        <li>Agent swarm</li>
+                        <li>Autonomous AI hype</li>
+                        <li>AGI claim</li>
+                    </ul>
+                </div>
+                <!-- IS -->
+                <div class="bg-white p-8 md:p-12 brutal-border-sm relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-16 h-16 bg-black"></div>
+                    <h3
+                        class="text-3xl font-black uppercase mb-8 pb-4 border-b-4 border-black flex items-center justify-between">
+                        <span>It Is</span>
+                        <span class="text-4xl">✅</span>
+                    </h3>
+                    <ul class="space-y-6 text-xl font-bold uppercase tracking-tight">
+                        <li>Latency-Aware Autonomous Systems Architecture</li>
+                        <li>Cognitive Operating System <span
+                                class="text-sm font-mono text-gray-500 block normal-case mt-1">(for AI &
+                                robotics)</span></li>
+                        <li>Decision Substrate <span class="text-sm font-mono text-gray-500 block normal-case mt-1">(for
+                                Time-Critical Domains)</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                class="mt-12 max-w-5xl mx-auto p-8 border-4 border-black font-mono text-lg md:text-xl text-center bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+                <span class="font-bold uppercase tracking-widest text-sm text-gray-500 block mb-2">Think:</span>
+                "Brainstem + cortex switching. Reflex vs planning. Fight/flight vs deliberation."
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Strategic Trajectory -->
+    <section id="trajectory" class="py-24 px-6 md:px-12 bg-black text-white border-b-4 border-black">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-20 text-center">
+                <h2 class="text-5xl md:text-7xl font-black uppercase mb-6 tracking-tight">Strategic Trajectory</h2>
+                <p class="text-xl md:text-2xl font-mono text-gray-400">Where this is heading in the commercial &
+                    industrial landscape.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center relative">
+                <!-- Decorative Timeline Line -->
+                <div class="hidden md:block absolute top-[52px] left-10 right-10 h-1 bg-gray-800 z-0"></div>
+
+                <!-- Near Term -->
+                <div class="relative z-10 group">
+                    <div
+                        class="w-28 h-28 mx-auto bg-black border-4 border-white flex items-center justify-center rounded-full mb-8 transition-transform group-hover:scale-110">
+                        <span class="text-4xl font-black">6<span class="text-xl text-gray-400">M</span></span>
+                    </div>
+                    <div
+                        class="uppercase font-mono text-white bg-white/20 inline-block px-3 py-1 mb-6 tracking-widest text-xs font-bold font-white">
+                        Near-Term</div>
+                    <h3 class="text-2xl font-bold mb-4 uppercase">Infrastructure Intelligence</h3>
+                    <p class="text-gray-400 font-medium">An execution-layer intelligence that sits under AI models.
+                        Controls when to invoke LLMs, decides how much thinking is allowed, and aborts cognition when
+                        time is gone.</p>
+                </div>
+
+                <!-- Mid Term -->
+                <div class="relative z-10 group">
+                    <div
+                        class="w-28 h-28 mx-auto bg-black border-4 border-white flex items-center justify-center rounded-full mb-8 transition-transform group-hover:scale-110">
+                        <span class="text-4xl font-black">18<span class="text-xl text-gray-400">M</span></span>
+                    </div>
+                    <div
+                        class="uppercase font-mono text-white bg-white/20 inline-block px-3 py-1 mb-6 tracking-widest text-xs font-bold font-white">
+                        Mid-Term</div>
+                    <h3 class="text-2xl font-bold mb-4 uppercase">AI Runtime for Real Systems</h3>
+                    <p class="text-gray-400 font-medium">A runtime layer for robots, factories, cloud infra, and agents
+                        that switches modes under shock, prevents cascading failures, and maintains coherence under
+                        stress.</p>
+                </div>
+
+                <!-- Long Term -->
+                <div class="relative z-10 group">
+                    <div
+                        class="w-28 h-28 mx-auto bg-black border-4 border-white flex items-center justify-center rounded-full mb-8 transition-transform group-hover:scale-110">
+                        <span class="text-4xl font-black">5<span class="text-xl text-gray-400">Y</span></span>
+                    </div>
+                    <div
+                        class="uppercase font-mono text-white bg-white/20 inline-block px-3 py-1 mb-6 tracking-widest text-xs font-bold font-white">
+                        Long-Term</div>
+                    <h3 class="text-2xl font-bold mb-4 uppercase">Pre-Conscious Architecture</h3>
+                    <p class="text-gray-400 font-medium">Without claiming AGI, systems that have bounded internal time,
+                        self-limited cognition, failure-aware intelligence, and narrative continuity. How real cognition
+                        scales safely.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Positioning & Pitching -->
+    <section id="positioning" class="py-24 px-6 md:px-12 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-black uppercase mb-16 tracking-tight border-b-4 border-black pb-8">How
+                to Explain This</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
+                <!-- Pitches -->
+                <div class="p-8 bg-gray-100 brutal-border-sm group hover:bg-black hover:text-white transition-colors">
+                    <div class="font-mono text-xs uppercase mb-4 text-gray-500 group-hover:text-gray-400">Technical
+                        Founder Pitch</div>
+                    <div class="text-xl font-bold leading-tight">"We're building AI systems that decide when
+                        <em>not</em> to think under time pressure."</div>
+                </div>
+
+                <div class="p-8 bg-gray-100 brutal-border-sm group hover:bg-black hover:text-white transition-colors">
+                    <div class="font-mono text-xs uppercase mb-4 text-gray-500 group-hover:text-gray-400">Manufacturing
+                        / Ops</div>
+                    <div class="text-xl font-bold leading-tight">"Our AI doesn't overthink during failures — it reacts
+                        first and thinks only when safe."</div>
+                </div>
+
+                <div class="p-8 bg-gray-100 brutal-border-sm group hover:bg-black hover:text-white transition-colors">
+                    <div class="font-mono text-xs uppercase mb-4 text-gray-500 group-hover:text-gray-400">Platform Pitch
+                    </div>
+                    <div class="text-xl font-bold leading-tight">"We provide the nervous system beneath AI — controlling
+                        latency, attention, and coordination."</div>
+                </div>
+
+                <div class="p-8 bg-gray-100 brutal-border-sm group hover:bg-black hover:text-white transition-colors">
+                    <div class="font-mono text-xs uppercase mb-4 text-gray-500 group-hover:text-gray-400">Research
+                        Credibility</div>
+                    <div class="text-xl font-bold leading-tight">"We've shown cognition is conditionally adaptive — and
+                        we quantify when it helps or hurts."</div>
+                </div>
+            </div>
+
+            <!-- Claim Guidelines -->
+            <div class="border-4 border-black p-8 md:p-12 relative">
+                <div
+                    class="absolute -top-4 left-8 bg-white px-4 font-bold uppercase tracking-widest border-2 border-black">
+                    What You Should Not Claim (Yet)</div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-4">
+                    <div>
+                        <h3 class="text-xl font-bold uppercase mb-6 text-gray-500">To protect credibility ❌</h3>
+                        <ul class="space-y-4 font-mono font-medium text-lg line-through text-gray-400">
+                            <li>AGI</li>
+                            <li>Consciousness</li>
+                            <li>Self-awareness</li>
+                            <li>General intelligence</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold uppercase mb-6 text-black">Instead Say ✅</h3>
+                        <ul class="space-y-4 font-mono font-bold text-lg">
+                            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-black"></span> Cognitive
+                                primitives</li>
+                            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-black"></span> Narrative
+                                execution</li>
+                            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-black"></span> Latency-aware
+                                intelligence</li>
+                            <li class="flex items-center gap-3"><span class="w-2 h-2 bg-black"></span> Conditionally
+                                predictive systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12 px-6 text-center border-t-8 border-gray-900">
+        <div class="font-black text-3xl uppercase tracking-tighter mb-4">MONO</div>
+        <p class="font-mono text-sm text-gray-500">Latency-Aware Autonomous Systems Architecture <br> Research & Design
+            Framework</p>
+    </footer>
+
+</body>
+
+</html>
