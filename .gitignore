@@ -1,0 +1,11 @@
+failed_cell_*.json 
+snapshots/
+snapshots/lineage*
+# MONO experiment artifacts
+regime_flip_artifacts/
+failed_cell_*.json
+lineage_*.json
+snapshots/
+# MONO experiment artifacts
+phase10_artifacts/
+snapshots/
