@@ -1,8 +1,10 @@
-# MONO: Monolithic Cell AI System
+# MONO: Latency-Aware Autonomous Systems Architecture
 
 **Repository:** [github.com/shankerhrm/mono-phase1](https://github.com/shankerhrm/mono-phase1.git)
 
-A deterministic computational model of an artificial cell exploring the boundary conditions for sustained metabolic stability in closed systems. The project spans Phase-1 through Phase-6, progressively introducing complexity from basic metabolism through regulation, reproduction, evolution, and latency-constrained cognition.
+A research framework exploring the intersection of evolutionary biology, cognitive science, and artificial intelligence through evolutionary mechanisms. MONO investigates how autonomous systems can develop temporal awareness, adaptive decision-making, and robust behavior under uncertainty via heritable traits and natural selection.
+
+Phase-16 focus: Evolvable Stress Phenotypes — heritable α/β traits enabling natural selection of optimal oscillatory regulation.
 
 ## Project Phases
 
@@ -17,7 +19,11 @@ A deterministic computational model of an artificial cell exploring the boundary
 **Phase-9**: Species Memory — cross-generational trait priors under IOBA constraints  
 **Phase-10**: Observability & invariance validation — falsifiable architecture verification  
 **Phase-11**: IIBA — Initialization-Inheritance Bias Architecture, yolk strategy, vacuum ecology  
-**Phase-12**: Panic Architecture — state-dependent evolvability modulation (Current)  
+**Phase-12**: Panic Architecture — state-dependent evolvability modulation  
+**Phase-13**: Endogenous temporal adaptation — entrainment without world modeling  
+**Phase-14**: Regime flip dynamics — evolutionary stability under environmental shifts  
+**Phase-15**: Physiological load accumulation — stress response modeling  
+**Phase-16**: Evolvable Stress Phenotypes — heritable α/β traits for evolutionary regulation (Current)
 
 ## Documentation
 
@@ -34,6 +40,8 @@ A deterministic computational model of an artificial cell exploring the boundary
   - [MONO_Phase10_Specification.md](MONO_Phase10_Specification.md) — Observability & invariance
   - [MONO_Phase11_Specification.md](MONO_Phase11_Specification.md) — IIBA & vacuum ecology
   - [MONO_Phase12_Specification.md](MONO_Phase12_Specification.md) — Panic Architecture
+  - [MONO_Phase15_Specification.md](MONO_Phase15_Specification.md) — Physiological Load
+  - [MONO_Phase16_Specification.md](MONO_Phase16_Specification.md) — Evolvable Stress Phenotypes
 - **Results**: [RESULTS.md](RESULTS.md) — Experimental findings across all phases
 
 ## Phase-6: Latency-Bound Organism Dynamics
@@ -70,3 +78,7 @@ Whitepaper & Addendums: CC BY 4.0 (see LICENSE-CC-BY-4.0.txt)
 ## Citation
 
 See CITATION.cff for citation details.
+
+## Copyright
+
+Copyright © 2024 Techbilla Software Pvt Ltd. All rights reserved.

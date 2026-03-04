@@ -6,9 +6,11 @@ It may only affect initialization via scalar defaults at reproduction.
 Violation of this invariant is a design error, not a bug.
 """
 
-from mono import MonoCell
+mutation_rate = 0.01  # Global for stress tests
 import random
 import dataclasses
+
+from mono import MonoCell
 
 def divide(parent, species_defaults=None, generation=None, species_memory=None, env_params=None, panic_state=None):
     if species_defaults is not None and not isinstance(species_defaults, dict):
@@ -55,8 +57,8 @@ def divide(parent, species_defaults=None, generation=None, species_memory=None, 
 
     # Phase-16: Mutate evolvable stress phenotypes
     child.id = dataclasses.replace(parent.id, 
-        alpha=max(0.01, min(1.0, parent.id.alpha + random.gauss(0, 0.01))),
-        beta=max(0.01, min(1.0, parent.id.beta + random.gauss(0, 0.01)))
+        alpha=max(0.01, min(1.0, parent.id.alpha + random.gauss(0, mutation_rate))),
+        beta=max(0.01, min(1.0, parent.id.beta + random.gauss(0, mutation_rate)))
     )
     
     # Cost of Mutation: high mutation_rate penalizes offspring energy
