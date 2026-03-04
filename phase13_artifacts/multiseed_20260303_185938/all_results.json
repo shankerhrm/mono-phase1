@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 1,
+    "period": 80,
+    "total_gens": 200,
+    "bottleneck_depth": 2,
+    "false_positive_rate": 0.0,
+    "final_omega_mean": 0.0,
+    "final_omega_std": 0.0,
+    "convergence_ratio": 0.0,
+    "final_ms_gamma": 0.5,
+    "lock_broken": false
+  },
+  {
+    "seed": 2,
+    "period": 80,
+    "total_gens": 200,
+    "bottleneck_depth": 5,
+    "false_positive_rate": 0.0,
+    "final_omega_mean": 0.0,
+    "final_omega_std": 0.0,
+    "convergence_ratio": 0.0,
+    "final_ms_gamma": 0.5,
+    "lock_broken": false
+  },
+  {
+    "seed": 3,
+    "period": 80,
+    "total_gens": 200,
+    "bottleneck_depth": 2,
+    "false_positive_rate": 0.0,
+    "final_omega_mean": 0.0,
+    "final_omega_std": 0.0,
+    "convergence_ratio": 0.0,
+    "final_ms_gamma": 0.5,
+    "lock_broken": false
+  },
+  {
+    "seed": 4,
+    "period": 80,
+    "total_gens": 200,
+    "bottleneck_depth": 1,
+    "false_positive_rate": 0.0,
+    "final_omega_mean": 0.0,
+    "final_omega_std": 0.0,
+    "convergence_ratio": 0.0,
+    "final_ms_gamma": 0.5,
+    "lock_broken": false
+  },
+  {
+    "seed": 5,
+    "period": 80,
+    "total_gens": 200,
+    "bottleneck_depth": 3,
+    "false_positive_rate": 0.0,
+    "final_omega_mean": 0.0,
+    "final_omega_std": 0.0,
+    "convergence_ratio": 0.0,
+    "final_ms_gamma": 0.5,
+    "lock_broken": false
+  }
+]

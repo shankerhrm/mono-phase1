@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "period": 150,
+  "fp_rate": 0.03428571428571429,
+  "omega_mean": 0.0,
+  "omega_target": 0.041887902047863905,
+  "omega_error": 1.0,
+  "convergence_ratio": 0.0,
+  "ms_gamma_final": 0.4999999921240848,
+  "lock_broken": false
+}

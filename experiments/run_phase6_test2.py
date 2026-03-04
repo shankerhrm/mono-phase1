@@ -85,8 +85,8 @@ def run_simulation(is_predictive, artificial_delay=0.0, kappa_pred=0.0, max_cycl
         print(f"Cycle {cycle_num}: total_error {total_error:.2f}, scene_changed {scene_changed}")
 
         # Run cycle
-        child, log = cycle(cell)
-        if child:
+        death_reason, log, child = cycle(cell)
+        if child or death_reason:
             break  # reproduction not handled
 
         # Apply damage after cycle 40
@@ -188,10 +188,12 @@ def run_test0():
     )
     cell = MonoCell(identity)
     cycles_survived = 0
+    logs = []
     for cycle_num in range(100):
         cell.cycle_count = cycle_num
-        child, log = cycle(cell)
-        if child or log.get('death'):
+        death_reason, log, child = cycle(cell, resource_intake=identity.E_i)
+        logs.append(log)
+        if child or death_reason or log.get('death'):
             break
         cycles_survived += 1
     print(f"Test-0: Survived {cycles_survived} cycles")

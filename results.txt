@@ -1,0 +1,2 @@
+STABLE Final: {'generation': 49, 'population_size': 50, 'avg_prediction_horizon': 10.750261268403635, 'avg_module_count': 3.0, 'avg_gating_threshold': 0.49471129598402674, 'avg_arbitration_frequency': 1.0}
+SHOCK Final: {'generation': 49, 'population_size': 50, 'avg_prediction_horizon': 9.565597280798531, 'avg_module_count': 3.0, 'avg_gating_threshold': 0.7760366086911717, 'avg_arbitration_frequency': 1.02}

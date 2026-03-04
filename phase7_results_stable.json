@@ -1,0 +1,402 @@
+[
+    {
+        "generation": 0,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.058809734408465,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.46291621123974946,
+        "avg_arbitration_frequency": 1.02
+    },
+    {
+        "generation": 1,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.068218337326208,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.44077559174026354,
+        "avg_arbitration_frequency": 1.04
+    },
+    {
+        "generation": 2,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.004991335695081,
+        "avg_module_count": 2.94,
+        "avg_gating_threshold": 0.44130688654462047,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 3,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.050240198393336,
+        "avg_module_count": 2.96,
+        "avg_gating_threshold": 0.47466257477637674,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 4,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.028781567892908,
+        "avg_module_count": 2.98,
+        "avg_gating_threshold": 0.4469727349924312,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 5,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.035677954008905,
+        "avg_module_count": 2.98,
+        "avg_gating_threshold": 0.4350461752838007,
+        "avg_arbitration_frequency": 1.1
+    },
+    {
+        "generation": 6,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.043066771520385,
+        "avg_module_count": 3.06,
+        "avg_gating_threshold": 0.42762122783378204,
+        "avg_arbitration_frequency": 1.14
+    },
+    {
+        "generation": 7,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.182370188313893,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.4566510536553844,
+        "avg_arbitration_frequency": 1.22
+    },
+    {
+        "generation": 8,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.04507238918033,
+        "avg_module_count": 2.98,
+        "avg_gating_threshold": 0.44753030686867235,
+        "avg_arbitration_frequency": 1.26
+    },
+    {
+        "generation": 9,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.239193890874041,
+        "avg_module_count": 2.96,
+        "avg_gating_threshold": 0.4995158767969097,
+        "avg_arbitration_frequency": 1.28
+    },
+    {
+        "generation": 10,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.328305618954897,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.4903464709576657,
+        "avg_arbitration_frequency": 1.24
+    },
+    {
+        "generation": 11,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.290720474121624,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.42533205120019324,
+        "avg_arbitration_frequency": 1.28
+    },
+    {
+        "generation": 12,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.658154916025802,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.49782705863823845,
+        "avg_arbitration_frequency": 1.1
+    },
+    {
+        "generation": 13,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.899103319770898,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.591709812512607,
+        "avg_arbitration_frequency": 1.24
+    },
+    {
+        "generation": 14,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.989523818053135,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.5612259372951963,
+        "avg_arbitration_frequency": 1.34
+    },
+    {
+        "generation": 15,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.97213895014422,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.5470612399236238,
+        "avg_arbitration_frequency": 1.36
+    },
+    {
+        "generation": 16,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.943304673462688,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.5085113270529142,
+        "avg_arbitration_frequency": 1.24
+    },
+    {
+        "generation": 17,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.919191026694412,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.5023407116692659,
+        "avg_arbitration_frequency": 1.02
+    },
+    {
+        "generation": 18,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.90497206999514,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.4721971290229806,
+        "avg_arbitration_frequency": 1.1
+    },
+    {
+        "generation": 19,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.8217913980794,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.44536335495744794,
+        "avg_arbitration_frequency": 1.12
+    },
+    {
+        "generation": 20,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.825623127220704,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.43523494427241205,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 21,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.862998556131807,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.4429593611494866,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 22,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.70505301389123,
+        "avg_module_count": 3.1,
+        "avg_gating_threshold": 0.47957514226715636,
+        "avg_arbitration_frequency": 1.1
+    },
+    {
+        "generation": 23,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.554619637249267,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.5014989265074249,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 24,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.53744390067075,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.5058011815542793,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 25,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.685296400856068,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.5021773686355574,
+        "avg_arbitration_frequency": 1.04
+    },
+    {
+        "generation": 26,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.777101128811951,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.48568688479105226,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 27,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.780045829397745,
+        "avg_module_count": 2.98,
+        "avg_gating_threshold": 0.4982502619997095,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 28,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.781651233361337,
+        "avg_module_count": 2.96,
+        "avg_gating_threshold": 0.46631367980561345,
+        "avg_arbitration_frequency": 1.04
+    },
+    {
+        "generation": 29,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.783763960966441,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.4661213315258542,
+        "avg_arbitration_frequency": 1.04
+    },
+    {
+        "generation": 30,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.758927659381976,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.4773883726532424,
+        "avg_arbitration_frequency": 1.1
+    },
+    {
+        "generation": 31,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.777678844419347,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.4749996941431287,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 32,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.782087272586505,
+        "avg_module_count": 2.98,
+        "avg_gating_threshold": 0.47115838588652426,
+        "avg_arbitration_frequency": 1.02
+    },
+    {
+        "generation": 33,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.79786767797915,
+        "avg_module_count": 2.98,
+        "avg_gating_threshold": 0.4744145693217937,
+        "avg_arbitration_frequency": 1.02
+    },
+    {
+        "generation": 34,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.779932514272849,
+        "avg_module_count": 2.98,
+        "avg_gating_threshold": 0.4737833047949298,
+        "avg_arbitration_frequency": 1.04
+    },
+    {
+        "generation": 35,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.811462294247963,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.46124345371484265,
+        "avg_arbitration_frequency": 1.06
+    },
+    {
+        "generation": 36,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.864974215230097,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.4870120550342573,
+        "avg_arbitration_frequency": 1.02
+    },
+    {
+        "generation": 37,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.787491084454187,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.49812982160222063,
+        "avg_arbitration_frequency": 1.04
+    },
+    {
+        "generation": 38,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.803028514309588,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.5173242763286312,
+        "avg_arbitration_frequency": 1.04
+    },
+    {
+        "generation": 39,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.812391067531756,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.5157992377722301,
+        "avg_arbitration_frequency": 1.16
+    },
+    {
+        "generation": 40,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.766581996901728,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.5059958312875068,
+        "avg_arbitration_frequency": 1.04
+    },
+    {
+        "generation": 41,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.757794887031059,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.5073252169414707,
+        "avg_arbitration_frequency": 1.04
+    },
+    {
+        "generation": 42,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.734293326452251,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.5025623038538694,
+        "avg_arbitration_frequency": 1.02
+    },
+    {
+        "generation": 43,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.750904921288097,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.4884565945005573,
+        "avg_arbitration_frequency": 1.02
+    },
+    {
+        "generation": 44,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.739333532125185,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.4865907808270905,
+        "avg_arbitration_frequency": 1.0
+    },
+    {
+        "generation": 45,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.740801068405363,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.47644411439170115,
+        "avg_arbitration_frequency": 1.02
+    },
+    {
+        "generation": 46,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.763626272403528,
+        "avg_module_count": 2.98,
+        "avg_gating_threshold": 0.47449250592826653,
+        "avg_arbitration_frequency": 1.0
+    },
+    {
+        "generation": 47,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.772666958283112,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.49460022629075523,
+        "avg_arbitration_frequency": 1.0
+    },
+    {
+        "generation": 48,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.821809852506501,
+        "avg_module_count": 3.02,
+        "avg_gating_threshold": 0.49056283044802107,
+        "avg_arbitration_frequency": 1.04
+    },
+    {
+        "generation": 49,
+        "population_size": 50,
+        "avg_prediction_horizon": 10.750261268403635,
+        "avg_module_count": 3.0,
+        "avg_gating_threshold": 0.49471129598402674,
+        "avg_arbitration_frequency": 1.0
+    }
+]

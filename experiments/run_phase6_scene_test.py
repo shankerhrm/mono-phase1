@@ -90,8 +90,8 @@ def run_phase6_scene_test():
         print(f"Cycle {cycle_num}: total_error {total_error:.2f}, scene_changed {scene_changed}")
 
         # Run cycle
-        child, log = cycle(cell)
-        if child:
+        death_reason, log, child = cycle(cell)
+        if child or death_reason:
             break  # reproduction not handled
 
         # Log the cycle
@@ -128,9 +128,6 @@ def run_phase6_scene_test():
                 'dominant_module': cell.current_scene_module,
                 'errors': []
             }
-
-        if log.get('death'):
-            break
 
     # Close the last scene
     mean_error = sum(current_scene['errors']) / len(current_scene['errors']) if current_scene['errors'] else 0

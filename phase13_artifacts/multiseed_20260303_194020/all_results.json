@@ -1,0 +1,38 @@
+[
+  {
+    "seed": 1,
+    "period": 80,
+    "total_gens": 200,
+    "bottleneck_depth": 3,
+    "false_positive_rate": 0.6667,
+    "final_omega_mean": 0.182056,
+    "final_omega_std": 0.016747,
+    "convergence_ratio": 0.9136,
+    "final_ms_gamma": 0.5004,
+    "lock_broken": false
+  },
+  {
+    "seed": 2,
+    "period": 80,
+    "total_gens": 200,
+    "bottleneck_depth": 4,
+    "false_positive_rate": 0.6667,
+    "final_omega_mean": 0.181062,
+    "final_omega_std": 0.023447,
+    "convergence_ratio": 0.879,
+    "final_ms_gamma": 0.5,
+    "lock_broken": false
+  },
+  {
+    "seed": 3,
+    "period": 80,
+    "total_gens": 200,
+    "bottleneck_depth": 3,
+    "false_positive_rate": 0.6667,
+    "final_omega_mean": 0.075045,
+    "final_omega_std": 0.06477,
+    "convergence_ratio": 0.6657,
+    "final_ms_gamma": 0.5001,
+    "lock_broken": false
+  }
+]

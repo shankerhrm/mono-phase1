@@ -1,0 +1,23 @@
+{
+  "0.62": {
+    "omega_mean": 0.05597,
+    "omega_std": 0.0,
+    "fp_mean": 0.75,
+    "convergence_mean": 0.8996,
+    "bottleneck_mean": 3,
+    "results": [
+      {
+        "seed": 1,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.055968,
+        "final_omega_std": 0.019459,
+        "convergence_ratio": 0.8996,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      }
+    ]
+  }
+}

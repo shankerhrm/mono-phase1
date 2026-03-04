@@ -32,7 +32,7 @@ class World:
         to_remove = []
         logs = []
         for cell in self.cells:
-            child, log = cycle(cell)
+            death_reason, log, child = cycle(cell)
             logs.append(log)
             if child:
                 new_cells.append(child)

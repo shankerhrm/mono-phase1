@@ -1,0 +1,122 @@
+[
+    {
+        "pathology": "hyper",
+        "environment": "stable",
+        "survival_steps": 4,
+        "car": 1.0,
+        "ger": 1.7989078059749437,
+        "lmu": 7499.366704403729
+    },
+    {
+        "pathology": "hypo",
+        "environment": "stable",
+        "survival_steps": 3,
+        "car": 1.0,
+        "ger": 3.0,
+        "lmu": 8332.696318501186
+    },
+    {
+        "pathology": "oscillatory",
+        "environment": "stable",
+        "survival_steps": 4,
+        "car": 1.0,
+        "ger": 2.3229553153734472,
+        "lmu": 7999.360421543022
+    },
+    {
+        "pathology": "late",
+        "environment": "stable",
+        "survival_steps": 4,
+        "car": 1.0,
+        "ger": 4.0,
+        "lmu": 8499.354842954239
+    },
+    {
+        "pathology": "none",
+        "environment": "stable",
+        "survival_steps": 3,
+        "car": 1.0,
+        "ger": 3.0,
+        "lmu": 7332.71078065394
+    },
+    {
+        "pathology": "hyper",
+        "environment": "shock",
+        "survival_steps": 4,
+        "car": 1.0,
+        "ger": 4.0,
+        "lmu": 8499.354842954239
+    },
+    {
+        "pathology": "hypo",
+        "environment": "shock",
+        "survival_steps": 3,
+        "car": 1.0,
+        "ger": 3.0,
+        "lmu": 7332.71078065394
+    },
+    {
+        "pathology": "oscillatory",
+        "environment": "shock",
+        "survival_steps": 4,
+        "car": 1.0,
+        "ger": 1.800514432695056,
+        "lmu": 7749.363759827837
+    },
+    {
+        "pathology": "late",
+        "environment": "shock",
+        "survival_steps": 4,
+        "car": 1.0,
+        "ger": 1.800514432695056,
+        "lmu": 7749.363759827837
+    },
+    {
+        "pathology": "none",
+        "environment": "shock",
+        "survival_steps": 3,
+        "car": 1.0,
+        "ger": 3.0,
+        "lmu": 8332.696318501186
+    },
+    {
+        "pathology": "hyper",
+        "environment": "competitive",
+        "survival_steps": 146,
+        "car": 0.3424657534246575,
+        "ger": 22.535970451858706,
+        "lmu": 7519.032334542161
+    },
+    {
+        "pathology": "hypo",
+        "environment": "competitive",
+        "survival_steps": 228,
+        "car": 0.05701754385964912,
+        "ger": 39.05250637213254,
+        "lmu": 8691.513536080327
+    },
+    {
+        "pathology": "oscillatory",
+        "environment": "competitive",
+        "survival_steps": 158,
+        "car": 0.37341772151898733,
+        "ger": 22.585896861368113,
+        "lmu": 7795.597637663684
+    },
+    {
+        "pathology": "late",
+        "environment": "competitive",
+        "survival_steps": 258,
+        "car": 0.17829457364341086,
+        "ger": 40.0012305041991,
+        "lmu": 8128.984950019674
+    },
+    {
+        "pathology": "none",
+        "environment": "competitive",
+        "survival_steps": 181,
+        "car": 0.16574585635359115,
+        "ger": 28.28528373962061,
+        "lmu": 8565.660563955164
+    }
+]

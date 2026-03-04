@@ -1,0 +1,20 @@
+[
+  {
+    "from": "CALM",
+    "to": "ALERT",
+    "generation": 284,
+    "gens_in_prev_state": 285
+  },
+  {
+    "from": "ALERT",
+    "to": "PANIC",
+    "generation": 502,
+    "gens_in_prev_state": 218
+  },
+  {
+    "from": "PANIC",
+    "to": "ALERT",
+    "generation": 522,
+    "gens_in_prev_state": 20
+  }
+]

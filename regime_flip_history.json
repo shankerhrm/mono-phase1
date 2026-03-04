@@ -1,0 +1,7152 @@
+[
+  {
+    "generation": 0,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 4.678193456478096,
+      "energy_ceiling": 28.06195199999996
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.8211399871211427,
+    "population_size": 52
+  },
+  {
+    "generation": 1,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 4.382690290355625,
+      "energy_ceiling": 45.18200479999992
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6796937280308482,
+    "population_size": 51
+  },
+  {
+    "generation": 2,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 4.113426736144857,
+      "energy_ceiling": 60.58872431999988
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5820919087679197,
+    "population_size": 54
+  },
+  {
+    "generation": 3,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 3.8725902558029346,
+      "energy_ceiling": 74.45126788799985
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6354265116488302,
+    "population_size": 53
+  },
+  {
+    "generation": 4,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 3.6555261750514836,
+      "energy_ceiling": 86.92326909919981
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6585850277690113,
+    "population_size": 54
+  },
+  {
+    "generation": 5,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 3.461365388821933,
+      "energy_ceiling": 98.15476618927978
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6382040665535385,
+    "population_size": 54
+  },
+  {
+    "generation": 6,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 3.2838496036299842,
+      "energy_ceiling": 108.26420157035176
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6073051513501808,
+    "population_size": 53
+  },
+  {
+    "generation": 7,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 3.126001975367388,
+      "energy_ceiling": 117.36205341331653
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5865591936241148,
+    "population_size": 54
+  },
+  {
+    "generation": 8,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.983502315452112,
+      "energy_ceiling": 125.54779207198483
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6313592272844384,
+    "population_size": 53
+  },
+  {
+    "generation": 9,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.855738767811027,
+      "energy_ceiling": 132.91199686478632
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6956349855202846,
+    "population_size": 51
+  },
+  {
+    "generation": 10,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.74006634587099,
+      "energy_ceiling": 139.54689317830764
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5389306768776791,
+    "population_size": 54
+  },
+  {
+    "generation": 11,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.6354319639923274,
+      "energy_ceiling": 145.51480386047683
+    },
+    "survival_rate": 1.16,
+    "avg_tau": 1.5033231484149714,
+    "population_size": 58
+  },
+  {
+    "generation": 12,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.5434552408582625,
+      "energy_ceiling": 150.88169947442913
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5460131589950714,
+    "population_size": 56
+  },
+  {
+    "generation": 13,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.458225913150191,
+      "energy_ceiling": 155.71843352698616
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6228608381050824,
+    "population_size": 53
+  },
+  {
+    "generation": 14,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.382199270364791,
+      "energy_ceiling": 160.0673341742875
+    },
+    "survival_rate": 1.18,
+    "avg_tau": 1.501020241226936,
+    "population_size": 59
+  },
+  {
+    "generation": 15,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.3135184317510262,
+      "energy_ceiling": 163.9872967568587
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.569010237766644,
+    "population_size": 54
+  },
+  {
+    "generation": 16,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.2524776131253548,
+      "energy_ceiling": 167.5093590811728
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6669849318596983,
+    "population_size": 51
+  },
+  {
+    "generation": 17,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.1980695533695935,
+      "energy_ceiling": 170.67979917305547
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.68637970224455,
+    "population_size": 52
+  },
+  {
+    "generation": 18,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.149188798107644,
+      "energy_ceiling": 173.5337872557499
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6434732055725207,
+    "population_size": 52
+  },
+  {
+    "generation": 19,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.103825385363347,
+      "energy_ceiling": 176.09998453017485
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6351351614279963,
+    "population_size": 53
+  },
+  {
+    "generation": 20,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.063728978451002,
+      "energy_ceiling": 178.41440207715732
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5952886358547798,
+    "population_size": 54
+  },
+  {
+    "generation": 21,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 2.027578898105165,
+      "energy_ceiling": 180.49552986944155
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6351206463507444,
+    "population_size": 52
+  },
+  {
+    "generation": 22,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.9947671860273946,
+      "energy_ceiling": 182.36969688249735
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5653231898281421,
+    "population_size": 54
+  },
+  {
+    "generation": 23,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.9644771803277112,
+      "energy_ceiling": 184.05655919424757
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6228387048959836,
+    "population_size": 52
+  },
+  {
+    "generation": 24,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.9375407206966873,
+      "energy_ceiling": 185.57344727482277
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.685903040657098,
+    "population_size": 51
+  },
+  {
+    "generation": 25,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.9134736330660593,
+      "energy_ceiling": 186.94103854734044
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.569567481152342,
+    "population_size": 54
+  },
+  {
+    "generation": 26,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.8910398960553552,
+      "energy_ceiling": 188.17068669260635
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6424127274336446,
+    "population_size": 52
+  },
+  {
+    "generation": 27,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.8727992947493455,
+      "energy_ceiling": 189.27380202334567
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6061063154756527,
+    "population_size": 54
+  },
+  {
+    "generation": 28,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.8544323543147034,
+      "energy_ceiling": 190.27250982101106
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.630456399456976,
+    "population_size": 52
+  },
+  {
+    "generation": 29,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.8385545864803732,
+      "energy_ceiling": 191.16719483890992
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.7723883061733945,
+    "population_size": 50
+  },
+  {
+    "generation": 30,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.8246673060923684,
+      "energy_ceiling": 191.9754273550189
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.700979998243791,
+    "population_size": 52
+  },
+  {
+    "generation": 31,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.8108451963191174,
+      "energy_ceiling": 192.70517261951696
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.503769675519499,
+    "population_size": 55
+  },
+  {
+    "generation": 32,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.8004623630878385,
+      "energy_ceiling": 193.35608735756523
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5906015716710737,
+    "population_size": 54
+  },
+  {
+    "generation": 33,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7904605398017601,
+      "energy_ceiling": 193.94187062180868
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.5883108732416729,
+    "population_size": 52
+  },
+  {
+    "generation": 34,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.781054023643015,
+      "energy_ceiling": 194.46901955962775
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6425607020006643,
+    "population_size": 51
+  },
+  {
+    "generation": 35,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7730869750198672,
+      "energy_ceiling": 194.94402160366494
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.643357333921651,
+    "population_size": 53
+  },
+  {
+    "generation": 36,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7660491467759258,
+      "energy_ceiling": 195.3722434432984
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.536232127445068,
+    "population_size": 57
+  },
+  {
+    "generation": 37,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.759467378971802,
+      "energy_ceiling": 195.7575310989685
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6321373209017425,
+    "population_size": 54
+  },
+  {
+    "generation": 38,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7530387741552402,
+      "energy_ceiling": 196.10556198907162
+    },
+    "survival_rate": 1.16,
+    "avg_tau": 1.4990473089650982,
+    "population_size": 58
+  },
+  {
+    "generation": 39,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7486244898106704,
+      "energy_ceiling": 196.41706979016442
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.5542309350036505,
+    "population_size": 57
+  },
+  {
+    "generation": 40,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7429940308652259,
+      "energy_ceiling": 196.70268281114792
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.4729868931655439,
+    "population_size": 56
+  },
+  {
+    "generation": 41,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7377617032117176,
+      "energy_ceiling": 196.95503053003307
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.4962461602493309,
+    "population_size": 56
+  },
+  {
+    "generation": 42,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7346322651306405,
+      "energy_ceiling": 197.1826954770297
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.659422859167967,
+    "population_size": 52
+  },
+  {
+    "generation": 43,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7306855497145004,
+      "energy_ceiling": 197.3899779293267
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5602397334100948,
+    "population_size": 54
+  },
+  {
+    "generation": 44,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7276731133614964,
+      "energy_ceiling": 197.57292413639397
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6355279669079419,
+    "population_size": 54
+  },
+  {
+    "generation": 45,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.723752352507073,
+      "energy_ceiling": 197.74235172275453
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6250006764344176,
+    "population_size": 52
+  },
+  {
+    "generation": 46,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.721793729193621,
+      "energy_ceiling": 197.89064455047904
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6685874735761133,
+    "population_size": 53
+  },
+  {
+    "generation": 47,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7190421261450144,
+      "energy_ceiling": 198.02410809543107
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6221886359054911,
+    "population_size": 54
+  },
+  {
+    "generation": 48,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7182405456830492,
+      "energy_ceiling": 198.14420928588794
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.554891379045395,
+    "population_size": 56
+  },
+  {
+    "generation": 49,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.715997870304322,
+      "energy_ceiling": 198.2535563572991
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.565473780871002,
+    "population_size": 54
+  },
+  {
+    "generation": 50,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7136603696400248,
+      "energy_ceiling": 198.34900072156915
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6068675836640196,
+    "population_size": 54
+  },
+  {
+    "generation": 51,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7126101740545556,
+      "energy_ceiling": 198.43734864941223
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.582121513684259,
+    "population_size": 53
+  },
+  {
+    "generation": 52,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7099384013318943,
+      "energy_ceiling": 198.515725784471
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.551488441774964,
+    "population_size": 55
+  },
+  {
+    "generation": 53,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7101288690929755,
+      "energy_ceiling": 198.58372120602382
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.612187418389791,
+    "population_size": 54
+  },
+  {
+    "generation": 54,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.709106649464283,
+      "energy_ceiling": 198.6497330854214
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.5092396040675284,
+    "population_size": 57
+  },
+  {
+    "generation": 55,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7075193477290147,
+      "energy_ceiling": 198.7078717768792
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6833828452653048,
+    "population_size": 53
+  },
+  {
+    "generation": 56,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.706577200841405,
+      "energy_ceiling": 198.76083659919124
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6463193341896871,
+    "population_size": 52
+  },
+  {
+    "generation": 57,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7053998590675068,
+      "energy_ceiling": 198.80856093927207
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6439348285040014,
+    "population_size": 52
+  },
+  {
+    "generation": 58,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7052539256462484,
+      "energy_ceiling": 198.84790484534483
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6333997225135275,
+    "population_size": 52
+  },
+  {
+    "generation": 59,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7043154585145888,
+      "energy_ceiling": 198.8820903608103
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6740960400496234,
+    "population_size": 53
+  },
+  {
+    "generation": 60,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7044328557092094,
+      "energy_ceiling": 198.92176132472923
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.4892292978678638,
+    "population_size": 55
+  },
+  {
+    "generation": 61,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7030850550646635,
+      "energy_ceiling": 198.94916119225627
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6165394857046016,
+    "population_size": 54
+  },
+  {
+    "generation": 62,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.703120624403084,
+      "energy_ceiling": 198.97801307303058
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.6207712160191423,
+    "population_size": 55
+  },
+  {
+    "generation": 63,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7026897572173518,
+      "energy_ceiling": 199.0045957657275
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.568896476374358,
+    "population_size": 53
+  },
+  {
+    "generation": 64,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.702036170423074,
+      "energy_ceiling": 199.02428818915467
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7105615318506437,
+    "population_size": 52
+  },
+  {
+    "generation": 65,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7021816283414273,
+      "energy_ceiling": 199.04807537023916
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.522244195989351,
+    "population_size": 55
+  },
+  {
+    "generation": 66,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7012032196205147,
+      "energy_ceiling": 199.0664198332152
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5657117779767777,
+    "population_size": 55
+  },
+  {
+    "generation": 67,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7026715839871478,
+      "energy_ceiling": 199.07698584989365
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.8515055870064754,
+    "population_size": 50
+  },
+  {
+    "generation": 68,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.702711369946713,
+      "energy_ceiling": 199.09659126490425
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5128619635673015,
+    "population_size": 55
+  },
+  {
+    "generation": 69,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7016554730094926,
+      "energy_ceiling": 199.1083481384138
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6207685131958427,
+    "population_size": 53
+  },
+  {
+    "generation": 70,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7014945114360365,
+      "energy_ceiling": 199.12061732457235
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5307926866340205,
+    "population_size": 55
+  },
+  {
+    "generation": 71,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006791046119203,
+      "energy_ceiling": 199.13109159211507
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5188050626992566,
+    "population_size": 54
+  },
+  {
+    "generation": 72,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.702280880842678,
+      "energy_ceiling": 199.1369984329035
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7089552929932392,
+    "population_size": 52
+  },
+  {
+    "generation": 73,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7025166688068245,
+      "energy_ceiling": 199.1475705896131
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.580038337846891,
+    "population_size": 54
+  },
+  {
+    "generation": 74,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7017567566737843,
+      "energy_ceiling": 199.15592553065176
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.4908700921208955,
+    "population_size": 56
+  },
+  {
+    "generation": 75,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7010304643338632,
+      "energy_ceiling": 199.16470897758654
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5913580669366563,
+    "population_size": 54
+  },
+  {
+    "generation": 76,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006585805108536,
+      "energy_ceiling": 199.16782207982786
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.627327279009712,
+    "population_size": 54
+  },
+  {
+    "generation": 77,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7013513886668634,
+      "energy_ceiling": 199.17723987184505
+    },
+    "survival_rate": 1.16,
+    "avg_tau": 1.4831048938201576,
+    "population_size": 58
+  },
+  {
+    "generation": 78,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006058861436455,
+      "energy_ceiling": 199.1820438846605
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5899608212323717,
+    "population_size": 54
+  },
+  {
+    "generation": 79,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7003753888757092,
+      "energy_ceiling": 199.18578349619438
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5773576450253093,
+    "population_size": 54
+  },
+  {
+    "generation": 80,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7016424740684455,
+      "energy_ceiling": 199.1879811465749
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5691630755008659,
+    "population_size": 56
+  },
+  {
+    "generation": 81,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700897616941314,
+      "energy_ceiling": 199.1946870319174
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.60493985860192,
+    "population_size": 53
+  },
+  {
+    "generation": 82,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7008366035394717,
+      "energy_ceiling": 199.1959703287256
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.7374247827567442,
+    "population_size": 50
+  },
+  {
+    "generation": 83,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7011596329676033,
+      "energy_ceiling": 199.200717295853
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5785165208516856,
+    "population_size": 54
+  },
+  {
+    "generation": 84,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7009733374858627,
+      "energy_ceiling": 199.20262956626766
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5952034988372223,
+    "population_size": 54
+  },
+  {
+    "generation": 85,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005122305399167,
+      "energy_ceiling": 199.20673460964085
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5919815098942254,
+    "population_size": 53
+  },
+  {
+    "generation": 86,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.70062309729522,
+      "energy_ceiling": 199.2098371486767
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6717790431250914,
+    "population_size": 51
+  },
+  {
+    "generation": 87,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7001794354795452,
+      "energy_ceiling": 199.21198943380898
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6269048308082017,
+    "population_size": 52
+  },
+  {
+    "generation": 88,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700582864805265,
+      "energy_ceiling": 199.21454249042804
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6511379726578608,
+    "population_size": 53
+  },
+  {
+    "generation": 89,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7021759725116847,
+      "energy_ceiling": 199.2144562413852
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6306846393442787,
+    "population_size": 52
+  },
+  {
+    "generation": 90,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7011301972772084,
+      "energy_ceiling": 199.21860261724663
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.5810017224218815,
+    "population_size": 52
+  },
+  {
+    "generation": 91,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7010485107086617,
+      "energy_ceiling": 199.21687835552194
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.6096001447071144,
+    "population_size": 55
+  },
+  {
+    "generation": 92,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701243345196438,
+      "energy_ceiling": 199.22127051996972
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.575474998386702,
+    "population_size": 54
+  },
+  {
+    "generation": 93,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7017026724171982,
+      "energy_ceiling": 199.2163034679727
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7339068298669196,
+    "population_size": 51
+  },
+  {
+    "generation": 94,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7018527298782062,
+      "energy_ceiling": 199.21836912117539
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6703256966235838,
+    "population_size": 53
+  },
+  {
+    "generation": 95,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.702207655559422,
+      "energy_ceiling": 199.22098820905782
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5792496505320537,
+    "population_size": 54
+  },
+  {
+    "generation": 96,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7024255863517848,
+      "energy_ceiling": 199.218985388152
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.553410373985401,
+    "population_size": 55
+  },
+  {
+    "generation": 97,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7022175805510007,
+      "energy_ceiling": 199.22027084933677
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5915625050259905,
+    "population_size": 53
+  },
+  {
+    "generation": 98,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7026418963326968,
+      "energy_ceiling": 199.21849176440307
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6978603196676982,
+    "population_size": 51
+  },
+  {
+    "generation": 99,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7020771814349014,
+      "energy_ceiling": 199.22283458796272
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5333060348645926,
+    "population_size": 56
+  },
+  {
+    "generation": 100,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.70102207098123,
+      "energy_ceiling": 199.2236551291664
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6799714779480184,
+    "population_size": 53
+  },
+  {
+    "generation": 101,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7014827346815158,
+      "energy_ceiling": 199.22440961624972
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6711273901116064,
+    "population_size": 51
+  },
+  {
+    "generation": 102,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700115387194736,
+      "energy_ceiling": 199.2286646546247
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5431249738047181,
+    "population_size": 56
+  },
+  {
+    "generation": 103,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7001160504277033,
+      "energy_ceiling": 199.22838218916218
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6196075756437103,
+    "population_size": 53
+  },
+  {
+    "generation": 104,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7003825032419833,
+      "energy_ceiling": 199.22399997024593
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7282233263621536,
+    "population_size": 52
+  },
+  {
+    "generation": 105,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005490208898881,
+      "energy_ceiling": 199.2277439732213
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6043546257841064,
+    "population_size": 53
+  },
+  {
+    "generation": 106,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006108295098805,
+      "energy_ceiling": 199.22568157589913
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7312378003056306,
+    "population_size": 51
+  },
+  {
+    "generation": 107,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005588396887068,
+      "energy_ceiling": 199.22688941830916
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6255047391267115,
+    "population_size": 52
+  },
+  {
+    "generation": 108,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7013813256926054,
+      "energy_ceiling": 199.2256244764782
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.6698400196537662,
+    "population_size": 50
+  },
+  {
+    "generation": 109,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6995216867906304,
+      "energy_ceiling": 199.22676602883035
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7019743252414619,
+    "population_size": 52
+  },
+  {
+    "generation": 110,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700411952353013,
+      "energy_ceiling": 199.22604142594727
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7357409690620509,
+    "population_size": 51
+  },
+  {
+    "generation": 111,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990305213836088,
+      "energy_ceiling": 199.23074928335248
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5446366364986626,
+    "population_size": 54
+  },
+  {
+    "generation": 112,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699668541621845,
+      "energy_ceiling": 199.2236823550172
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6388297911915917,
+    "population_size": 54
+  },
+  {
+    "generation": 113,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997510980804917,
+      "energy_ceiling": 199.2286821195154
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.4557353952116943,
+    "population_size": 57
+  },
+  {
+    "generation": 114,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993915408715792,
+      "energy_ceiling": 199.22539790756383
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5961632974119135,
+    "population_size": 54
+  },
+  {
+    "generation": 115,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6991887520250346,
+      "energy_ceiling": 199.2284661168074
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.589707088393628,
+    "population_size": 53
+  },
+  {
+    "generation": 116,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6988374356488194,
+      "energy_ceiling": 199.2263235051266
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6920122911601783,
+    "population_size": 51
+  },
+  {
+    "generation": 117,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6983542038266104,
+      "energy_ceiling": 199.22804315461389
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6065065649311536,
+    "population_size": 54
+  },
+  {
+    "generation": 118,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6995242136397424,
+      "energy_ceiling": 199.22479883915247
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6534431959819378,
+    "population_size": 54
+  },
+  {
+    "generation": 119,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6996132458826136,
+      "energy_ceiling": 199.22722295523718
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.605031479106377,
+    "population_size": 54
+  },
+  {
+    "generation": 120,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6989228604311108,
+      "energy_ceiling": 199.2289166597134
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5797764721189607,
+    "population_size": 55
+  },
+  {
+    "generation": 121,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992026256944095,
+      "energy_ceiling": 199.22736099374202
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.646339235308193,
+    "population_size": 53
+  },
+  {
+    "generation": 122,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7000460184731752,
+      "energy_ceiling": 199.22716089436778
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.606418284955365,
+    "population_size": 54
+  },
+  {
+    "generation": 123,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700010587481687,
+      "energy_ceiling": 199.22702880493097
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.620078680737939,
+    "population_size": 55
+  },
+  {
+    "generation": 124,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700559827228677,
+      "energy_ceiling": 199.22749392443782
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5878332746426427,
+    "population_size": 54
+  },
+  {
+    "generation": 125,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006491974324305,
+      "energy_ceiling": 199.22969653199397
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.574977513843027,
+    "population_size": 56
+  },
+  {
+    "generation": 126,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6998760875057093,
+      "energy_ceiling": 199.23051887879453
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6004235767156543,
+    "population_size": 52
+  },
+  {
+    "generation": 127,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6996878894307246,
+      "energy_ceiling": 199.22937099091504
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5710655523247952,
+    "population_size": 55
+  },
+  {
+    "generation": 128,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6987003439800499,
+      "energy_ceiling": 199.2338418918235
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.5874385556328685,
+    "population_size": 52
+  },
+  {
+    "generation": 129,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6978286009825778,
+      "energy_ceiling": 199.2317777026411
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.7310284206607685,
+    "population_size": 50
+  },
+  {
+    "generation": 130,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.698196629492192,
+      "energy_ceiling": 199.23294393237694
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6974580630950207,
+    "population_size": 51
+  },
+  {
+    "generation": 131,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6986851789060748,
+      "energy_ceiling": 199.2309455391392
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.703217672369948,
+    "population_size": 51
+  },
+  {
+    "generation": 132,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6988868627642857,
+      "energy_ceiling": 199.23288298522525
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.552208418306619,
+    "population_size": 54
+  },
+  {
+    "generation": 133,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990746033803075,
+      "energy_ceiling": 199.23276268670267
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5871283232335418,
+    "population_size": 53
+  },
+  {
+    "generation": 134,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6984468916903621,
+      "energy_ceiling": 199.23197441803237
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5558171713130216,
+    "population_size": 55
+  },
+  {
+    "generation": 135,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6984726367984784,
+      "energy_ceiling": 199.23246497622907
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.666375786824841,
+    "population_size": 51
+  },
+  {
+    "generation": 136,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.698818859201012,
+      "energy_ceiling": 199.23001047860612
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7092208604683763,
+    "population_size": 51
+  },
+  {
+    "generation": 137,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6998989136059066,
+      "energy_ceiling": 199.23078543074547
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.604216777158201,
+    "population_size": 54
+  },
+  {
+    "generation": 138,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6999657135000779,
+      "energy_ceiling": 199.23264288767086
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5552710796738647,
+    "population_size": 53
+  },
+  {
+    "generation": 139,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700019115603896,
+      "energy_ceiling": 199.22888259890374
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6175403464051772,
+    "population_size": 54
+  },
+  {
+    "generation": 140,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7014710544798297,
+      "energy_ceiling": 199.22684233901333
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7051647805089345,
+    "population_size": 51
+  },
+  {
+    "generation": 141,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7008879185527737,
+      "energy_ceiling": 199.22856610511195
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6040632755632724,
+    "population_size": 53
+  },
+  {
+    "generation": 142,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005725255161688,
+      "energy_ceiling": 199.22943749460072
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6031704502392898,
+    "population_size": 53
+  },
+  {
+    "generation": 143,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7003725051650078,
+      "energy_ceiling": 199.2356617451406
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.4444493002638132,
+    "population_size": 57
+  },
+  {
+    "generation": 144,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7001150159048228,
+      "energy_ceiling": 199.22921557062648
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6997493387119513,
+    "population_size": 52
+  },
+  {
+    "generation": 145,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700801374335932,
+      "energy_ceiling": 199.2319260135638
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6183069416206486,
+    "population_size": 53
+  },
+  {
+    "generation": 146,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7000328386214845,
+      "energy_ceiling": 199.23428541220738
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6091840038475953,
+    "population_size": 53
+  },
+  {
+    "generation": 147,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006906114637346,
+      "energy_ceiling": 199.2310488709866
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6554524881775348,
+    "population_size": 52
+  },
+  {
+    "generation": 148,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7004349055980437,
+      "energy_ceiling": 199.2334879838879
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6137946915138832,
+    "population_size": 53
+  },
+  {
+    "generation": 149,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700752495983286,
+      "energy_ceiling": 199.22905918549907
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7020250518180131,
+    "population_size": 52
+  },
+  {
+    "generation": 150,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7009274069103042,
+      "energy_ceiling": 199.22936126694913
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6445966081937815,
+    "population_size": 51
+  },
+  {
+    "generation": 151,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7024521479799217,
+      "energy_ceiling": 199.22720114025418
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5418172114093274,
+    "population_size": 56
+  },
+  {
+    "generation": 152,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7024097089149093,
+      "energy_ceiling": 199.2258330262287
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5732473705066132,
+    "population_size": 55
+  },
+  {
+    "generation": 153,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7019126877494206,
+      "energy_ceiling": 199.2281617236058
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.6036226573470709,
+    "population_size": 55
+  },
+  {
+    "generation": 154,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7020001699157155,
+      "energy_ceiling": 199.2286015512452
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.697982637286187,
+    "population_size": 52
+  },
+  {
+    "generation": 155,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7019399116327552,
+      "energy_ceiling": 199.22833339612063
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7586231621214932,
+    "population_size": 51
+  },
+  {
+    "generation": 156,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701654114511387,
+      "energy_ceiling": 199.23167605650852
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6084332936920658,
+    "population_size": 54
+  },
+  {
+    "generation": 157,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006909795997582,
+      "energy_ceiling": 199.2321804508576
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6501801633571822,
+    "population_size": 52
+  },
+  {
+    "generation": 158,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005236758317652,
+      "energy_ceiling": 199.2320984057718
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.502049074415022,
+    "population_size": 57
+  },
+  {
+    "generation": 159,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6995670842881307,
+      "energy_ceiling": 199.23444856519458
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.452334902385253,
+    "population_size": 57
+  },
+  {
+    "generation": 160,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.69906309844434,
+      "energy_ceiling": 199.23114770867505
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6554484445359445,
+    "population_size": 53
+  },
+  {
+    "generation": 161,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993799698783492,
+      "energy_ceiling": 199.2312649378075
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6440059361419443,
+    "population_size": 52
+  },
+  {
+    "generation": 162,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6984862811440826,
+      "energy_ceiling": 199.2313064440267
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6268960189094193,
+    "population_size": 53
+  },
+  {
+    "generation": 163,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6982535217499044,
+      "energy_ceiling": 199.23073579962397
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.710432180690181,
+    "population_size": 51
+  },
+  {
+    "generation": 164,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6977909576424566,
+      "energy_ceiling": 199.22959021966153
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6904209745101542,
+    "population_size": 51
+  },
+  {
+    "generation": 165,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.698355863983459,
+      "energy_ceiling": 199.23035919769535
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5172551071960525,
+    "population_size": 54
+  },
+  {
+    "generation": 166,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.698083127997495,
+      "energy_ceiling": 199.23165127792578
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6629039138927488,
+    "population_size": 51
+  },
+  {
+    "generation": 167,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6980206033696663,
+      "energy_ceiling": 199.23163015013316
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6001481902698391,
+    "population_size": 54
+  },
+  {
+    "generation": 168,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.69814376741986,
+      "energy_ceiling": 199.23101113511981
+    },
+    "survival_rate": 1.16,
+    "avg_tau": 1.5051439787030205,
+    "population_size": 58
+  },
+  {
+    "generation": 169,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6982497848095641,
+      "energy_ceiling": 199.23222202160778
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6021162525766,
+    "population_size": 53
+  },
+  {
+    "generation": 170,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.697976145488394,
+      "energy_ceiling": 199.23451981944694
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6320086318679556,
+    "population_size": 51
+  },
+  {
+    "generation": 171,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6981120691833802,
+      "energy_ceiling": 199.2342038375022
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.661127415028345,
+    "population_size": 52
+  },
+  {
+    "generation": 172,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699464819837545,
+      "energy_ceiling": 199.23526345375194
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6155802806527437,
+    "population_size": 52
+  },
+  {
+    "generation": 173,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6987050848600556,
+      "energy_ceiling": 199.2331051083767
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6976402398679824,
+    "population_size": 53
+  },
+  {
+    "generation": 174,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6978954594267504,
+      "energy_ceiling": 199.23772259753898
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.4896068090807684,
+    "population_size": 55
+  },
+  {
+    "generation": 175,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6984070388246297,
+      "energy_ceiling": 199.23286233778504
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.628438390120823,
+    "population_size": 54
+  },
+  {
+    "generation": 176,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6989580520129657,
+      "energy_ceiling": 199.2351521040065
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6349970530851454,
+    "population_size": 53
+  },
+  {
+    "generation": 177,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6985074189666378,
+      "energy_ceiling": 199.2354048936058
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.564024035674317,
+    "population_size": 53
+  },
+  {
+    "generation": 178,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699337310606757,
+      "energy_ceiling": 199.2320324042452
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6429751124531535,
+    "population_size": 53
+  },
+  {
+    "generation": 179,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7000015432595386,
+      "energy_ceiling": 199.23442116382063
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5097397863749578,
+    "population_size": 54
+  },
+  {
+    "generation": 180,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992658825571256,
+      "energy_ceiling": 199.23300304743853
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.663794326943964,
+    "population_size": 53
+  },
+  {
+    "generation": 181,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997593382530172,
+      "energy_ceiling": 199.2327587426946
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.6058717116675654,
+    "population_size": 55
+  },
+  {
+    "generation": 182,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992864540262873,
+      "energy_ceiling": 199.2326428684251
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6426179336138995,
+    "population_size": 53
+  },
+  {
+    "generation": 183,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6983143799279237,
+      "energy_ceiling": 199.23673858158253
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6158035405295368,
+    "population_size": 53
+  },
+  {
+    "generation": 184,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6981940510856095,
+      "energy_ceiling": 199.2361687234242
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6651601182443008,
+    "population_size": 52
+  },
+  {
+    "generation": 185,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6975616027961284,
+      "energy_ceiling": 199.23381585108174
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5784623604797157,
+    "population_size": 54
+  },
+  {
+    "generation": 186,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6977336708949,
+      "energy_ceiling": 199.23056226597353
+    },
+    "survival_rate": 1.18,
+    "avg_tau": 1.50899773892755,
+    "population_size": 59
+  },
+  {
+    "generation": 187,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992166693610793,
+      "energy_ceiling": 199.23013803937616
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5486680851627845,
+    "population_size": 56
+  },
+  {
+    "generation": 188,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6988488280618113,
+      "energy_ceiling": 199.2297642354385
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.7315083065738819,
+    "population_size": 50
+  },
+  {
+    "generation": 189,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997442467374846,
+      "energy_ceiling": 199.2275478118946
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.7364155168870383,
+    "population_size": 50
+  },
+  {
+    "generation": 190,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699957062442749,
+      "energy_ceiling": 199.2291930307051
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6645309025042783,
+    "population_size": 52
+  },
+  {
+    "generation": 191,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6994678436974975,
+      "energy_ceiling": 199.23009772763453
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.665880065931612,
+    "population_size": 52
+  },
+  {
+    "generation": 192,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992296941900304,
+      "energy_ceiling": 199.23083195487106
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6119372233046347,
+    "population_size": 52
+  },
+  {
+    "generation": 193,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7001521177812422,
+      "energy_ceiling": 199.2303007593839
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6043318004915208,
+    "population_size": 54
+  },
+  {
+    "generation": 194,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700428235464285,
+      "energy_ceiling": 199.23109468344546
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.598385224926444,
+    "population_size": 53
+  },
+  {
+    "generation": 195,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990750005587265,
+      "energy_ceiling": 199.22994521510088
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.610764143590903,
+    "population_size": 54
+  },
+  {
+    "generation": 196,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6999188405179604,
+      "energy_ceiling": 199.22712669359078
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6814126173496313,
+    "population_size": 52
+  },
+  {
+    "generation": 197,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7004706540035208,
+      "energy_ceiling": 199.23003002423167
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5353941114952165,
+    "population_size": 56
+  },
+  {
+    "generation": 198,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7000090783656248,
+      "energy_ceiling": 199.22959502180845
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.581645110000822,
+    "population_size": 54
+  },
+  {
+    "generation": 199,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7010776526835902,
+      "energy_ceiling": 199.22685951962757
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6976856841764913,
+    "population_size": 52
+  },
+  {
+    "generation": 200,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7000728600374373,
+      "energy_ceiling": 199.23202156766476
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.483135287016189,
+    "population_size": 54
+  },
+  {
+    "generation": 201,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990710614016942,
+      "energy_ceiling": 199.22829941089822
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7395101928653112,
+    "population_size": 51
+  },
+  {
+    "generation": 202,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7007686445874683,
+      "energy_ceiling": 199.22862946980834
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.60148654212573,
+    "population_size": 55
+  },
+  {
+    "generation": 203,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006613316670132,
+      "energy_ceiling": 199.22959052282744
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5558272448740913,
+    "population_size": 55
+  },
+  {
+    "generation": 204,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7008126789687303,
+      "energy_ceiling": 199.22736747054464
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.697300874623004,
+    "population_size": 52
+  },
+  {
+    "generation": 205,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6996303488462012,
+      "energy_ceiling": 199.2301427234901
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5892332605708206,
+    "population_size": 53
+  },
+  {
+    "generation": 206,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990649725995899,
+      "energy_ceiling": 199.23263245114106
+    },
+    "survival_rate": 1.16,
+    "avg_tau": 1.470020088760194,
+    "population_size": 58
+  },
+  {
+    "generation": 207,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6995849274910086,
+      "energy_ceiling": 199.2289772060269
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.635415973282703,
+    "population_size": 52
+  },
+  {
+    "generation": 208,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6985354384439613,
+      "energy_ceiling": 199.23036748542415
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6076062201598178,
+    "population_size": 53
+  },
+  {
+    "generation": 209,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699666456659172,
+      "energy_ceiling": 199.22999473688168
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6483374327560294,
+    "population_size": 53
+  },
+  {
+    "generation": 210,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6995491456741165,
+      "energy_ceiling": 199.2313392631935
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6112015907204964,
+    "population_size": 54
+  },
+  {
+    "generation": 211,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699949457930944,
+      "energy_ceiling": 199.2320613368741
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6235216254971787,
+    "population_size": 53
+  },
+  {
+    "generation": 212,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6989802372074876,
+      "energy_ceiling": 199.23321520318663
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6406355974407825,
+    "population_size": 53
+  },
+  {
+    "generation": 213,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699404838141846,
+      "energy_ceiling": 199.23307768286793
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6382346257558023,
+    "population_size": 51
+  },
+  {
+    "generation": 214,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990175899541724,
+      "energy_ceiling": 199.2317059145811
+    },
+    "survival_rate": 1.16,
+    "avg_tau": 1.4804673600906484,
+    "population_size": 58
+  },
+  {
+    "generation": 215,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6989521477749796,
+      "energy_ceiling": 199.23461532312297
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6337710220212398,
+    "population_size": 53
+  },
+  {
+    "generation": 216,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6983057612594201,
+      "energy_ceiling": 199.23372179081062
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6206569176955286,
+    "population_size": 53
+  },
+  {
+    "generation": 217,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6987787975214292,
+      "energy_ceiling": 199.2311496117295
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.570907625739827,
+    "population_size": 55
+  },
+  {
+    "generation": 218,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6991062341028549,
+      "energy_ceiling": 199.2318426505565
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6073030838055957,
+    "population_size": 52
+  },
+  {
+    "generation": 219,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6995229586061151,
+      "energy_ceiling": 199.2307383855008
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6720019479012949,
+    "population_size": 52
+  },
+  {
+    "generation": 220,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699958257968412,
+      "energy_ceiling": 199.2326405469507
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6430860281067174,
+    "population_size": 52
+  },
+  {
+    "generation": 221,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7001233005546534,
+      "energy_ceiling": 199.2313604922556
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6633504119448388,
+    "population_size": 51
+  },
+  {
+    "generation": 222,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7003441822218748,
+      "energy_ceiling": 199.23200044303
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5428391576557121,
+    "population_size": 56
+  },
+  {
+    "generation": 223,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7002401484271137,
+      "energy_ceiling": 199.23141639872694
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.647623663440658,
+    "population_size": 52
+  },
+  {
+    "generation": 224,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7012911072716312,
+      "energy_ceiling": 199.2314827588542
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5250835935806648,
+    "population_size": 56
+  },
+  {
+    "generation": 225,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005088095940173,
+      "energy_ceiling": 199.23327048296875
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5798838755833993,
+    "population_size": 53
+  },
+  {
+    "generation": 226,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7009547837105694,
+      "energy_ceiling": 199.22776743467182
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6986551217547883,
+    "population_size": 53
+  },
+  {
+    "generation": 227,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700625488898178,
+      "energy_ceiling": 199.23175069120458
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6154891851808504,
+    "population_size": 51
+  },
+  {
+    "generation": 228,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700274188549383,
+      "energy_ceiling": 199.22986362208408
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.667148604574004,
+    "population_size": 52
+  },
+  {
+    "generation": 229,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7014490413279668,
+      "energy_ceiling": 199.22824525987562
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.71897774557534,
+    "population_size": 51
+  },
+  {
+    "generation": 230,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7009202460997015,
+      "energy_ceiling": 199.23217273388804
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6290430909662434,
+    "population_size": 52
+  },
+  {
+    "generation": 231,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700466086684764,
+      "energy_ceiling": 199.2296834604992
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.738922219053015,
+    "population_size": 51
+  },
+  {
+    "generation": 232,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7003210928272041,
+      "energy_ceiling": 199.23407511444924
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.5731966090653968,
+    "population_size": 52
+  },
+  {
+    "generation": 233,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005492523373276,
+      "energy_ceiling": 199.2296116030043
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6888117983566586,
+    "population_size": 52
+  },
+  {
+    "generation": 234,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7015322081967352,
+      "energy_ceiling": 199.23101844270383
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6978335386961687,
+    "population_size": 51
+  },
+  {
+    "generation": 235,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7010783163592165,
+      "energy_ceiling": 199.2317725984334
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5988220862112652,
+    "population_size": 53
+  },
+  {
+    "generation": 236,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7014750552682079,
+      "energy_ceiling": 199.23044333859002
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5809276195506397,
+    "population_size": 53
+  },
+  {
+    "generation": 237,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006235617052872,
+      "energy_ceiling": 199.23120700473098
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6147267254363276,
+    "population_size": 52
+  },
+  {
+    "generation": 238,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701180795778024,
+      "energy_ceiling": 199.2300063042578
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7291177646285107,
+    "population_size": 51
+  },
+  {
+    "generation": 239,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7012739256731912,
+      "energy_ceiling": 199.229053673832
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5809694490665567,
+    "population_size": 53
+  },
+  {
+    "generation": 240,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7016785668826593,
+      "energy_ceiling": 199.22990030644874
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6376934992266396,
+    "population_size": 52
+  },
+  {
+    "generation": 241,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7011984600785859,
+      "energy_ceiling": 199.22835827580383
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6619637478596994,
+    "population_size": 52
+  },
+  {
+    "generation": 242,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7011863918189813,
+      "energy_ceiling": 199.2304424482234
+    },
+    "survival_rate": 1.16,
+    "avg_tau": 1.5044125020695658,
+    "population_size": 58
+  },
+  {
+    "generation": 243,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7008208406507448,
+      "energy_ceiling": 199.23296620340102
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5586062708538864,
+    "population_size": 54
+  },
+  {
+    "generation": 244,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7010001499513374,
+      "energy_ceiling": 199.22803758306088
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.568916848000853,
+    "population_size": 56
+  },
+  {
+    "generation": 245,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7015037571480627,
+      "energy_ceiling": 199.22844182475475
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5086075999778548,
+    "population_size": 56
+  },
+  {
+    "generation": 246,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7024664037013517,
+      "energy_ceiling": 199.22522964227923
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6532251147412087,
+    "population_size": 52
+  },
+  {
+    "generation": 247,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7019101225373896,
+      "energy_ceiling": 199.22345867805126
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.7000834289835298,
+    "population_size": 50
+  },
+  {
+    "generation": 248,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7023629545493302,
+      "energy_ceiling": 199.2242568102461
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6083409479949455,
+    "population_size": 53
+  },
+  {
+    "generation": 249,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7027565479399234,
+      "energy_ceiling": 199.22444712922143
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6205655018465264,
+    "population_size": 53
+  },
+  {
+    "generation": 250,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701662981696459,
+      "energy_ceiling": 199.22457041629926
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.649015654966548,
+    "population_size": 52
+  },
+  {
+    "generation": 251,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7013730755506957,
+      "energy_ceiling": 199.2247293746693
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.636869698840569,
+    "population_size": 55
+  },
+  {
+    "generation": 252,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6996510592415064,
+      "energy_ceiling": 199.22841643720233
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5424222071956448,
+    "population_size": 54
+  },
+  {
+    "generation": 253,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.70026084360396,
+      "energy_ceiling": 199.22635079348206
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6388659985728444,
+    "population_size": 53
+  },
+  {
+    "generation": 254,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7004563957486438,
+      "energy_ceiling": 199.2268517141338
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.5378916154689757,
+    "population_size": 57
+  },
+  {
+    "generation": 255,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7000895095543411,
+      "energy_ceiling": 199.2297585427204
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5832817684705154,
+    "population_size": 54
+  },
+  {
+    "generation": 256,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6999495938153137,
+      "energy_ceiling": 199.22762268844832
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.6269172354220436,
+    "population_size": 55
+  },
+  {
+    "generation": 257,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6991266991288556,
+      "energy_ceiling": 199.22745241960345
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6773865632859104,
+    "population_size": 52
+  },
+  {
+    "generation": 258,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6996241315895477,
+      "energy_ceiling": 199.22905917764305
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.6578769081184033,
+    "population_size": 50
+  },
+  {
+    "generation": 259,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992600602820764,
+      "energy_ceiling": 199.22690525987872
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6397974197794682,
+    "population_size": 52
+  },
+  {
+    "generation": 260,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997250625853089,
+      "energy_ceiling": 199.22739873389082
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6951802361419777,
+    "population_size": 51
+  },
+  {
+    "generation": 261,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993326125466912,
+      "energy_ceiling": 199.2284588605017
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6164646087955414,
+    "population_size": 54
+  },
+  {
+    "generation": 262,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993931185407067,
+      "energy_ceiling": 199.22818897445148
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6459396753018092,
+    "population_size": 52
+  },
+  {
+    "generation": 263,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990744917944882,
+      "energy_ceiling": 199.23149807700628
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5821446282648008,
+    "population_size": 54
+  },
+  {
+    "generation": 264,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6998410283027763,
+      "energy_ceiling": 199.22729226930562
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.699181273170562,
+    "population_size": 54
+  },
+  {
+    "generation": 265,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997164323123366,
+      "energy_ceiling": 199.231203042375
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6347921537692773,
+    "population_size": 51
+  },
+  {
+    "generation": 266,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992560470338878,
+      "energy_ceiling": 199.22933873813744
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.686130152901139,
+    "population_size": 52
+  },
+  {
+    "generation": 267,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7000096549069637,
+      "energy_ceiling": 199.22904486432364
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5895961250251458,
+    "population_size": 54
+  },
+  {
+    "generation": 268,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7003429139233583,
+      "energy_ceiling": 199.22983637789122
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.56301961485002,
+    "population_size": 53
+  },
+  {
+    "generation": 269,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6998521947386083,
+      "energy_ceiling": 199.22877274010204
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6198861415673094,
+    "population_size": 53
+  },
+  {
+    "generation": 270,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6998510832800768,
+      "energy_ceiling": 199.2289514660918
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6800516616131875,
+    "population_size": 52
+  },
+  {
+    "generation": 271,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7003119680458478,
+      "energy_ceiling": 199.2292163194826
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6618343875585457,
+    "population_size": 52
+  },
+  {
+    "generation": 272,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7004096953519598,
+      "energy_ceiling": 199.2282386875343
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6711491250561517,
+    "population_size": 51
+  },
+  {
+    "generation": 273,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699631493402605,
+      "energy_ceiling": 199.2291668187808
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.625506214713983,
+    "population_size": 54
+  },
+  {
+    "generation": 274,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6989616798704483,
+      "energy_ceiling": 199.2318101369027
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.581312668087366,
+    "population_size": 52
+  },
+  {
+    "generation": 275,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6989903761206406,
+      "energy_ceiling": 199.22938112321242
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7223469517221532,
+    "population_size": 51
+  },
+  {
+    "generation": 276,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6986990765330443,
+      "energy_ceiling": 199.23435501089114
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5452681195101758,
+    "population_size": 53
+  },
+  {
+    "generation": 277,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990491090497113,
+      "energy_ceiling": 199.233439509802
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6536734868514797,
+    "population_size": 52
+  },
+  {
+    "generation": 278,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6988718589856244,
+      "energy_ceiling": 199.23094355882176
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6191895707168598,
+    "population_size": 54
+  },
+  {
+    "generation": 279,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997452938591082,
+      "energy_ceiling": 199.23336920293954
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6423643877639091,
+    "population_size": 52
+  },
+  {
+    "generation": 280,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992115996417287,
+      "energy_ceiling": 199.23194428264554
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6905238316155742,
+    "population_size": 51
+  },
+  {
+    "generation": 281,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997301065497288,
+      "energy_ceiling": 199.23188585438095
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5920168848643244,
+    "population_size": 54
+  },
+  {
+    "generation": 282,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699217330151277,
+      "energy_ceiling": 199.23425726894283
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5217706652606886,
+    "population_size": 56
+  },
+  {
+    "generation": 283,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6987595912807345,
+      "energy_ceiling": 199.23335154204852
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5315446161471267,
+    "population_size": 55
+  },
+  {
+    "generation": 284,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990372777463572,
+      "energy_ceiling": 199.23134438784365
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.575198402408465,
+    "population_size": 54
+  },
+  {
+    "generation": 285,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6987565954508692,
+      "energy_ceiling": 199.23076194905923
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6101007397178821,
+    "population_size": 54
+  },
+  {
+    "generation": 286,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6998884390437918,
+      "energy_ceiling": 199.22726175415326
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7092728138244648,
+    "population_size": 52
+  },
+  {
+    "generation": 287,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005766643971774,
+      "energy_ceiling": 199.2277195787379
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5888303148496727,
+    "population_size": 53
+  },
+  {
+    "generation": 288,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700097305916315,
+      "energy_ceiling": 199.23167562086405
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5527232261228976,
+    "population_size": 55
+  },
+  {
+    "generation": 289,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997286802607392,
+      "energy_ceiling": 199.2298040587776
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7201542161635754,
+    "population_size": 51
+  },
+  {
+    "generation": 290,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7008468380978465,
+      "energy_ceiling": 199.23000765289981
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.673236752464576,
+    "population_size": 51
+  },
+  {
+    "generation": 291,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699373463832032,
+      "energy_ceiling": 199.23071888760978
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6277273502351717,
+    "population_size": 52
+  },
+  {
+    "generation": 292,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700132990148916,
+      "energy_ceiling": 199.22900699884877
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6488377734213735,
+    "population_size": 53
+  },
+  {
+    "generation": 293,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700071267504123,
+      "energy_ceiling": 199.23280229896386
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5313721063373946,
+    "population_size": 55
+  },
+  {
+    "generation": 294,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700513503746917,
+      "energy_ceiling": 199.2303060690674
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6718621195322247,
+    "population_size": 52
+  },
+  {
+    "generation": 295,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.702011278933817,
+      "energy_ceiling": 199.23289146216064
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6418603250716153,
+    "population_size": 52
+  },
+  {
+    "generation": 296,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7012745065672756,
+      "energy_ceiling": 199.23277031594452
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5977316497501768,
+    "population_size": 53
+  },
+  {
+    "generation": 297,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7012528710035282,
+      "energy_ceiling": 199.22961328435002
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6336603533006158,
+    "population_size": 54
+  },
+  {
+    "generation": 298,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7021307459637263,
+      "energy_ceiling": 199.22812395591495
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5369124794581257,
+    "population_size": 54
+  },
+  {
+    "generation": 299,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7029880040452665,
+      "energy_ceiling": 199.22487156032344
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.624140478059382,
+    "population_size": 54
+  },
+  {
+    "generation": 300,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7035761584792808,
+      "energy_ceiling": 199.22672840429107
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.601149826358992,
+    "population_size": 55
+  },
+  {
+    "generation": 301,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.702798022913114,
+      "energy_ceiling": 199.2265835638619
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6298883739914112,
+    "population_size": 53
+  },
+  {
+    "generation": 302,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7025531164461196,
+      "energy_ceiling": 199.22870920747567
+    },
+    "survival_rate": 1.16,
+    "avg_tau": 1.5007508839140637,
+    "population_size": 58
+  },
+  {
+    "generation": 303,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7024019301588265,
+      "energy_ceiling": 199.23088628672807
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6275172963222522,
+    "population_size": 51
+  },
+  {
+    "generation": 304,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7015726115877285,
+      "energy_ceiling": 199.2279256580552
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6181303163562588,
+    "population_size": 54
+  },
+  {
+    "generation": 305,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7020087815675302,
+      "energy_ceiling": 199.22530909224963
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6781867529120074,
+    "population_size": 53
+  },
+  {
+    "generation": 306,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701941189797354,
+      "energy_ceiling": 199.22949818302465
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5463365830165827,
+    "population_size": 55
+  },
+  {
+    "generation": 307,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7009010893279477,
+      "energy_ceiling": 199.22846036472214
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.5456900325096137,
+    "population_size": 57
+  },
+  {
+    "generation": 308,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7010927962605764,
+      "energy_ceiling": 199.22879832824987
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6210029003656268,
+    "population_size": 53
+  },
+  {
+    "generation": 309,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7004825159927852,
+      "energy_ceiling": 199.22841449542483
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6602348843314596,
+    "population_size": 51
+  },
+  {
+    "generation": 310,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7007461341574968,
+      "energy_ceiling": 199.2304610458823
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6317763093995088,
+    "population_size": 54
+  },
+  {
+    "generation": 311,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7011109342703503,
+      "energy_ceiling": 199.22879094129402
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6169783373273274,
+    "population_size": 54
+  },
+  {
+    "generation": 312,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006382366321333,
+      "energy_ceiling": 199.23334384716458
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.528227119349766,
+    "population_size": 54
+  },
+  {
+    "generation": 313,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7009745117799653,
+      "energy_ceiling": 199.2307534624481
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.5637947886844283,
+    "population_size": 57
+  },
+  {
+    "generation": 314,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7002974380515998,
+      "energy_ceiling": 199.23309411620323
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5708367892480855,
+    "population_size": 54
+  },
+  {
+    "generation": 315,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.69991383494348,
+      "energy_ceiling": 199.23115270458285
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5981950165104748,
+    "population_size": 53
+  },
+  {
+    "generation": 316,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699343361565665,
+      "energy_ceiling": 199.23298143412453
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.4567731014513179,
+    "population_size": 57
+  },
+  {
+    "generation": 317,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992742527533111,
+      "energy_ceiling": 199.23167529071205
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5626442520928652,
+    "population_size": 56
+  },
+  {
+    "generation": 318,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6996122354441474,
+      "energy_ceiling": 199.2310197616408
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6381900776456155,
+    "population_size": 53
+  },
+  {
+    "generation": 319,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6996346036768517,
+      "energy_ceiling": 199.23106178547667
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.676954447608939,
+    "population_size": 51
+  },
+  {
+    "generation": 320,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6994982856682996,
+      "energy_ceiling": 199.23170760692895
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.533415450879221,
+    "population_size": 55
+  },
+  {
+    "generation": 321,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7000686282208728,
+      "energy_ceiling": 199.230544846236
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6766458062249376,
+    "population_size": 52
+  },
+  {
+    "generation": 322,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7003015311487815,
+      "energy_ceiling": 199.23237036161234
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.553074449719809,
+    "population_size": 54
+  },
+  {
+    "generation": 323,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997453502196285,
+      "energy_ceiling": 199.23106932545107
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.561602338194713,
+    "population_size": 56
+  },
+  {
+    "generation": 324,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005450204280093,
+      "energy_ceiling": 199.23057039290592
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6763841361326395,
+    "population_size": 52
+  },
+  {
+    "generation": 325,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006963184027413,
+      "energy_ceiling": 199.23256935361528
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5681913753404493,
+    "population_size": 55
+  },
+  {
+    "generation": 326,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7007191044289993,
+      "energy_ceiling": 199.2354404182537
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.6804251613917756,
+    "population_size": 50
+  },
+  {
+    "generation": 327,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.69996146991459,
+      "energy_ceiling": 199.23317637642828
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6605780383876376,
+    "population_size": 53
+  },
+  {
+    "generation": 328,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699988533655067,
+      "energy_ceiling": 199.23365073878543
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7102916014458407,
+    "population_size": 52
+  },
+  {
+    "generation": 329,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699344093337856,
+      "energy_ceiling": 199.23882166490685
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5549063065281308,
+    "population_size": 54
+  },
+  {
+    "generation": 330,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6995556711898323,
+      "energy_ceiling": 199.23393949841613
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.658920904980339,
+    "population_size": 51
+  },
+  {
+    "generation": 331,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997284351536381,
+      "energy_ceiling": 199.23428954857448
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5911907446200024,
+    "population_size": 53
+  },
+  {
+    "generation": 332,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6988631091358422,
+      "energy_ceiling": 199.23459659371696
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5698819433429785,
+    "population_size": 54
+  },
+  {
+    "generation": 333,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6991574258699362,
+      "energy_ceiling": 199.23728093434522
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5496726351341203,
+    "population_size": 54
+  },
+  {
+    "generation": 334,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6981524137779052,
+      "energy_ceiling": 199.23788884091067
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6216827147541748,
+    "population_size": 54
+  },
+  {
+    "generation": 335,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6986768027257935,
+      "energy_ceiling": 199.23669195681956
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6468447138468234,
+    "population_size": 52
+  },
+  {
+    "generation": 336,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6983672891531643,
+      "energy_ceiling": 199.23491876113755
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5627542983967913,
+    "population_size": 56
+  },
+  {
+    "generation": 337,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6994097353461777,
+      "energy_ceiling": 199.23046688502376
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7007517583564886,
+    "population_size": 52
+  },
+  {
+    "generation": 338,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6991882138680965,
+      "energy_ceiling": 199.23295619652134
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6081352324002878,
+    "population_size": 53
+  },
+  {
+    "generation": 339,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6985101494638746,
+      "energy_ceiling": 199.23589257686916
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.702198450808646,
+    "population_size": 50
+  },
+  {
+    "generation": 340,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7002047534527676,
+      "energy_ceiling": 199.2319353191822
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7030274789712838,
+    "population_size": 52
+  },
+  {
+    "generation": 341,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6995484046301108,
+      "energy_ceiling": 199.23614978726394
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6212322718697079,
+    "population_size": 52
+  },
+  {
+    "generation": 342,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997914649373322,
+      "energy_ceiling": 199.2338628085375
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5788550311950218,
+    "population_size": 56
+  },
+  {
+    "generation": 343,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7000398503014877,
+      "energy_ceiling": 199.23673252768373
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.56065116590635,
+    "population_size": 54
+  },
+  {
+    "generation": 344,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6989677135396506,
+      "energy_ceiling": 199.23497127491532
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.6944377669706183,
+    "population_size": 50
+  },
+  {
+    "generation": 345,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6994322711530445,
+      "energy_ceiling": 199.23473014742376
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6657867263269175,
+    "population_size": 51
+  },
+  {
+    "generation": 346,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6991331423711808,
+      "energy_ceiling": 199.23501713268135
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.637031489331381,
+    "population_size": 53
+  },
+  {
+    "generation": 347,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993686506202819,
+      "energy_ceiling": 199.23461141941317
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.663682914581898,
+    "population_size": 53
+  },
+  {
+    "generation": 348,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990678641079051,
+      "energy_ceiling": 199.23663027747182
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.539621040992701,
+    "population_size": 55
+  },
+  {
+    "generation": 349,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993128499577115,
+      "energy_ceiling": 199.23432724972457
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.600886112277522,
+    "population_size": 53
+  },
+  {
+    "generation": 350,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6985855464285085,
+      "energy_ceiling": 199.23710252475206
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6260030960789547,
+    "population_size": 52
+  },
+  {
+    "generation": 351,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.698674780846982,
+      "energy_ceiling": 199.23413627227683
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6508722096676087,
+    "population_size": 53
+  },
+  {
+    "generation": 352,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6989192605293293,
+      "energy_ceiling": 199.23391464504908
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.609154977265025,
+    "population_size": 53
+  },
+  {
+    "generation": 353,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6986864674629707,
+      "energy_ceiling": 199.23364318054414
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.503455748611464,
+    "population_size": 56
+  },
+  {
+    "generation": 354,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992390108408528,
+      "energy_ceiling": 199.22991886248968
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5961687918282583,
+    "population_size": 54
+  },
+  {
+    "generation": 355,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990818467850857,
+      "energy_ceiling": 199.23430297624068
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5712216003253028,
+    "population_size": 53
+  },
+  {
+    "generation": 356,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6976854852083247,
+      "energy_ceiling": 199.23279267861656
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7369481535849938,
+    "population_size": 52
+  },
+  {
+    "generation": 357,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6985310402037834,
+      "energy_ceiling": 199.23149741075486
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.59531308147554,
+    "population_size": 55
+  },
+  {
+    "generation": 358,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6985902556461463,
+      "energy_ceiling": 199.2285796696793
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6852510721980742,
+    "population_size": 53
+  },
+  {
+    "generation": 359,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997351152197422,
+      "energy_ceiling": 199.23249770271133
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5827254263251775,
+    "population_size": 54
+  },
+  {
+    "generation": 360,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6996087563186917,
+      "energy_ceiling": 199.22879993244015
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5810229808495653,
+    "population_size": 56
+  },
+  {
+    "generation": 361,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6989777426755983,
+      "energy_ceiling": 199.2278399391961
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.556316067585684,
+    "population_size": 57
+  },
+  {
+    "generation": 362,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993259825732063,
+      "energy_ceiling": 199.23127994527644
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.505519428456335,
+    "population_size": 56
+  },
+  {
+    "generation": 363,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993874561431306,
+      "energy_ceiling": 199.23375995074875
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6131744580022156,
+    "population_size": 52
+  },
+  {
+    "generation": 364,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6994604238237947,
+      "energy_ceiling": 199.22998395567382
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.699826152089945,
+    "population_size": 52
+  },
+  {
+    "generation": 365,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699855139550852,
+      "energy_ceiling": 199.2325455601064
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5983387229379036,
+    "population_size": 53
+  },
+  {
+    "generation": 366,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700433545708359,
+      "energy_ceiling": 199.2312510040957
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5642681738741968,
+    "population_size": 54
+  },
+  {
+    "generation": 367,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7006440997269925,
+      "energy_ceiling": 199.23306190368606
+    },
+    "survival_rate": 1.18,
+    "avg_tau": 1.4211787986087467,
+    "population_size": 59
+  },
+  {
+    "generation": 368,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700541102564842,
+      "energy_ceiling": 199.23056371331742
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6706243074814016,
+    "population_size": 51
+  },
+  {
+    "generation": 369,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005358282734098,
+      "energy_ceiling": 199.23302734198563
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5780522653963498,
+    "population_size": 53
+  },
+  {
+    "generation": 370,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7002190174592715,
+      "energy_ceiling": 199.23406860778704
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5907740703535527,
+    "population_size": 53
+  },
+  {
+    "generation": 371,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7008807467701799,
+      "energy_ceiling": 199.2332297470083
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6097227346768683,
+    "population_size": 53
+  },
+  {
+    "generation": 372,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7003704577802012,
+      "energy_ceiling": 199.23426677230742
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5838673322230439,
+    "population_size": 54
+  },
+  {
+    "generation": 373,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6999525767797945,
+      "energy_ceiling": 199.23465609507664
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.4941193709953138,
+    "population_size": 56
+  },
+  {
+    "generation": 374,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6999241707764041,
+      "energy_ceiling": 199.23013448556893
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7155181486776458,
+    "population_size": 52
+  },
+  {
+    "generation": 375,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7001162834674932,
+      "energy_ceiling": 199.233929037012
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5848697630076638,
+    "population_size": 53
+  },
+  {
+    "generation": 376,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992480766430411,
+      "energy_ceiling": 199.23246413331074
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6501325729307597,
+    "population_size": 52
+  },
+  {
+    "generation": 377,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6995290340438443,
+      "energy_ceiling": 199.2335137199796
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6430971690159768,
+    "population_size": 53
+  },
+  {
+    "generation": 378,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993265349269733,
+      "energy_ceiling": 199.23749034798158
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6472653215176225,
+    "population_size": 52
+  },
+  {
+    "generation": 379,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7015760327316054,
+      "energy_ceiling": 199.22974931318336
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.6037230934546833,
+    "population_size": 55
+  },
+  {
+    "generation": 380,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7015836358842447,
+      "energy_ceiling": 199.234230381865
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.508438782252099,
+    "population_size": 54
+  },
+  {
+    "generation": 381,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7014543616955202,
+      "energy_ceiling": 199.22732734367847
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7347727688751815,
+    "population_size": 52
+  },
+  {
+    "generation": 382,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701604506675697,
+      "energy_ceiling": 199.23020260931057
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.596512013462874,
+    "population_size": 52
+  },
+  {
+    "generation": 383,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7014297164558858,
+      "energy_ceiling": 199.22612634837947
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6956676222836684,
+    "population_size": 53
+  },
+  {
+    "generation": 384,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7015932033251902,
+      "energy_ceiling": 199.22967371354147
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5399351802068282,
+    "population_size": 55
+  },
+  {
+    "generation": 385,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7016478354220692,
+      "energy_ceiling": 199.2286663421873
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5548306417392421,
+    "population_size": 56
+  },
+  {
+    "generation": 386,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7020825317460162,
+      "energy_ceiling": 199.2278557079685
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5464441204987036,
+    "population_size": 55
+  },
+  {
+    "generation": 387,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7004033374150558,
+      "energy_ceiling": 199.23233413717162
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5547323488445917,
+    "population_size": 53
+  },
+  {
+    "generation": 388,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7008740138247735,
+      "energy_ceiling": 199.23108472345442
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.680770144151878,
+    "population_size": 51
+  },
+  {
+    "generation": 389,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7019690118187503,
+      "energy_ceiling": 199.22943225110893
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5550853889220546,
+    "population_size": 55
+  },
+  {
+    "generation": 390,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700965622643504,
+      "energy_ceiling": 199.231985025998
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.569892023704676,
+    "population_size": 54
+  },
+  {
+    "generation": 391,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7019638693181334,
+      "energy_ceiling": 199.22826652339813
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6933825565823135,
+    "population_size": 53
+  },
+  {
+    "generation": 392,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7012375403855717,
+      "energy_ceiling": 199.23092787105827
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.533735623035843,
+    "population_size": 55
+  },
+  {
+    "generation": 393,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7022240491974094,
+      "energy_ceiling": 199.2279870839524
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6123512895375678,
+    "population_size": 54
+  },
+  {
+    "generation": 394,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7011282227130853,
+      "energy_ceiling": 199.2295483755571
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5692505445417808,
+    "population_size": 54
+  },
+  {
+    "generation": 395,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7012712246527304,
+      "energy_ceiling": 199.22793753800136
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.5180101757026052,
+    "population_size": 57
+  },
+  {
+    "generation": 396,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7016905058884897,
+      "energy_ceiling": 199.22590378420117
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5701030433128083,
+    "population_size": 55
+  },
+  {
+    "generation": 397,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701375032035974,
+      "energy_ceiling": 199.22652940578098
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5614359887693954,
+    "population_size": 54
+  },
+  {
+    "generation": 398,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701656657781629,
+      "energy_ceiling": 199.22460446520284
+    },
+    "survival_rate": 1.16,
+    "avg_tau": 1.5441026858054463,
+    "population_size": 58
+  },
+  {
+    "generation": 399,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700831080933234,
+      "energy_ceiling": 199.2282880186825
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5471053429119381,
+    "population_size": 54
+  },
+  {
+    "generation": 400,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7005880378358427,
+      "energy_ceiling": 199.2274032168142
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6660217736163172,
+    "population_size": 52
+  },
+  {
+    "generation": 401,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7018814268589135,
+      "energy_ceiling": 199.22783089513274
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5457616333078688,
+    "population_size": 56
+  },
+  {
+    "generation": 402,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7029060499553048,
+      "energy_ceiling": 199.22283180561942
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6785841005485778,
+    "population_size": 53
+  },
+  {
+    "generation": 403,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7033326320544095,
+      "energy_ceiling": 199.22614062505744
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6969825330266672,
+    "population_size": 51
+  },
+  {
+    "generation": 404,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7021458560661569,
+      "energy_ceiling": 199.22905456255165
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6048460834974747,
+    "population_size": 51
+  },
+  {
+    "generation": 405,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7019699122177938,
+      "energy_ceiling": 199.23051710629645
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5903332027037027,
+    "population_size": 55
+  },
+  {
+    "generation": 406,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701798525218876,
+      "energy_ceiling": 199.23004139566677
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.56140519398264,
+    "population_size": 54
+  },
+  {
+    "generation": 407,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7016804599540514,
+      "energy_ceiling": 199.23024525610006
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.648563095828253,
+    "population_size": 54
+  },
+  {
+    "generation": 408,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7007229432243802,
+      "energy_ceiling": 199.23406873049
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.656489446305104,
+    "population_size": 51
+  },
+  {
+    "generation": 409,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7011489942120204,
+      "energy_ceiling": 199.23086185744097
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6670749479022453,
+    "population_size": 53
+  },
+  {
+    "generation": 410,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7012435952924938,
+      "energy_ceiling": 199.22987967169684
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5663137904202207,
+    "population_size": 54
+  },
+  {
+    "generation": 411,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701003176231677,
+      "energy_ceiling": 199.2270357045271
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6415641212052323,
+    "population_size": 52
+  },
+  {
+    "generation": 412,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7016199442578896,
+      "energy_ceiling": 199.22749213407434
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5134854930014854,
+    "population_size": 55
+  },
+  {
+    "generation": 413,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7011746111472277,
+      "energy_ceiling": 199.22978292066688
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.5201392304959531,
+    "population_size": 57
+  },
+  {
+    "generation": 414,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7013476709907547,
+      "energy_ceiling": 199.23177262860014
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6073260661081397,
+    "population_size": 53
+  },
+  {
+    "generation": 415,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7008983701351732,
+      "energy_ceiling": 199.23057936574008
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6066236397054339,
+    "population_size": 53
+  },
+  {
+    "generation": 416,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701411769458895,
+      "energy_ceiling": 199.22958542916604
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5428359005181207,
+    "population_size": 56
+  },
+  {
+    "generation": 417,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.702082281225333,
+      "energy_ceiling": 199.22921088624938
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.5126484519571983,
+    "population_size": 57
+  },
+  {
+    "generation": 418,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7021460343518904,
+      "energy_ceiling": 199.2301057976244
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6220334818405695,
+    "population_size": 52
+  },
+  {
+    "generation": 419,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7020475293700768,
+      "energy_ceiling": 199.2284392178619
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7181984855327983,
+    "population_size": 51
+  },
+  {
+    "generation": 420,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7016157087539288,
+      "energy_ceiling": 199.22929129607567
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.528873364204813,
+    "population_size": 54
+  },
+  {
+    "generation": 421,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7008356007641237,
+      "energy_ceiling": 199.22709016646806
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5386643497181294,
+    "population_size": 56
+  },
+  {
+    "generation": 422,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7016698214460118,
+      "energy_ceiling": 199.2293731498212
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5318532469499346,
+    "population_size": 56
+  },
+  {
+    "generation": 423,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7021012557077284,
+      "energy_ceiling": 199.22772383483905
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6184417585504751,
+    "population_size": 54
+  },
+  {
+    "generation": 424,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7027102222492212,
+      "energy_ceiling": 199.2275034513551
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.586749484882085,
+    "population_size": 55
+  },
+  {
+    "generation": 425,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7014161736955065,
+      "energy_ceiling": 199.23155310621954
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.641347186584443,
+    "population_size": 50
+  },
+  {
+    "generation": 426,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7014663814907658,
+      "energy_ceiling": 199.22981379559752
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7227715168535938,
+    "population_size": 51
+  },
+  {
+    "generation": 427,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7015996696772677,
+      "energy_ceiling": 199.23053641603772
+    },
+    "survival_rate": 1.16,
+    "avg_tau": 1.5635813624724837,
+    "population_size": 58
+  },
+  {
+    "generation": 428,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7019397953147317,
+      "energy_ceiling": 199.22889077443392
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6905784997824225,
+    "population_size": 52
+  },
+  {
+    "generation": 429,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7025125963427192,
+      "energy_ceiling": 199.2309856969905
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5379905307150394,
+    "population_size": 56
+  },
+  {
+    "generation": 430,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7025062061314709,
+      "energy_ceiling": 199.2279911272914
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6013483100809316,
+    "population_size": 54
+  },
+  {
+    "generation": 431,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7035447214774027,
+      "energy_ceiling": 199.22601601456222
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6009583135032952,
+    "population_size": 54
+  },
+  {
+    "generation": 432,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.703427954232685,
+      "energy_ceiling": 199.22536641310595
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6515088074518942,
+    "population_size": 53
+  },
+  {
+    "generation": 433,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7022556503535704,
+      "energy_ceiling": 199.2265177717953
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6928485146571677,
+    "population_size": 52
+  },
+  {
+    "generation": 434,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7020482955235308,
+      "energy_ceiling": 199.2277219946157
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5553731075693913,
+    "population_size": 54
+  },
+  {
+    "generation": 435,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7017665797298207,
+      "energy_ceiling": 199.2286857951541
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.5428979403050778,
+    "population_size": 57
+  },
+  {
+    "generation": 436,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7027779591139303,
+      "energy_ceiling": 199.22535321563862
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5616016056129038,
+    "population_size": 54
+  },
+  {
+    "generation": 437,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7024348665790203,
+      "energy_ceiling": 199.2254258940747
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6464330757573151,
+    "population_size": 52
+  },
+  {
+    "generation": 438,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7019012607850594,
+      "energy_ceiling": 199.2254513046672
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6501697832649032,
+    "population_size": 53
+  },
+  {
+    "generation": 439,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7019016528623496,
+      "energy_ceiling": 199.22669817420044
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5710989991611408,
+    "population_size": 53
+  },
+  {
+    "generation": 440,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7010093850268784,
+      "energy_ceiling": 199.23017235678037
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.7062621010479757,
+    "population_size": 50
+  },
+  {
+    "generation": 441,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7010227297378009,
+      "energy_ceiling": 199.22669912110229
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6882437847698373,
+    "population_size": 52
+  },
+  {
+    "generation": 442,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7015989621302199,
+      "energy_ceiling": 199.22663720899203
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6072537085592316,
+    "population_size": 54
+  },
+  {
+    "generation": 443,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7026050546337088,
+      "energy_ceiling": 199.22725348809277
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.566543837086861,
+    "population_size": 54
+  },
+  {
+    "generation": 444,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7022858658702174,
+      "energy_ceiling": 199.22764013928344
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.5872455168184338,
+    "population_size": 53
+  },
+  {
+    "generation": 445,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7020194567260218,
+      "energy_ceiling": 199.22738812535505
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.5138232704241166,
+    "population_size": 56
+  },
+  {
+    "generation": 446,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7023318816692905,
+      "energy_ceiling": 199.2254173128195
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.7460714806040811,
+    "population_size": 50
+  },
+  {
+    "generation": 447,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.701702034403456,
+      "energy_ceiling": 199.2277315815375
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6390498737975892,
+    "population_size": 53
+  },
+  {
+    "generation": 448,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7013906776929102,
+      "energy_ceiling": 199.2270144233837
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.659678430078336,
+    "population_size": 51
+  },
+  {
+    "generation": 449,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7010494644376069,
+      "energy_ceiling": 199.2292329810453
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.5087053394595595,
+    "population_size": 57
+  },
+  {
+    "generation": 450,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.700228064121333,
+      "energy_ceiling": 199.2258536829407
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6333028182861822,
+    "population_size": 53
+  },
+  {
+    "generation": 451,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7002371060540715,
+      "energy_ceiling": 199.2282203146466
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.503667833372369,
+    "population_size": 57
+  },
+  {
+    "generation": 452,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993159886118216,
+      "energy_ceiling": 199.2298062831819
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.51591134705474,
+    "population_size": 56
+  },
+  {
+    "generation": 453,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992748985559574,
+      "energy_ceiling": 199.23180965486364
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5405045263491326,
+    "population_size": 55
+  },
+  {
+    "generation": 454,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993610808959616,
+      "energy_ceiling": 199.23106068937722
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6148274178603517,
+    "population_size": 52
+  },
+  {
+    "generation": 455,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699601634838576,
+      "energy_ceiling": 199.22875462043945
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.67165303399449,
+    "population_size": 53
+  },
+  {
+    "generation": 456,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993074252614013,
+      "energy_ceiling": 199.22903115839546
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.6143172634823795,
+    "population_size": 54
+  },
+  {
+    "generation": 457,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992814371731884,
+      "energy_ceiling": 199.22988004255586
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.7010807574551265,
+    "population_size": 51
+  },
+  {
+    "generation": 458,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6988940351908572,
+      "energy_ceiling": 199.23305203830023
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.622207262928815,
+    "population_size": 53
+  },
+  {
+    "generation": 459,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.698808554885441,
+      "energy_ceiling": 199.22933083447018
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5856563119801106,
+    "population_size": 55
+  },
+  {
+    "generation": 460,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6985527631803632,
+      "energy_ceiling": 199.2318857510231
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6324076363572422,
+    "population_size": 53
+  },
+  {
+    "generation": 461,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6988961408739096,
+      "energy_ceiling": 199.23011317592074
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6648148069153479,
+    "population_size": 53
+  },
+  {
+    "generation": 462,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6994844363200554,
+      "energy_ceiling": 199.23031785832865
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5914881305318898,
+    "population_size": 54
+  },
+  {
+    "generation": 463,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.698444286402947,
+      "energy_ceiling": 199.22682207249574
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.7084822660903916,
+    "population_size": 52
+  },
+  {
+    "generation": 464,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6990276821557175,
+      "energy_ceiling": 199.2302678652461
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.4800717216675745,
+    "population_size": 56
+  },
+  {
+    "generation": 465,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6987065031833013,
+      "energy_ceiling": 199.23094507872145
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.610449861147066,
+    "population_size": 54
+  },
+  {
+    "generation": 466,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699842480975962,
+      "energy_ceiling": 199.23166657084926
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.644552632763923,
+    "population_size": 52
+  },
+  {
+    "generation": 467,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6996669577157928,
+      "energy_ceiling": 199.2310759137643
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5939931189176333,
+    "population_size": 54
+  },
+  {
+    "generation": 468,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7000158076651688,
+      "energy_ceiling": 199.23123232238783
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.703585547034916,
+    "population_size": 50
+  },
+  {
+    "generation": 469,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992671812867397,
+      "energy_ceiling": 199.230573090149
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6154968736353224,
+    "population_size": 53
+  },
+  {
+    "generation": 470,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699287314664093,
+      "energy_ceiling": 199.23008378113406
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.652334216029378,
+    "population_size": 53
+  },
+  {
+    "generation": 471,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699343005217016,
+      "energy_ceiling": 199.23509940302063
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.573273609103528,
+    "population_size": 52
+  },
+  {
+    "generation": 472,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6985102446261302,
+      "energy_ceiling": 199.2335014627185
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6334322441999107,
+    "population_size": 53
+  },
+  {
+    "generation": 473,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6987246034971926,
+      "energy_ceiling": 199.2333353164466
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6368941160951769,
+    "population_size": 53
+  },
+  {
+    "generation": 474,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993694705055027,
+      "energy_ceiling": 199.23614578480192
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.5907086032453348,
+    "population_size": 52
+  },
+  {
+    "generation": 475,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7001588640715846,
+      "energy_ceiling": 199.23102720632167
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6746999538249194,
+    "population_size": 52
+  },
+  {
+    "generation": 476,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7004187756482505,
+      "energy_ceiling": 199.23288448568945
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5877946869366828,
+    "population_size": 54
+  },
+  {
+    "generation": 477,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6999449962607327,
+      "energy_ceiling": 199.23096403712046
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5620309113900608,
+    "population_size": 54
+  },
+  {
+    "generation": 478,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7004179598545364,
+      "energy_ceiling": 199.22795563340836
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6962842309219497,
+    "population_size": 53
+  },
+  {
+    "generation": 479,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6998614408976986,
+      "energy_ceiling": 199.2306880700675
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.6327504376148179,
+    "population_size": 51
+  },
+  {
+    "generation": 480,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6997660031024502,
+      "energy_ceiling": 199.22833126306068
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6814030414683339,
+    "population_size": 53
+  },
+  {
+    "generation": 481,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6998796688105255,
+      "energy_ceiling": 199.23284213675456
+    },
+    "survival_rate": 1.14,
+    "avg_tau": 1.482871728372713,
+    "population_size": 57
+  },
+  {
+    "generation": 482,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699083272575049,
+      "energy_ceiling": 199.23330192307904
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6061930650244869,
+    "population_size": 53
+  },
+  {
+    "generation": 483,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6999032563550132,
+      "energy_ceiling": 199.2295557307711
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6677213442329153,
+    "population_size": 53
+  },
+  {
+    "generation": 484,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699602833542594,
+      "energy_ceiling": 199.23097615769393
+    },
+    "survival_rate": 1.02,
+    "avg_tau": 1.652925948841187,
+    "population_size": 51
+  },
+  {
+    "generation": 485,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6996618377493655,
+      "energy_ceiling": 199.2281505419245
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.658508700725532,
+    "population_size": 55
+  },
+  {
+    "generation": 486,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7001466938462788,
+      "energy_ceiling": 199.230863487732
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.5734086751447323,
+    "population_size": 52
+  },
+  {
+    "generation": 487,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699408054255269,
+      "energy_ceiling": 199.23080913895876
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6054448717398873,
+    "population_size": 53
+  },
+  {
+    "generation": 488,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.7001528847175393,
+      "energy_ceiling": 199.23034422506285
+    },
+    "survival_rate": 1.0,
+    "avg_tau": 1.716798931826804,
+    "population_size": 50
+  },
+  {
+    "generation": 489,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6998303243843553,
+      "energy_ceiling": 199.23048580255653
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5664493412011669,
+    "population_size": 54
+  },
+  {
+    "generation": 490,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6991816894327643,
+      "energy_ceiling": 199.23362922230083
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6160999620785634,
+    "population_size": 52
+  },
+  {
+    "generation": 491,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993766591337665,
+      "energy_ceiling": 199.2352023000707
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.5593359168070282,
+    "population_size": 55
+  },
+  {
+    "generation": 492,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.699343922249496,
+      "energy_ceiling": 199.2347940700636
+    },
+    "survival_rate": 1.08,
+    "avg_tau": 1.5782077349362258,
+    "population_size": 54
+  },
+  {
+    "generation": 493,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6984248109274196,
+      "energy_ceiling": 199.23389866305718
+    },
+    "survival_rate": 1.1,
+    "avg_tau": 1.576667058849901,
+    "population_size": 55
+  },
+  {
+    "generation": 494,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6986916390609756,
+      "energy_ceiling": 199.2288847967514
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.6373832605913652,
+    "population_size": 53
+  },
+  {
+    "generation": 495,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6992930631484895,
+      "energy_ceiling": 199.23158831707622
+    },
+    "survival_rate": 1.12,
+    "avg_tau": 1.533749000567179,
+    "population_size": 56
+  },
+  {
+    "generation": 496,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6993989266202862,
+      "energy_ceiling": 199.23222948536855
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6415795457698865,
+    "population_size": 52
+  },
+  {
+    "generation": 497,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6994974787778778,
+      "energy_ceiling": 199.23093453683165
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.6626912806026959,
+    "population_size": 52
+  },
+  {
+    "generation": 498,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.698957740748992,
+      "energy_ceiling": 199.23158508314845
+    },
+    "survival_rate": 1.06,
+    "avg_tau": 1.598975511227497,
+    "population_size": 53
+  },
+  {
+    "generation": 499,
+    "env": "A",
+    "Ms": {
+      "gamma": 0.5,
+      "module_count": 3.0,
+      "tau_budget": 1.6995743424830463,
+      "energy_ceiling": 199.23100257483355
+    },
+    "survival_rate": 1.04,
+    "avg_tau": 1.67958196502934,
+    "population_size": 52
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  },
+  {
+    "generation": 749,
+    "env": "B",
+    "Ms": {
+      "gamma": 0.3322786900151341,
+      "module_count": 3.0081112661451836,
+      "tau_budget": 0.2847818044301907,
+      "energy_ceiling": 67.69108862608313
+    },
+    "survival_rate": 0.0,
+    "avg_tau": 0.30000000000000004,
+    "population_size": 50
+  }
+]

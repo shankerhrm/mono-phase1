@@ -81,7 +81,7 @@ def test_predictive_shock():
     
     for cycle_num in range(200):
         cell.cycle_count = cycle_num
-        child, log = cycle(cell)
+        death_reason, log, child = cycle(cell, resource_intake=identity.E_i)
         
         # Check for scene switch
         if len(cell.predictive_modules) > 0 and scene_switch_cycle is None and cell.current_scene_module > 0:
@@ -94,7 +94,7 @@ def test_predictive_shock():
         if cycle_num in [44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]:
             print(f"Cycle {cycle_num}: S={cell.structure.size():.1f}, E={cell.energy.E:.1f}, τ_o={cell.get_tau_organism():.3f}, scene={cell.current_scene_module}, mode={log.get('maintenance_mode', 'N/A')}")
         
-        if log.get('death'):
+        if death_reason or log.get('death'):
             print(f"Death at cycle {cycle_num}: {log.get('death')}")
             print(f"Structure: {cell.structure.size()}, Energy: {cell.energy.E}")
             break
@@ -170,7 +170,7 @@ def test_reactive_shock():
     
     for cycle_num in range(200):
         cell.cycle_count = cycle_num
-        child, log = cycle(cell)
+        death_reason, log, child = cycle(cell)
         
         # Apply environmental shock
         apply_environmental_shock(cell, cycle_num)

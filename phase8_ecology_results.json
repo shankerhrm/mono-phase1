@@ -1,0 +1,482 @@
+[
+    {
+        "cycle": 0,
+        "population_size": 50,
+        "avg_prediction_horizon": 8.93887811119616,
+        "avg_module_count": 2.56,
+        "avg_gating_threshold": 0.5813561156080831,
+        "avg_tau": 0.6191845044667805
+    },
+    {
+        "cycle": 50,
+        "population_size": 398,
+        "avg_prediction_horizon": 8.904967692722845,
+        "avg_module_count": 2.4045226130653266,
+        "avg_gating_threshold": 0.5708997484192812,
+        "avg_tau": 1.239651950174924
+    },
+    {
+        "cycle": 100,
+        "population_size": 638,
+        "avg_prediction_horizon": 8.86797964373415,
+        "avg_module_count": 2.384012539184953,
+        "avg_gating_threshold": 0.5844820914844442,
+        "avg_tau": 1.732340908608351
+    },
+    {
+        "cycle": 150,
+        "population_size": 792,
+        "avg_prediction_horizon": 8.515472248803025,
+        "avg_module_count": 2.398989898989899,
+        "avg_gating_threshold": 0.6039363463733554,
+        "avg_tau": 2.0251155795719677
+    },
+    {
+        "cycle": 200,
+        "population_size": 873,
+        "avg_prediction_horizon": 8.266583285024316,
+        "avg_module_count": 2.3069873997709047,
+        "avg_gating_threshold": 0.6259307454387416,
+        "avg_tau": 2.1978041225309912
+    },
+    {
+        "cycle": 250,
+        "population_size": 940,
+        "avg_prediction_horizon": 7.805473956730109,
+        "avg_module_count": 2.1840425531914893,
+        "avg_gating_threshold": 0.6442617392978218,
+        "avg_tau": 2.305847974913966
+    },
+    {
+        "cycle": 300,
+        "population_size": 990,
+        "avg_prediction_horizon": 7.434689732554802,
+        "avg_module_count": 2.0717171717171716,
+        "avg_gating_threshold": 0.6528868967009236,
+        "avg_tau": 2.398689022888818
+    },
+    {
+        "cycle": 350,
+        "population_size": 1038,
+        "avg_prediction_horizon": 7.066271165404885,
+        "avg_module_count": 2.0597302504816954,
+        "avg_gating_threshold": 0.6956971842648215,
+        "avg_tau": 2.5144584946890673
+    },
+    {
+        "cycle": 400,
+        "population_size": 1056,
+        "avg_prediction_horizon": 6.821510919268393,
+        "avg_module_count": 2.059659090909091,
+        "avg_gating_threshold": 0.7348388185556275,
+        "avg_tau": 2.551415996476454
+    },
+    {
+        "cycle": 450,
+        "population_size": 1117,
+        "avg_prediction_horizon": 6.323064444979804,
+        "avg_module_count": 1.9704565801253358,
+        "avg_gating_threshold": 0.7777137930804704,
+        "avg_tau": 2.655738401378471
+    },
+    {
+        "cycle": 500,
+        "population_size": 1144,
+        "avg_prediction_horizon": 5.769281620387062,
+        "avg_module_count": 1.8496503496503496,
+        "avg_gating_threshold": 0.8193684232677136,
+        "avg_tau": 2.703419726006956
+    },
+    {
+        "cycle": 550,
+        "population_size": 1175,
+        "avg_prediction_horizon": 5.3028570713284875,
+        "avg_module_count": 1.6646808510638298,
+        "avg_gating_threshold": 0.8566750818208825,
+        "avg_tau": 2.7819467851251876
+    },
+    {
+        "cycle": 600,
+        "population_size": 1199,
+        "avg_prediction_horizon": 4.627951235666634,
+        "avg_module_count": 1.5179316096747288,
+        "avg_gating_threshold": 0.8607747194940988,
+        "avg_tau": 2.8568885430829334
+    },
+    {
+        "cycle": 650,
+        "population_size": 1251,
+        "avg_prediction_horizon": 4.212567519651835,
+        "avg_module_count": 1.4212629896083133,
+        "avg_gating_threshold": 0.8554119827810377,
+        "avg_tau": 2.9757322532770862
+    },
+    {
+        "cycle": 700,
+        "population_size": 1257,
+        "avg_prediction_horizon": 3.9550497394751454,
+        "avg_module_count": 1.3587907716785999,
+        "avg_gating_threshold": 0.833185019781178,
+        "avg_tau": 2.9397807358112567
+    },
+    {
+        "cycle": 750,
+        "population_size": 1265,
+        "avg_prediction_horizon": 3.539412816814575,
+        "avg_module_count": 1.298814229249012,
+        "avg_gating_threshold": 0.829001385857569,
+        "avg_tau": 2.9528715033302206
+    },
+    {
+        "cycle": 800,
+        "population_size": 1289,
+        "avg_prediction_horizon": 3.4353068163466456,
+        "avg_module_count": 1.2071373157486422,
+        "avg_gating_threshold": 0.8448232719772226,
+        "avg_tau": 2.9947568076344973
+    },
+    {
+        "cycle": 850,
+        "population_size": 1293,
+        "avg_prediction_horizon": 3.3295096861355904,
+        "avg_module_count": 1.088167053364269,
+        "avg_gating_threshold": 0.8577549741073862,
+        "avg_tau": 2.987517072415443
+    },
+    {
+        "cycle": 900,
+        "population_size": 1277,
+        "avg_prediction_horizon": 3.4736230242431554,
+        "avg_module_count": 1.024275646045419,
+        "avg_gating_threshold": 0.8849406647645707,
+        "avg_tau": 2.974166092608071
+    },
+    {
+        "cycle": 950,
+        "population_size": 1251,
+        "avg_prediction_horizon": 3.5932162968829346,
+        "avg_module_count": 1.003197442046363,
+        "avg_gating_threshold": 0.9034323439506194,
+        "avg_tau": 2.9248186051968537
+    },
+    {
+        "cycle": 1000,
+        "population_size": 1283,
+        "avg_prediction_horizon": 3.830093084414447,
+        "avg_module_count": 0.9586905689789555,
+        "avg_gating_threshold": 0.9400743822372605,
+        "avg_tau": 3.007311468782418
+    },
+    {
+        "cycle": 1050,
+        "population_size": 1302,
+        "avg_prediction_horizon": 4.011270770286219,
+        "avg_module_count": 0.9086021505376344,
+        "avg_gating_threshold": 0.9743436139784004,
+        "avg_tau": 3.0490745964341506
+    },
+    {
+        "cycle": 1100,
+        "population_size": 1316,
+        "avg_prediction_horizon": 4.094113830441606,
+        "avg_module_count": 0.912613981762918,
+        "avg_gating_threshold": 0.9990549519221834,
+        "avg_tau": 3.072825051942031
+    },
+    {
+        "cycle": 1150,
+        "population_size": 1280,
+        "avg_prediction_horizon": 4.021116089431787,
+        "avg_module_count": 0.925,
+        "avg_gating_threshold": 0.9978441172548524,
+        "avg_tau": 2.9820374555865454
+    },
+    {
+        "cycle": 1200,
+        "population_size": 1274,
+        "avg_prediction_horizon": 3.872438472757762,
+        "avg_module_count": 0.9756671899529042,
+        "avg_gating_threshold": 0.9988097517282365,
+        "avg_tau": 2.95734429047444
+    },
+    {
+        "cycle": 1250,
+        "population_size": 1278,
+        "avg_prediction_horizon": 3.7669597077593147,
+        "avg_module_count": 0.9820031298904538,
+        "avg_gating_threshold": 0.9781685280808393,
+        "avg_tau": 2.9976059131375665
+    },
+    {
+        "cycle": 1300,
+        "population_size": 1293,
+        "avg_prediction_horizon": 3.743827820592436,
+        "avg_module_count": 0.9636504253673627,
+        "avg_gating_threshold": 0.9761304275158735,
+        "avg_tau": 3.022471849476237
+    },
+    {
+        "cycle": 1350,
+        "population_size": 1275,
+        "avg_prediction_horizon": 3.7809776018876238,
+        "avg_module_count": 0.8572549019607844,
+        "avg_gating_threshold": 0.9987985058265348,
+        "avg_tau": 2.9839594705625494
+    },
+    {
+        "cycle": 1400,
+        "population_size": 1269,
+        "avg_prediction_horizon": 3.646367248443467,
+        "avg_module_count": 0.7738376674546887,
+        "avg_gating_threshold": 0.9925148761349489,
+        "avg_tau": 3.0144913469557038
+    },
+    {
+        "cycle": 1450,
+        "population_size": 1265,
+        "avg_prediction_horizon": 3.6996543144713336,
+        "avg_module_count": 0.7565217391304347,
+        "avg_gating_threshold": 0.983170512035257,
+        "avg_tau": 2.980556936154549
+    },
+    {
+        "cycle": 1500,
+        "population_size": 1283,
+        "avg_prediction_horizon": 3.8040380389857344,
+        "avg_module_count": 0.7505845674201091,
+        "avg_gating_threshold": 0.9505599751635422,
+        "avg_tau": 2.9692069683406115
+    },
+    {
+        "cycle": 1550,
+        "population_size": 1309,
+        "avg_prediction_horizon": 3.9136106950919904,
+        "avg_module_count": 0.760122230710466,
+        "avg_gating_threshold": 0.9239983238937778,
+        "avg_tau": 3.0554570729274233
+    },
+    {
+        "cycle": 1600,
+        "population_size": 1303,
+        "avg_prediction_horizon": 3.92891851746705,
+        "avg_module_count": 0.7912509593246354,
+        "avg_gating_threshold": 0.9155243727575713,
+        "avg_tau": 3.02186328956219
+    },
+    {
+        "cycle": 1650,
+        "population_size": 1279,
+        "avg_prediction_horizon": 3.9384786533802263,
+        "avg_module_count": 0.8522283033620016,
+        "avg_gating_threshold": 0.9092530256501153,
+        "avg_tau": 2.9639774315024527
+    },
+    {
+        "cycle": 1700,
+        "population_size": 1304,
+        "avg_prediction_horizon": 3.896083319797014,
+        "avg_module_count": 0.8320552147239264,
+        "avg_gating_threshold": 0.9059594697841892,
+        "avg_tau": 3.0238877302913214
+    },
+    {
+        "cycle": 1750,
+        "population_size": 1297,
+        "avg_prediction_horizon": 3.8381536119997155,
+        "avg_module_count": 0.8049344641480339,
+        "avg_gating_threshold": 0.8753069295973811,
+        "avg_tau": 2.9890012194779643
+    },
+    {
+        "cycle": 1800,
+        "population_size": 1277,
+        "avg_prediction_horizon": 3.7837391580755995,
+        "avg_module_count": 0.7611589663273297,
+        "avg_gating_threshold": 0.8543420144279992,
+        "avg_tau": 2.9597389084432577
+    },
+    {
+        "cycle": 1850,
+        "population_size": 1294,
+        "avg_prediction_horizon": 3.7345219618724808,
+        "avg_module_count": 0.7357032457496137,
+        "avg_gating_threshold": 0.8427812063060054,
+        "avg_tau": 2.9976247455094542
+    },
+    {
+        "cycle": 1900,
+        "population_size": 1294,
+        "avg_prediction_horizon": 3.6930844145467603,
+        "avg_module_count": 0.731839258114374,
+        "avg_gating_threshold": 0.8254131457460803,
+        "avg_tau": 3.0076871014319546
+    },
+    {
+        "cycle": 1950,
+        "population_size": 1288,
+        "avg_prediction_horizon": 3.6662879285249295,
+        "avg_module_count": 0.7282608695652174,
+        "avg_gating_threshold": 0.8483315910228952,
+        "avg_tau": 3.0059755182614243
+    },
+    {
+        "cycle": 2000,
+        "population_size": 1279,
+        "avg_prediction_horizon": 3.681533861090508,
+        "avg_module_count": 0.7310398749022674,
+        "avg_gating_threshold": 0.8895312341102006,
+        "avg_tau": 2.993506435364083
+    },
+    {
+        "cycle": 2050,
+        "population_size": 1283,
+        "avg_prediction_horizon": 3.7270082473736537,
+        "avg_module_count": 0.7864380358534684,
+        "avg_gating_threshold": 0.9309891945364368,
+        "avg_tau": 2.9742966855707555
+    },
+    {
+        "cycle": 2100,
+        "population_size": 1259,
+        "avg_prediction_horizon": 3.797355205007591,
+        "avg_module_count": 0.8459094519459889,
+        "avg_gating_threshold": 1.032593220361491,
+        "avg_tau": 2.918471727254871
+    },
+    {
+        "cycle": 2150,
+        "population_size": 1262,
+        "avg_prediction_horizon": 3.8667180810819297,
+        "avg_module_count": 0.9215530903328051,
+        "avg_gating_threshold": 1.1059359692811868,
+        "avg_tau": 2.9265285384763886
+    },
+    {
+        "cycle": 2200,
+        "population_size": 1263,
+        "avg_prediction_horizon": 3.9235605873714987,
+        "avg_module_count": 0.9904988123515439,
+        "avg_gating_threshold": 1.1597562146532134,
+        "avg_tau": 2.928143625372823
+    },
+    {
+        "cycle": 2250,
+        "population_size": 1277,
+        "avg_prediction_horizon": 3.924034399356985,
+        "avg_module_count": 1.101018010963195,
+        "avg_gating_threshold": 1.204082704526017,
+        "avg_tau": 2.9555958632735284
+    },
+    {
+        "cycle": 2300,
+        "population_size": 1252,
+        "avg_prediction_horizon": 3.88913941171322,
+        "avg_module_count": 1.1621405750798721,
+        "avg_gating_threshold": 1.2067767241482843,
+        "avg_tau": 2.9173664307714993
+    },
+    {
+        "cycle": 2350,
+        "population_size": 1292,
+        "avg_prediction_horizon": 3.9059093056871124,
+        "avg_module_count": 1.160216718266254,
+        "avg_gating_threshold": 1.2525580987667344,
+        "avg_tau": 2.9784898129018305
+    },
+    {
+        "cycle": 2400,
+        "population_size": 1318,
+        "avg_prediction_horizon": 3.926228998613356,
+        "avg_module_count": 1.1282245827010622,
+        "avg_gating_threshold": 1.2875495100822425,
+        "avg_tau": 3.032114951987196
+    },
+    {
+        "cycle": 2450,
+        "population_size": 1296,
+        "avg_prediction_horizon": 3.8778712029092857,
+        "avg_module_count": 1.121141975308642,
+        "avg_gating_threshold": 1.3137337401712392,
+        "avg_tau": 3.0085120385594872
+    },
+    {
+        "cycle": 2500,
+        "population_size": 1275,
+        "avg_prediction_horizon": 3.8989998377860458,
+        "avg_module_count": 1.1466666666666667,
+        "avg_gating_threshold": 1.347722601052165,
+        "avg_tau": 2.9862561046289744
+    },
+    {
+        "cycle": 2550,
+        "population_size": 1284,
+        "avg_prediction_horizon": 3.9467778134089997,
+        "avg_module_count": 1.1604361370716512,
+        "avg_gating_threshold": 1.3796266013081295,
+        "avg_tau": 2.997162836602694
+    },
+    {
+        "cycle": 2600,
+        "population_size": 1289,
+        "avg_prediction_horizon": 3.972326969229563,
+        "avg_module_count": 1.1148176881303336,
+        "avg_gating_threshold": 1.3750115035875623,
+        "avg_tau": 2.9883914275332613
+    },
+    {
+        "cycle": 2650,
+        "population_size": 1302,
+        "avg_prediction_horizon": 4.016699680891841,
+        "avg_module_count": 1.056067588325653,
+        "avg_gating_threshold": 1.3642466845757573,
+        "avg_tau": 3.0207306040104216
+    },
+    {
+        "cycle": 2700,
+        "population_size": 1317,
+        "avg_prediction_horizon": 3.963293229795397,
+        "avg_module_count": 0.9916476841305999,
+        "avg_gating_threshold": 1.340277541274888,
+        "avg_tau": 3.0522222236741707
+    },
+    {
+        "cycle": 2750,
+        "population_size": 1296,
+        "avg_prediction_horizon": 3.8709248026038154,
+        "avg_module_count": 0.9182098765432098,
+        "avg_gating_threshold": 1.3044312311546102,
+        "avg_tau": 3.0187702082625956
+    },
+    {
+        "cycle": 2800,
+        "population_size": 1313,
+        "avg_prediction_horizon": 3.6980519016962843,
+        "avg_module_count": 0.8651942117288652,
+        "avg_gating_threshold": 1.2771729885092238,
+        "avg_tau": 3.050128052122255
+    },
+    {
+        "cycle": 2850,
+        "population_size": 1325,
+        "avg_prediction_horizon": 3.557299389547429,
+        "avg_module_count": 0.840754716981132,
+        "avg_gating_threshold": 1.2513187412791171,
+        "avg_tau": 3.0779964257375023
+    },
+    {
+        "cycle": 2900,
+        "population_size": 1343,
+        "avg_prediction_horizon": 3.473972324987775,
+        "avg_module_count": 0.8131049888309755,
+        "avg_gating_threshold": 1.2411775503627778,
+        "avg_tau": 3.1189396265173794
+    },
+    {
+        "cycle": 2950,
+        "population_size": 1312,
+        "avg_prediction_horizon": 3.410277673270274,
+        "avg_module_count": 0.8277439024390244,
+        "avg_gating_threshold": 1.2403454941367118,
+        "avg_tau": 3.0117101941685225
+    }
+]

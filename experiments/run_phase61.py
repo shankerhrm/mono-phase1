@@ -65,8 +65,8 @@ def test_empty():
     cycles_survived = 0
     for cycle_num in range(200):
         cell.cycle_count = cycle_num
-        child, log = cycle(cell)
-        if child or log.get('death'):
+        death_reason, log, child = cycle(cell)
+        if child or death_reason or log.get('death'):
             break
         if cycle_num < 5:
             print(f"Cycle {cycle_num}: tau_organism {cell.get_tau_organism():.3f}, structure {cell.structure.size():.3f}")
@@ -133,8 +133,8 @@ def test_delay():
         if cycle_num < 3:
             print("TAU_COORD:", cell.tau_coord, "TAU_ORGANISM:", cell.get_tau_organism(), "STRUCTURE:", cell.structure.size())
         cell.cycle_count = cycle_num
-        child, log = cycle(cell)
-        if child or log.get('death'):
+        death_reason, log, child = cycle(cell)
+        if child or death_reason or log.get('death'):
             break
         cycles_survived += 1
     print(f"Cycles survived: {cycles_survived}")
@@ -192,15 +192,14 @@ def test_damage():
     cycles_survived = 0
     for cycle_num in range(200):
         cell.cycle_count = cycle_num
-        child, log = cycle(cell)
-        if child or log.get('death'):
+        death_reason, log, child = cycle(cell)
+        if child or death_reason or log.get('death'):
             break
         if cycle_num < 5:
             print(f"Cycle {cycle_num}: tau_organism {cell.get_tau_organism():.3f}, structure {cell.structure.size():.3f}")
-        # Apply slow damage
+        cycles_survived += 1
         if cycle_num >= 0:  # Start immediately
             cell.structure._size = max(0, cell.structure._size - 0.05)
-        cycles_survived += 1
     print(f"Cycles survived: {cycles_survived}")
 
 def test_predictive():
@@ -261,7 +260,7 @@ def test_predictive():
     cycles_survived = 0
     for cycle_num in range(200):
         cell.cycle_count = cycle_num
-        child, log = cycle(cell)
+        death_reason, log, child = cycle(cell)
         if log.get('death'):
             print(f"Death at cycle {cycle_num}: {log.get('death')}")
             print(f"Structure: {cell.structure.size()}, Energy: {cell.energy.E}")
@@ -331,7 +330,7 @@ def test_reactive():
     cycles_survived = 0
     for cycle_num in range(200):
         cell.cycle_count = cycle_num
-        child, log = cycle(cell)
+        death_reason, log, child = cycle(cell)
         if log.get('death'):
             print(f"Death at cycle {cycle_num}: {log.get('death')}")
             print(f"Structure: {cell.structure.size()}, Energy: {cell.energy.E}")

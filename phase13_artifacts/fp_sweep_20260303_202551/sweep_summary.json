@@ -1,0 +1,416 @@
+{
+  "0.6": {
+    "omega_mean": 0.09156,
+    "omega_std": 0.05649,
+    "fp_mean": 0.75,
+    "convergence_mean": 0.9222,
+    "bottleneck_mean": 2.6,
+    "results": [
+      {
+        "seed": 1,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.055968,
+        "final_omega_std": 0.019459,
+        "convergence_ratio": 0.8996,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 2,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.149597,
+        "final_omega_std": 0.017497,
+        "convergence_ratio": 0.9097,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 3,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.022284,
+        "final_omega_std": 0.007983,
+        "convergence_ratio": 0.9588,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 4,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.081547,
+        "final_omega_std": 0.018785,
+        "convergence_ratio": 0.903,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 5,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.148393,
+        "final_omega_std": 0.011658,
+        "convergence_ratio": 0.9398,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      }
+    ]
+  },
+  "0.61": {
+    "omega_mean": 0.09156,
+    "omega_std": 0.05649,
+    "fp_mean": 0.75,
+    "convergence_mean": 0.9222,
+    "bottleneck_mean": 2.6,
+    "results": [
+      {
+        "seed": 1,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.055968,
+        "final_omega_std": 0.019459,
+        "convergence_ratio": 0.8996,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 2,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.149597,
+        "final_omega_std": 0.017497,
+        "convergence_ratio": 0.9097,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 3,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.022284,
+        "final_omega_std": 0.007983,
+        "convergence_ratio": 0.9588,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 4,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.081547,
+        "final_omega_std": 0.018785,
+        "convergence_ratio": 0.903,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 5,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.148393,
+        "final_omega_std": 0.011658,
+        "convergence_ratio": 0.9398,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      }
+    ]
+  },
+  "0.62": {
+    "omega_mean": 0.09156,
+    "omega_std": 0.05649,
+    "fp_mean": 0.75,
+    "convergence_mean": 0.9222,
+    "bottleneck_mean": 2.6,
+    "results": [
+      {
+        "seed": 1,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.055968,
+        "final_omega_std": 0.019459,
+        "convergence_ratio": 0.8996,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 2,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.149597,
+        "final_omega_std": 0.017497,
+        "convergence_ratio": 0.9097,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 3,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.022284,
+        "final_omega_std": 0.007983,
+        "convergence_ratio": 0.9588,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 4,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.081547,
+        "final_omega_std": 0.018785,
+        "convergence_ratio": 0.903,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 5,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.148393,
+        "final_omega_std": 0.011658,
+        "convergence_ratio": 0.9398,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      }
+    ]
+  },
+  "0.63": {
+    "omega_mean": 0.09156,
+    "omega_std": 0.05649,
+    "fp_mean": 0.75,
+    "convergence_mean": 0.9222,
+    "bottleneck_mean": 2.6,
+    "results": [
+      {
+        "seed": 1,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.055968,
+        "final_omega_std": 0.019459,
+        "convergence_ratio": 0.8996,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 2,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.149597,
+        "final_omega_std": 0.017497,
+        "convergence_ratio": 0.9097,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 3,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.022284,
+        "final_omega_std": 0.007983,
+        "convergence_ratio": 0.9588,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 4,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.081547,
+        "final_omega_std": 0.018785,
+        "convergence_ratio": 0.903,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 5,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.148393,
+        "final_omega_std": 0.011658,
+        "convergence_ratio": 0.9398,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      }
+    ]
+  },
+  "0.64": {
+    "omega_mean": 0.09156,
+    "omega_std": 0.05649,
+    "fp_mean": 0.75,
+    "convergence_mean": 0.9222,
+    "bottleneck_mean": 2.6,
+    "results": [
+      {
+        "seed": 1,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.055968,
+        "final_omega_std": 0.019459,
+        "convergence_ratio": 0.8996,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 2,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.149597,
+        "final_omega_std": 0.017497,
+        "convergence_ratio": 0.9097,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 3,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.022284,
+        "final_omega_std": 0.007983,
+        "convergence_ratio": 0.9588,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 4,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.081547,
+        "final_omega_std": 0.018785,
+        "convergence_ratio": 0.903,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 5,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.148393,
+        "final_omega_std": 0.011658,
+        "convergence_ratio": 0.9398,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      }
+    ]
+  },
+  "0.65": {
+    "omega_mean": 0.09156,
+    "omega_std": 0.05649,
+    "fp_mean": 0.75,
+    "convergence_mean": 0.9222,
+    "bottleneck_mean": 2.6,
+    "results": [
+      {
+        "seed": 1,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.055968,
+        "final_omega_std": 0.019459,
+        "convergence_ratio": 0.8996,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 2,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.149597,
+        "final_omega_std": 0.017497,
+        "convergence_ratio": 0.9097,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 3,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 2,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.022284,
+        "final_omega_std": 0.007983,
+        "convergence_ratio": 0.9588,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 4,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.081547,
+        "final_omega_std": 0.018785,
+        "convergence_ratio": 0.903,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      },
+      {
+        "seed": 5,
+        "period": 80,
+        "total_gens": 300,
+        "bottleneck_depth": 3,
+        "false_positive_rate": 0.75,
+        "final_omega_mean": 0.148393,
+        "final_omega_std": 0.011658,
+        "convergence_ratio": 0.9398,
+        "final_ms_gamma": 0.5,
+        "lock_broken": false
+      }
+    ]
+  }
+}

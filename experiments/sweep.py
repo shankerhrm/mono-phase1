@@ -33,7 +33,24 @@ base_params = {
     'S_critical': 5, 'E_maintenance_min': 20, 'repair_efficiency': 0.5,
     'E_repro': 150, 'S_repro': 8, 'r': 0.4, 'C_divide': 20,
     'epsilon_E': 5, 'epsilon_S': 1, 'stability_window': 10,
-    'child_survival_cycles': 10, 'birth_stress_cycles': 5
+    'child_survival_cycles': 10, 'birth_stress_cycles': 5,
+    'regulator_alpha': 0.1, 'regulator_beta': 0.05, 'regulator_gamma': 0.5, 'regulator_mutation_rate': 0.01,
+    'alpha_O': 1000.0,
+    'tau_max': 1000,
+    'k_coord': 0.1,
+    'tau_sense': 0.1,
+    'tau_signal': 0.1,
+    'tau_act': 0.1,
+    'latency_drift_rate': 0.01,
+    'size_penalty_factor': 0.1,
+    'prediction_horizon': 5.0,
+    'number_of_predictive_modules': 0,
+    'arbitration_delay': 1.0,
+    'module_horizon_adapt_rate': 0.1,
+    'global_integrator_capacity': 10.0,
+    'arbitration_mechanism': 'temporal_sequencing',
+    'scene_change_threshold': 50.0,
+    'scene_min_duration': 5
 }
 
 results = []
@@ -53,7 +70,7 @@ for decay in decay_rates:
                 cell = MonoCell(identity)
                 logs = []
                 for t in range(1000):
-                    child, log_entry = cycle(cell)
+                    death_reason, log_entry, child = cycle(cell)
                     logs.append(log_entry)
                     if cell.energy.E <= 0 or cell.structure.size() <= 0:
                         break

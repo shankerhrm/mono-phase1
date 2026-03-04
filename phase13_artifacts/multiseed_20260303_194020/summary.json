@@ -1,0 +1,10 @@
+{
+  "timestamp": "20260303_194020",
+  "total_seeds": 3,
+  "period": 80,
+  "target_pop": 80,
+  "omega_mean_aggregate": 0.146054,
+  "omega_std_aggregate": 0.061498,
+  "fp_rate_mean": 0.6667,
+  "bottleneck_mean": 3.33
+}

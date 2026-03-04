@@ -78,3 +78,13 @@ class CoreIdentity:
     scene_min_duration: int            # minimum cycles per scene
 
     kappa_pred: float = 0.0           # predictive confidence weight
+
+    # Phase-7 Cognitive Evolution Parameters
+    cog_mutation_rate: float = 0.05    # Probability/variance for mutating continuous cognitive traits
+    structural_mutation_rate: float = 0.01  # Probability of structural mutation (add/remove module)
+    base_gating_threshold: float = 0.5 # Default Γ threshold for engaging cognition
+    base_arbitration_frequency: int = 1 # Default $f_{arb}$ (how often arbitration runs)
+
+    # Phase-16: Evolvable Stress Phenotypes
+    alpha: float = 0.2  # stress sensitivity (load accumulation rate)
+    beta: float = 0.3   # repair efficiency (load decay rate)

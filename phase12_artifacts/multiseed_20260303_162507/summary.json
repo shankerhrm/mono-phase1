@@ -1,0 +1,43 @@
+{
+  "timestamp": "20260303_162507",
+  "total_seeds": 25,
+  "total_scenarios": 5,
+  "total_runs": 125,
+  "scenarios": {
+    "sharp_{'flip_gen': 300}": {
+      "fp_rate_mean": 0.0,
+      "fp_rate_max": 0.0,
+      "lock_broken_pct": 1.0,
+      "final_gamma_mean": 0.2442,
+      "final_gamma_std": 0.0053
+    },
+    "sharp_{'flip_gen': 500}": {
+      "fp_rate_mean": 0.0,
+      "fp_rate_max": 0.0,
+      "lock_broken_pct": 1.0,
+      "final_gamma_mean": 0.2448,
+      "final_gamma_std": 0.0056
+    },
+    "sharp_{'flip_gen': 600}": {
+      "fp_rate_mean": 0.0,
+      "fp_rate_max": 0.0,
+      "lock_broken_pct": 1.0,
+      "final_gamma_mean": 0.2447,
+      "final_gamma_std": 0.0049
+    },
+    "gradual_{'flip_gen': 500, 'width': 50}": {
+      "fp_rate_mean": 0.0,
+      "fp_rate_max": 0.0,
+      "lock_broken_pct": 1.0,
+      "final_gamma_mean": 0.2471,
+      "final_gamma_std": 0.0062
+    },
+    "oscillatory_{'period': 150}": {
+      "fp_rate_mean": 0.6667,
+      "fp_rate_max": 0.6667,
+      "lock_broken_pct": 0.0,
+      "final_gamma_mean": 0.5,
+      "final_gamma_std": 0.0001
+    }
+  }
+}

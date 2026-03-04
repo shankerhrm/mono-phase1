@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "generations_a": 500,
+  "generations_b": 250,
+  "grad_e_at_flip": -20.02659520571791,
+  "first_deviation_gen": 1,
+  "first_alert_gen": 284,
+  "first_panic_gen": 502,
+  "false_positive_rate": 0.432,
+  "final_state": "ALERT",
+  "final_ms_gamma": 0.2593021347990496,
+  "return_to_calm": false,
+  "total_transitions": 3
+}
