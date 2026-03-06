@@ -1,0 +1,38 @@
+gen=   0 pop=  100 env=  0.718 avgE=   94.3 repros=  0 rest%=   2 reasons={'immature': 100}
+gen=   1 pop=  100 env=  0.622 avgE=  109.3 repros=  0 rest%=  14 reasons={'immature': 100}
+gen=   2 pop=  100 env=  0.935 avgE=  134.2 repros=  0 rest%=  36 reasons={'immature': 100}
+gen=   3 pop=  100 env=  1.120 avgE=  159.3 repros=  0 rest%=  44 reasons={'immature': 100}
+gen=   4 pop=  159 env=  0.980 avgE=  158.8 repros= 59 rest%=  43 reasons={'mode_blocked': 41, 'eligible': 59}
+gen=   5 pop=  125 env=  1.216 avgE=  123.3 repros= 14 rest%=  38 reasons={'eligible': 14, 'cooldown': 59, 'mode_blocked': 27, 'immature': 9}
+gen=   6 pop=  110 env=  1.271 avgE=  164.9 repros=  0 rest%=  46 reasons={'cooldown': 73, 'mode_blocked': 27, 'immature': 8}
+gen=   7 pop=  174 env=  0.978 avgE=  168.4 repros= 65 rest%=  43 reasons={'cooldown': 14, 'eligible': 65, 'mode_blocked': 21, 'immature': 8}
+gen=   8 pop=  118 env=  1.466 avgE=  128.2 repros=  9 rest%=  46 reasons={'eligible': 9, 'cooldown': 65, 'mode_blocked': 26, 'immature': 7}
+gen=   9 pop=  113 env=  1.241 avgE=  177.2 repros= 11 rest%=  40 reasons={'cooldown': 74, 'eligible': 11, 'mode_blocked': 15, 'immature': 1}
+gen=  10 pop=  160 env=  1.043 avgE=  162.8 repros= 58 rest%=  49 reasons={'cooldown': 20, 'eligible': 58, 'mode_blocked': 22, 'immature': 1}
+gen=  11 pop=  126 env=  1.336 avgE=  130.1 repros= 24 rest%=  47 reasons={'eligible': 24, 'cooldown': 69, 'mode_blocked': 7, 'immature': 1}
+gen=  12 pop=  111 env=  1.246 avgE=  162.8 repros= 10 rest%=  46 reasons={'cooldown': 82, 'mode_blocked': 8, 'eligible': 10}
+gen=  13 pop=  166 env=  1.060 avgE=  162.2 repros= 65 rest%=  54 reasons={'cooldown': 34, 'eligible': 65, 'mode_blocked': 1}
+gen=  14 pop=  122 env=  1.481 avgE=  125.4 repros= 22 rest%=  50 reasons={'eligible': 22, 'cooldown': 75, 'mode_blocked': 3}
+gen=  15 pop=  110 env=  1.229 avgE=  164.5 repros= 12 rest%=  44 reasons={'cooldown': 86, 'eligible': 12}
+gen=  16 pop=  155 env=  1.218 avgE=  159.0 repros= 61 rest%=  63 reasons={'cooldown': 31, 'eligible': 61, 'mode_blocked': 2}
+gen=  17 pop=  107 env=  1.179 avgE=  125.8 repros= 18 rest%=  39 reasons={'eligible': 18, 'cooldown': 70, 'mode_blocked': 1}
+gen=  18 pop=   95 env=  1.258 avgE=  168.3 repros=  9 rest%=  55 reasons={'cooldown': 76, 'mode_blocked': 1, 'eligible': 9}
+gen=  19 pop=  139 env=  1.062 avgE=  161.3 repros= 56 rest%=  53 reasons={'cooldown': 27, 'eligible': 56}
+gen=  20 pop=   82 env=  1.345 avgE=  125.8 repros=  9 rest%=  47 reasons={'cooldown': 64, 'eligible': 9}
+gen=  21 pop=   73 env=  1.241 avgE=  177.5 repros=  5 rest%=  52 reasons={'cooldown': 63, 'eligible': 5}
+gen=  22 pop=   77 env=  1.180 avgE=  159.9 repros= 32 rest%=  55 reasons={'eligible': 32, 'mode_blocked': 1, 'cooldown': 12}
+gen=  23 pop=   37 env=  1.260 avgE=  126.6 repros=  0 rest%=  43 reasons={'cooldown': 36, 'mode_blocked': 1}
+gen=  24 pop=   35 env=  1.242 avgE=  194.9 repros=  2 rest%=  65 reasons={'cooldown': 30, 'mode_blocked': 1, 'eligible': 2}
+gen=  25 pop=   32 env=  1.167 avgE=  160.9 repros= 15 rest%=  57 reasons={'eligible': 15, 'cooldown': 2}
+gen=  26 pop=   17 env=  1.108 avgE=  117.0 repros=  0 rest%=  28 reasons={'cooldown': 17}
+gen=  27 pop=   14 env=  1.118 avgE=  195.5 repros=  0 rest%=  59 reasons={'cooldown': 14}
+gen=  28 pop=   14 env=  1.065 avgE=  162.0 repros=  7 rest%=  43 reasons={'eligible': 7}
+gen=  29 pop=    7 env=  1.090 avgE=  108.6 repros=  0 rest%=  43 reasons={'cooldown': 7}
+gen=  30 pop=    6 env=  1.046 avgE=  200.0 repros=  0 rest%=  29 reasons={'cooldown': 6}
+gen=  31 pop=    2 env=  1.060 avgE=  162.0 repros=  1 rest%=  67 reasons={'eligible': 1}
+gen=  32 pop=    1 env=  1.088 avgE=  152.0 repros=  0 rest%= 100 reasons={'cooldown': 1}
+gen=  33 pop=    1 env=  1.063 avgE=  200.0 repros=  0 rest%=   0 reasons={'cooldown': 1}
+
+Final gen: 33
+Final pop: 0
+Peak pop: 174

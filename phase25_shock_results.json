@@ -1,0 +1,89 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "survived": 5,
+  "total_seeds": 5,
+  "shock_start": 400,
+  "shock_end": 700,
+  "shock_dep_mult": 8.0,
+  "verdict": "CASE 1 \u2014 REACTIVE HOMEOSTASIS (behavioral only, no evolution)",
+  "signals": [
+    "\u2714 Behavioral response to shock (restorers increased)",
+    "\u2718 No permanent genetic shift in strategy_trait (+0.0002)",
+    "\u2718 No permanent genetic shift in env_sensitivity (+0.0002)",
+    "\u2718 No selection sweep detected in variance (+0.0000)",
+    "\u2714 RESILIENCE BASIN: population returned to attractor (320 vs baseline 320)"
+  ],
+  "phase_averages": {
+    "baseline": {
+      "label": "Baseline",
+      "gens": "300-400",
+      "avg_pop": 320.102,
+      "avg_env": 1.3552042997090659,
+      "avg_prop_restoring": 0.5611187512252921,
+      "avg_strategy_trait": 0.49159781627853116,
+      "var_strategy_trait": 0.5000034617303338,
+      "avg_env_sensitivity": 0.5176326873389949,
+      "var_env_sensitivity": 0.2948673843683527,
+      "avg_p_restore": 0.5070052102591662,
+      "avg_lineage_diversity": 320.102
+    },
+    "early_stress": {
+      "label": "Early Stress",
+      "gens": "400-500",
+      "avg_pop": 319.8,
+      "avg_env": 0.1,
+      "avg_prop_restoring": 0.9245489683983696,
+      "avg_strategy_trait": 0.49176040926635556,
+      "var_strategy_trait": 0.4999970881019269,
+      "avg_env_sensitivity": 0.5178353751784056,
+      "var_env_sensitivity": 0.29488451481954947,
+      "avg_p_restore": 0.5070238752405526,
+      "avg_lineage_diversity": 319.8
+    },
+    "late_stress": {
+      "label": "Late Stress",
+      "gens": "600-700",
+      "avg_pop": 319.8,
+      "avg_env": 0.1,
+      "avg_prop_restoring": 0.9281458994727143,
+      "avg_strategy_trait": 0.49176040926635556,
+      "var_strategy_trait": 0.4999970881019269,
+      "avg_env_sensitivity": 0.5178353751784056,
+      "var_env_sensitivity": 0.29488451481954947,
+      "avg_p_restore": 0.5070238752405526,
+      "avg_lineage_diversity": 319.8
+    },
+    "early_recovery": {
+      "label": "Early Recovery",
+      "gens": "700-900",
+      "avg_pop": 319.8,
+      "avg_env": 1.3460887882173715,
+      "avg_prop_restoring": 0.5675534119088568,
+      "avg_strategy_trait": 0.49176040926635556,
+      "var_strategy_trait": 0.4999970881019269,
+      "avg_env_sensitivity": 0.5178353751784056,
+      "var_env_sensitivity": 0.29488451481954947,
+      "avg_p_restore": 0.5070238752405526,
+      "avg_lineage_diversity": 319.8
+    },
+    "late_recovery": {
+      "label": "Late Recovery",
+      "gens": "1200-1500",
+      "avg_pop": 319.8,
+      "avg_env": 1.356967509159218,
+      "avg_prop_restoring": 0.5614993633613761,
+      "avg_strategy_trait": 0.49176040926635556,
+      "var_strategy_trait": 0.4999970881019269,
+      "avg_env_sensitivity": 0.5178353751784056,
+      "var_env_sensitivity": 0.29488451481954947,
+      "avg_p_restore": 0.5070238752405526,
+      "avg_lineage_diversity": 319.8
+    }
+  }
+}

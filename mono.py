@@ -6,10 +6,20 @@ from phase13.oscillator import PhaseOscillator
 import itertools
 import math
 
+# Phase-17: Cultural Pool (global, survives deaths)
+cultural_pool = {
+    "hunting_technique": {
+        "value": 2.0,     # 100% energy bonus
+        "created_gen": 0,
+        "usage_count": 0
+    }
+}
+
 cell_id_counter = itertools.count(1)
 
 class MonoCell:
     def __init__(self, identity: CoreIdentity, structure: Structure = None, energy: Energy = None):
+        import math
         self.id = identity
         self.structure = structure or Structure(max(int(identity.initial_structure_size), 1))
         self.energy = energy or Energy(identity.initial_energy, identity)
@@ -24,6 +34,7 @@ class MonoCell:
         self.birth_cycle = 0
         # Reproduction eligibility
         self.reproduction_eligible = True
+        self.last_reproduction_gen = -999  # Phase-24: track last reproduction for cooldown
         # Birth stress
         self.birth_stress_remaining = 0
         # Regulator parameters (Phase-5, heritable)
@@ -72,6 +83,28 @@ class MonoCell:
         # internal_phase and omega are cell-level heritable traits.
         # Species Memory Ms remains blind to time (Ms has no omega field).
         self.oscillator = PhaseOscillator()
+
+        # Phase-17/18: Cultural Learning
+        self.learning_rate = self.id.learning_rate
+        self.teaching_efficiency = self.id.teaching_efficiency
+        self.artifact_x = None  # extraction artifact
+        self.artifact_r = None  # restoration artifact
+        self.p_restore = self.id.p_restore
+
+        # Phase-19: Internal Economy
+        self.food = 0.0
+        self.repair = 0.0
+        self.extraction_bonus = 1.0
+        self.restoration_bonus = 1.0
+        self.trade_propensity = self.id.trade_propensity
+
+        # Phase-21: Environmental Sensing
+        self.environment_sensitivity = self.id.environment_sensitivity
+
+        # Phase-20: Individual Learning
+        self.avg_extract_gain = 0.0
+        self.avg_restore_gain = 0.0
+        self.avg_trade_gain = 0.0
 
     def update_coordination_delay(self):
         """Update coordination delay based on current size and dynamic module count."""

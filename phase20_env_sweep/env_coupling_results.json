@@ -1,0 +1,202 @@
+[
+  {
+    "restore_mult": 2.0,
+    "seed": 0,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 2.0,
+    "seed": 1,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 2.0,
+    "seed": 2,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 2.0,
+    "seed": 3,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 2.0,
+    "seed": 4,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 2.0,
+    "seed": 5,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 2.0,
+    "seed": 6,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 2.0,
+    "seed": 7,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 2.0,
+    "seed": 8,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 2.0,
+    "seed": 9,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 0,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 1,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 2,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 3,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 4,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 5,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 6,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 7,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 8,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 9,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 4.0,
+    "seed": 0,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 4.0,
+    "seed": 1,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 4.0,
+    "seed": 2,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 4.0,
+    "seed": 3,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 4.0,
+    "seed": 4,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 4.0,
+    "seed": 5,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 4.0,
+    "seed": 6,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 4.0,
+    "seed": 7,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 4.0,
+    "seed": 8,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 4.0,
+    "seed": 9,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 5.0,
+    "seed": 0,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 5.0,
+    "seed": 1,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 5.0,
+    "seed": 2,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 5.0,
+    "seed": 3,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 5.0,
+    "seed": 4,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 5.0,
+    "seed": 5,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 5.0,
+    "seed": 6,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 5.0,
+    "seed": 7,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 5.0,
+    "seed": 8,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  },
+  {
+    "restore_mult": 5.0,
+    "seed": 9,
+    "error": "JSON decode error: Expecting value: line 1 column 1 (char 0), stdout len: 1"
+  }
+]

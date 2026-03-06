@@ -1,0 +1,4255 @@
+[
+  {
+    "restore_mult": 3.0,
+    "seed": 0,
+    "final_gen": 94,
+    "survived": false,
+    "peak_population": 254,
+    "repro_debug_data": [
+      {
+        "generation": 0,
+        "population": 200,
+        "reproduction_reasons": {
+          "eligible": 100
+        },
+        "eligible_count": 100,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 0,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 1,
+        "population": 254,
+        "reproduction_reasons": {
+          "eligible": 100,
+          "structure_low": 54
+        },
+        "eligible_count": 100,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 54,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 2,
+        "population": 152,
+        "reproduction_reasons": {
+          "mode_blocked": 100,
+          "structure_low": 52
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 100,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 52,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 3,
+        "population": 149,
+        "reproduction_reasons": {
+          "mode_blocked": 100,
+          "structure_low": 49
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 100,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 49,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 4,
+        "population": 149,
+        "reproduction_reasons": {
+          "mode_blocked": 100,
+          "structure_low": 49
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 100,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 49,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 5,
+        "population": 222,
+        "reproduction_reasons": {
+          "mode_blocked": 24,
+          "eligible": 76,
+          "structure_low": 46
+        },
+        "eligible_count": 76,
+        "mode_blocked_count": 24,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 46,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 6,
+        "population": 214,
+        "reproduction_reasons": {
+          "mode_blocked": 31,
+          "eligible": 69,
+          "structure_low": 45
+        },
+        "eligible_count": 69,
+        "mode_blocked_count": 31,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 45,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 7,
+        "population": 226,
+        "reproduction_reasons": {
+          "eligible": 86,
+          "mode_blocked": 14,
+          "structure_low": 40
+        },
+        "eligible_count": 86,
+        "mode_blocked_count": 14,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 40,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 8,
+        "population": 158,
+        "reproduction_reasons": {
+          "eligible": 19,
+          "mode_blocked": 81,
+          "structure_low": 39
+        },
+        "eligible_count": 19,
+        "mode_blocked_count": 81,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 39,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 9,
+        "population": 162,
+        "reproduction_reasons": {
+          "eligible": 26,
+          "mode_blocked": 74,
+          "structure_low": 36
+        },
+        "eligible_count": 26,
+        "mode_blocked_count": 74,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 36,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 10,
+        "population": 142,
+        "reproduction_reasons": {
+          "mode_blocked": 91,
+          "eligible": 9,
+          "structure_low": 33
+        },
+        "eligible_count": 9,
+        "mode_blocked_count": 91,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 33,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 11,
+        "population": 197,
+        "reproduction_reasons": {
+          "mode_blocked": 32,
+          "eligible": 67,
+          "structure_low": 31
+        },
+        "eligible_count": 67,
+        "mode_blocked_count": 32,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 31,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 12,
+        "population": 183,
+        "reproduction_reasons": {
+          "mode_blocked": 42,
+          "eligible": 54,
+          "structure_low": 33
+        },
+        "eligible_count": 54,
+        "mode_blocked_count": 42,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 33,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 13,
+        "population": 202,
+        "reproduction_reasons": {
+          "eligible": 73,
+          "structure_low": 38,
+          "mode_blocked": 18
+        },
+        "eligible_count": 73,
+        "mode_blocked_count": 18,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 38,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 14,
+        "population": 145,
+        "reproduction_reasons": {
+          "eligible": 19,
+          "structure_low": 64,
+          "mode_blocked": 43
+        },
+        "eligible_count": 19,
+        "mode_blocked_count": 43,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 64,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 15,
+        "population": 142,
+        "reproduction_reasons": {
+          "eligible": 21,
+          "structure_low": 69,
+          "mode_blocked": 31
+        },
+        "eligible_count": 21,
+        "mode_blocked_count": 31,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 69,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 16,
+        "population": 127,
+        "reproduction_reasons": {
+          "structure_low": 84,
+          "eligible": 8,
+          "mode_blocked": 27
+        },
+        "eligible_count": 8,
+        "mode_blocked_count": 27,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 84,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 17,
+        "population": 137,
+        "reproduction_reasons": {
+          "structure_low": 88,
+          "eligible": 24,
+          "mode_blocked": 1
+        },
+        "eligible_count": 24,
+        "mode_blocked_count": 1,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 88,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 18,
+        "population": 105,
+        "reproduction_reasons": {
+          "structure_low": 104,
+          "mode_blocked": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 1,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 104,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 19,
+        "population": 99,
+        "reproduction_reasons": {
+          "structure_low": 97,
+          "eligible": 1
+        },
+        "eligible_count": 1,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 97,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 20,
+        "population": 95,
+        "reproduction_reasons": {
+          "structure_low": 95
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 95,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 21,
+        "population": 89,
+        "reproduction_reasons": {
+          "structure_low": 89
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 89,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 22,
+        "population": 87,
+        "reproduction_reasons": {
+          "structure_low": 87
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 87,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 23,
+        "population": 84,
+        "reproduction_reasons": {
+          "structure_low": 84
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 84,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 24,
+        "population": 82,
+        "reproduction_reasons": {
+          "structure_low": 82
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 82,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 25,
+        "population": 75,
+        "reproduction_reasons": {
+          "structure_low": 75
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 75,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 26,
+        "population": 72,
+        "reproduction_reasons": {
+          "structure_low": 72
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 72,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 27,
+        "population": 65,
+        "reproduction_reasons": {
+          "structure_low": 65
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 65,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 28,
+        "population": 62,
+        "reproduction_reasons": {
+          "structure_low": 62
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 62,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 29,
+        "population": 60,
+        "reproduction_reasons": {
+          "structure_low": 60
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 60,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 30,
+        "population": 59,
+        "reproduction_reasons": {
+          "structure_low": 59
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 59,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 31,
+        "population": 56,
+        "reproduction_reasons": {
+          "structure_low": 56
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 56,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 32,
+        "population": 54,
+        "reproduction_reasons": {
+          "structure_low": 54
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 54,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 33,
+        "population": 51,
+        "reproduction_reasons": {
+          "structure_low": 51
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 51,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 34,
+        "population": 50,
+        "reproduction_reasons": {
+          "structure_low": 50
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 50,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 35,
+        "population": 49,
+        "reproduction_reasons": {
+          "structure_low": 49
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 49,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 36,
+        "population": 45,
+        "reproduction_reasons": {
+          "structure_low": 45
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 45,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 37,
+        "population": 44,
+        "reproduction_reasons": {
+          "structure_low": 44
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 44,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 38,
+        "population": 42,
+        "reproduction_reasons": {
+          "structure_low": 42
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 42,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 39,
+        "population": 40,
+        "reproduction_reasons": {
+          "structure_low": 40
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 40,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 40,
+        "population": 39,
+        "reproduction_reasons": {
+          "structure_low": 39
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 39,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 41,
+        "population": 35,
+        "reproduction_reasons": {
+          "structure_low": 35
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 35,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 42,
+        "population": 32,
+        "reproduction_reasons": {
+          "structure_low": 32
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 32,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 43,
+        "population": 32,
+        "reproduction_reasons": {
+          "structure_low": 32
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 32,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 44,
+        "population": 30,
+        "reproduction_reasons": {
+          "structure_low": 30
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 30,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 45,
+        "population": 28,
+        "reproduction_reasons": {
+          "structure_low": 28
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 28,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 46,
+        "population": 28,
+        "reproduction_reasons": {
+          "structure_low": 28
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 28,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 47,
+        "population": 25,
+        "reproduction_reasons": {
+          "structure_low": 25
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 25,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 48,
+        "population": 24,
+        "reproduction_reasons": {
+          "structure_low": 24
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 24,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 49,
+        "population": 22,
+        "reproduction_reasons": {
+          "structure_low": 22
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 22,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 50,
+        "population": 22,
+        "reproduction_reasons": {
+          "structure_low": 22
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 22,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 51,
+        "population": 19,
+        "reproduction_reasons": {
+          "structure_low": 19
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 19,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 52,
+        "population": 18,
+        "reproduction_reasons": {
+          "structure_low": 18
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 18,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 53,
+        "population": 17,
+        "reproduction_reasons": {
+          "structure_low": 17
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 17,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 54,
+        "population": 17,
+        "reproduction_reasons": {
+          "structure_low": 17
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 17,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 55,
+        "population": 17,
+        "reproduction_reasons": {
+          "structure_low": 17
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 17,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 56,
+        "population": 16,
+        "reproduction_reasons": {
+          "structure_low": 16
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 16,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 57,
+        "population": 15,
+        "reproduction_reasons": {
+          "structure_low": 15
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 15,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 58,
+        "population": 15,
+        "reproduction_reasons": {
+          "structure_low": 15
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 15,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 59,
+        "population": 14,
+        "reproduction_reasons": {
+          "structure_low": 14
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 14,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 60,
+        "population": 14,
+        "reproduction_reasons": {
+          "structure_low": 14
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 14,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 61,
+        "population": 14,
+        "reproduction_reasons": {
+          "structure_low": 14
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 14,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 62,
+        "population": 12,
+        "reproduction_reasons": {
+          "structure_low": 12
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 12,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 63,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 64,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 65,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 66,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 67,
+        "population": 8,
+        "reproduction_reasons": {
+          "structure_low": 8
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 8,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 68,
+        "population": 7,
+        "reproduction_reasons": {
+          "structure_low": 7
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 7,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 69,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 70,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 71,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 72,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 73,
+        "population": 5,
+        "reproduction_reasons": {
+          "structure_low": 5
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 5,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 74,
+        "population": 5,
+        "reproduction_reasons": {
+          "structure_low": 5
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 5,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 75,
+        "population": 4,
+        "reproduction_reasons": {
+          "structure_low": 4
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 4,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 76,
+        "population": 3,
+        "reproduction_reasons": {
+          "structure_low": 3
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 3,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 77,
+        "population": 2,
+        "reproduction_reasons": {
+          "structure_low": 2
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 2,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 78,
+        "population": 2,
+        "reproduction_reasons": {
+          "structure_low": 2
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 2,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 79,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 80,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 81,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 82,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 83,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 84,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 85,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 86,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 87,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 88,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 89,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 90,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 91,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 92,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 93,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 94,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      }
+    ]
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 1,
+    "final_gen": 99,
+    "survived": true,
+    "peak_population": 253,
+    "repro_debug_data": [
+      {
+        "generation": 0,
+        "population": 200,
+        "reproduction_reasons": {
+          "eligible": 100
+        },
+        "eligible_count": 100,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 0,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 1,
+        "population": 253,
+        "reproduction_reasons": {
+          "eligible": 100,
+          "structure_low": 36
+        },
+        "eligible_count": 100,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 36,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 2,
+        "population": 147,
+        "reproduction_reasons": {
+          "mode_blocked": 100,
+          "structure_low": 33
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 100,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 33,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 3,
+        "population": 142,
+        "reproduction_reasons": {
+          "mode_blocked": 100,
+          "structure_low": 32
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 100,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 32,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 4,
+        "population": 132,
+        "reproduction_reasons": {
+          "mode_blocked": 100,
+          "structure_low": 32
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 100,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 32,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 5,
+        "population": 214,
+        "reproduction_reasons": {
+          "eligible": 82,
+          "mode_blocked": 18,
+          "structure_low": 32
+        },
+        "eligible_count": 82,
+        "mode_blocked_count": 18,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 32,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 6,
+        "population": 211,
+        "reproduction_reasons": {
+          "eligible": 80,
+          "mode_blocked": 20,
+          "structure_low": 31
+        },
+        "eligible_count": 80,
+        "mode_blocked_count": 20,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 31,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 7,
+        "population": 219,
+        "reproduction_reasons": {
+          "eligible": 91,
+          "mode_blocked": 9,
+          "structure_low": 28
+        },
+        "eligible_count": 91,
+        "mode_blocked_count": 9,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 28,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 8,
+        "population": 140,
+        "reproduction_reasons": {
+          "mode_blocked": 88,
+          "eligible": 12,
+          "structure_low": 28
+        },
+        "eligible_count": 12,
+        "mode_blocked_count": 88,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 28,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 9,
+        "population": 144,
+        "reproduction_reasons": {
+          "mode_blocked": 82,
+          "eligible": 17,
+          "structure_low": 28
+        },
+        "eligible_count": 17,
+        "mode_blocked_count": 82,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 28,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 10,
+        "population": 131,
+        "reproduction_reasons": {
+          "mode_blocked": 93,
+          "eligible": 6,
+          "structure_low": 26
+        },
+        "eligible_count": 6,
+        "mode_blocked_count": 93,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 26,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 11,
+        "population": 198,
+        "reproduction_reasons": {
+          "eligible": 74,
+          "mode_blocked": 25,
+          "structure_low": 25
+        },
+        "eligible_count": 74,
+        "mode_blocked_count": 25,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 25,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 12,
+        "population": 186,
+        "reproduction_reasons": {
+          "eligible": 65,
+          "mode_blocked": 33,
+          "structure_low": 23
+        },
+        "eligible_count": 65,
+        "mode_blocked_count": 33,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 23,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 13,
+        "population": 199,
+        "reproduction_reasons": {
+          "eligible": 81,
+          "structure_low": 25,
+          "mode_blocked": 12
+        },
+        "eligible_count": 81,
+        "mode_blocked_count": 12,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 25,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 14,
+        "population": 132,
+        "reproduction_reasons": {
+          "mode_blocked": 45,
+          "eligible": 19,
+          "structure_low": 49
+        },
+        "eligible_count": 19,
+        "mode_blocked_count": 45,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 49,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 15,
+        "population": 130,
+        "reproduction_reasons": {
+          "mode_blocked": 36,
+          "eligible": 20,
+          "structure_low": 54
+        },
+        "eligible_count": 20,
+        "mode_blocked_count": 36,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 54,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 16,
+        "population": 112,
+        "reproduction_reasons": {
+          "mode_blocked": 34,
+          "structure_low": 70,
+          "eligible": 4
+        },
+        "eligible_count": 4,
+        "mode_blocked_count": 34,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 70,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 17,
+        "population": 135,
+        "reproduction_reasons": {
+          "eligible": 34,
+          "structure_low": 66,
+          "mode_blocked": 1
+        },
+        "eligible_count": 34,
+        "mode_blocked_count": 1,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 66,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 18,
+        "population": 92,
+        "reproduction_reasons": {
+          "structure_low": 91,
+          "mode_blocked": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 1,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 91,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 19,
+        "population": 87,
+        "reproduction_reasons": {
+          "structure_low": 85,
+          "eligible": 1
+        },
+        "eligible_count": 1,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 85,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 20,
+        "population": 83,
+        "reproduction_reasons": {
+          "structure_low": 83
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 83,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 21,
+        "population": 81,
+        "reproduction_reasons": {
+          "structure_low": 81
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 81,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 22,
+        "population": 79,
+        "reproduction_reasons": {
+          "structure_low": 79
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 79,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 23,
+        "population": 78,
+        "reproduction_reasons": {
+          "structure_low": 78
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 78,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 24,
+        "population": 74,
+        "reproduction_reasons": {
+          "structure_low": 74
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 74,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 25,
+        "population": 67,
+        "reproduction_reasons": {
+          "structure_low": 67
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 67,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 26,
+        "population": 63,
+        "reproduction_reasons": {
+          "structure_low": 63
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 63,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 27,
+        "population": 60,
+        "reproduction_reasons": {
+          "structure_low": 60
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 60,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 28,
+        "population": 60,
+        "reproduction_reasons": {
+          "structure_low": 60
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 60,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 29,
+        "population": 58,
+        "reproduction_reasons": {
+          "structure_low": 58
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 58,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 30,
+        "population": 55,
+        "reproduction_reasons": {
+          "structure_low": 55
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 55,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 31,
+        "population": 52,
+        "reproduction_reasons": {
+          "structure_low": 52
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 52,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 32,
+        "population": 46,
+        "reproduction_reasons": {
+          "structure_low": 46
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 46,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 33,
+        "population": 46,
+        "reproduction_reasons": {
+          "structure_low": 46
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 46,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 34,
+        "population": 45,
+        "reproduction_reasons": {
+          "structure_low": 45
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 45,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 35,
+        "population": 43,
+        "reproduction_reasons": {
+          "structure_low": 43
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 43,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 36,
+        "population": 38,
+        "reproduction_reasons": {
+          "structure_low": 38
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 38,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 37,
+        "population": 35,
+        "reproduction_reasons": {
+          "structure_low": 35
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 35,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 38,
+        "population": 33,
+        "reproduction_reasons": {
+          "structure_low": 33
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 33,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 39,
+        "population": 32,
+        "reproduction_reasons": {
+          "structure_low": 32
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 32,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 40,
+        "population": 31,
+        "reproduction_reasons": {
+          "structure_low": 31
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 31,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 41,
+        "population": 31,
+        "reproduction_reasons": {
+          "structure_low": 31
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 31,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 42,
+        "population": 29,
+        "reproduction_reasons": {
+          "structure_low": 29
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 29,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 43,
+        "population": 27,
+        "reproduction_reasons": {
+          "structure_low": 27
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 27,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 44,
+        "population": 25,
+        "reproduction_reasons": {
+          "structure_low": 25
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 25,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 45,
+        "population": 24,
+        "reproduction_reasons": {
+          "structure_low": 24
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 24,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 46,
+        "population": 23,
+        "reproduction_reasons": {
+          "structure_low": 23
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 23,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 47,
+        "population": 22,
+        "reproduction_reasons": {
+          "structure_low": 22
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 22,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 48,
+        "population": 21,
+        "reproduction_reasons": {
+          "structure_low": 21
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 21,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 49,
+        "population": 21,
+        "reproduction_reasons": {
+          "structure_low": 21
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 21,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 50,
+        "population": 20,
+        "reproduction_reasons": {
+          "structure_low": 20
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 20,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 51,
+        "population": 18,
+        "reproduction_reasons": {
+          "structure_low": 18
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 18,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 52,
+        "population": 18,
+        "reproduction_reasons": {
+          "structure_low": 18
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 18,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 53,
+        "population": 15,
+        "reproduction_reasons": {
+          "structure_low": 15
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 15,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 54,
+        "population": 14,
+        "reproduction_reasons": {
+          "structure_low": 14
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 14,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 55,
+        "population": 13,
+        "reproduction_reasons": {
+          "structure_low": 13
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 13,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 56,
+        "population": 13,
+        "reproduction_reasons": {
+          "structure_low": 13
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 13,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 57,
+        "population": 13,
+        "reproduction_reasons": {
+          "structure_low": 13
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 13,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 58,
+        "population": 13,
+        "reproduction_reasons": {
+          "structure_low": 13
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 13,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 59,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 60,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 61,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 62,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 63,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 64,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 65,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 66,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 67,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 68,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 69,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 70,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 71,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 72,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 73,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 74,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 75,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 76,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 77,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 78,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 79,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 80,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 81,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 82,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 83,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 84,
+        "population": 8,
+        "reproduction_reasons": {
+          "structure_low": 8
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 8,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 85,
+        "population": 8,
+        "reproduction_reasons": {
+          "structure_low": 8
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 8,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 86,
+        "population": 8,
+        "reproduction_reasons": {
+          "structure_low": 8
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 8,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 87,
+        "population": 7,
+        "reproduction_reasons": {
+          "structure_low": 7
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 7,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 88,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 89,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 90,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 91,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 92,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 93,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 94,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 95,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 96,
+        "population": 4,
+        "reproduction_reasons": {
+          "structure_low": 4
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 4,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 97,
+        "population": 4,
+        "reproduction_reasons": {
+          "structure_low": 4
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 4,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 98,
+        "population": 4,
+        "reproduction_reasons": {
+          "structure_low": 4
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 4,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 99,
+        "population": 4,
+        "reproduction_reasons": {
+          "structure_low": 4
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 4,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      }
+    ]
+  },
+  {
+    "restore_mult": 3.0,
+    "seed": 2,
+    "final_gen": 99,
+    "survived": true,
+    "peak_population": 256,
+    "repro_debug_data": [
+      {
+        "generation": 0,
+        "population": 200,
+        "reproduction_reasons": {
+          "eligible": 100
+        },
+        "eligible_count": 100,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 0,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 1,
+        "population": 256,
+        "reproduction_reasons": {
+          "eligible": 100,
+          "structure_low": 40
+        },
+        "eligible_count": 100,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 40,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 2,
+        "population": 153,
+        "reproduction_reasons": {
+          "mode_blocked": 100,
+          "structure_low": 42
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 100,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 42,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 3,
+        "population": 150,
+        "reproduction_reasons": {
+          "mode_blocked": 100,
+          "structure_low": 40
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 100,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 40,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 4,
+        "population": 140,
+        "reproduction_reasons": {
+          "mode_blocked": 100,
+          "structure_low": 40
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 100,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 40,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 5,
+        "population": 227,
+        "reproduction_reasons": {
+          "eligible": 88,
+          "mode_blocked": 12,
+          "structure_low": 39
+        },
+        "eligible_count": 88,
+        "mode_blocked_count": 12,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 39,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 6,
+        "population": 217,
+        "reproduction_reasons": {
+          "eligible": 83,
+          "mode_blocked": 17,
+          "structure_low": 34
+        },
+        "eligible_count": 83,
+        "mode_blocked_count": 17,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 34,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 7,
+        "population": 219,
+        "reproduction_reasons": {
+          "eligible": 90,
+          "mode_blocked": 10,
+          "structure_low": 29
+        },
+        "eligible_count": 90,
+        "mode_blocked_count": 10,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 29,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 8,
+        "population": 139,
+        "reproduction_reasons": {
+          "mode_blocked": 89,
+          "eligible": 11,
+          "structure_low": 28
+        },
+        "eligible_count": 11,
+        "mode_blocked_count": 89,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 28,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 9,
+        "population": 141,
+        "reproduction_reasons": {
+          "mode_blocked": 83,
+          "eligible": 17,
+          "structure_low": 24
+        },
+        "eligible_count": 17,
+        "mode_blocked_count": 83,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 24,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 10,
+        "population": 130,
+        "reproduction_reasons": {
+          "mode_blocked": 94,
+          "eligible": 6,
+          "structure_low": 24
+        },
+        "eligible_count": 6,
+        "mode_blocked_count": 94,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 24,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 11,
+        "population": 196,
+        "reproduction_reasons": {
+          "eligible": 72,
+          "mode_blocked": 27,
+          "structure_low": 25
+        },
+        "eligible_count": 72,
+        "mode_blocked_count": 27,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 25,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 12,
+        "population": 186,
+        "reproduction_reasons": {
+          "eligible": 62,
+          "mode_blocked": 36,
+          "structure_low": 26
+        },
+        "eligible_count": 62,
+        "mode_blocked_count": 36,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 26,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 13,
+        "population": 199,
+        "reproduction_reasons": {
+          "structure_low": 34,
+          "eligible": 76,
+          "mode_blocked": 13
+        },
+        "eligible_count": 76,
+        "mode_blocked_count": 13,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 34,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 14,
+        "population": 140,
+        "reproduction_reasons": {
+          "structure_low": 51,
+          "mode_blocked": 47,
+          "eligible": 21
+        },
+        "eligible_count": 21,
+        "mode_blocked_count": 47,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 51,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 15,
+        "population": 139,
+        "reproduction_reasons": {
+          "structure_low": 55,
+          "mode_blocked": 36,
+          "eligible": 24
+        },
+        "eligible_count": 24,
+        "mode_blocked_count": 36,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 55,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 16,
+        "population": 119,
+        "reproduction_reasons": {
+          "structure_low": 69,
+          "mode_blocked": 36,
+          "eligible": 7
+        },
+        "eligible_count": 7,
+        "mode_blocked_count": 36,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 69,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 17,
+        "population": 141,
+        "reproduction_reasons": {
+          "structure_low": 72,
+          "eligible": 34,
+          "mode_blocked": 1
+        },
+        "eligible_count": 34,
+        "mode_blocked_count": 1,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 72,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 18,
+        "population": 101,
+        "reproduction_reasons": {
+          "structure_low": 100,
+          "mode_blocked": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 1,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 100,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 19,
+        "population": 98,
+        "reproduction_reasons": {
+          "structure_low": 96,
+          "eligible": 1
+        },
+        "eligible_count": 1,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 96,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 20,
+        "population": 91,
+        "reproduction_reasons": {
+          "structure_low": 91
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 91,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 21,
+        "population": 85,
+        "reproduction_reasons": {
+          "structure_low": 85
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 85,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 22,
+        "population": 80,
+        "reproduction_reasons": {
+          "structure_low": 80
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 80,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 23,
+        "population": 78,
+        "reproduction_reasons": {
+          "structure_low": 78
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 78,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 24,
+        "population": 76,
+        "reproduction_reasons": {
+          "structure_low": 76
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 76,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 25,
+        "population": 71,
+        "reproduction_reasons": {
+          "structure_low": 71
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 71,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 26,
+        "population": 66,
+        "reproduction_reasons": {
+          "structure_low": 66
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 66,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 27,
+        "population": 63,
+        "reproduction_reasons": {
+          "structure_low": 63
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 63,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 28,
+        "population": 62,
+        "reproduction_reasons": {
+          "structure_low": 62
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 62,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 29,
+        "population": 60,
+        "reproduction_reasons": {
+          "structure_low": 60
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 60,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 30,
+        "population": 54,
+        "reproduction_reasons": {
+          "structure_low": 54
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 54,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 31,
+        "population": 52,
+        "reproduction_reasons": {
+          "structure_low": 52
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 52,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 32,
+        "population": 47,
+        "reproduction_reasons": {
+          "structure_low": 47
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 47,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 33,
+        "population": 45,
+        "reproduction_reasons": {
+          "structure_low": 45
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 45,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 34,
+        "population": 42,
+        "reproduction_reasons": {
+          "structure_low": 42
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 42,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 35,
+        "population": 39,
+        "reproduction_reasons": {
+          "structure_low": 39
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 39,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 36,
+        "population": 33,
+        "reproduction_reasons": {
+          "structure_low": 33
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 33,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 37,
+        "population": 32,
+        "reproduction_reasons": {
+          "structure_low": 32
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 32,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 38,
+        "population": 31,
+        "reproduction_reasons": {
+          "structure_low": 31
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 31,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 39,
+        "population": 30,
+        "reproduction_reasons": {
+          "structure_low": 30
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 30,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 40,
+        "population": 27,
+        "reproduction_reasons": {
+          "structure_low": 27
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 27,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 41,
+        "population": 26,
+        "reproduction_reasons": {
+          "structure_low": 26
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 26,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 42,
+        "population": 23,
+        "reproduction_reasons": {
+          "structure_low": 23
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 23,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 43,
+        "population": 21,
+        "reproduction_reasons": {
+          "structure_low": 21
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 21,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 44,
+        "population": 21,
+        "reproduction_reasons": {
+          "structure_low": 21
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 21,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 45,
+        "population": 21,
+        "reproduction_reasons": {
+          "structure_low": 21
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 21,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 46,
+        "population": 20,
+        "reproduction_reasons": {
+          "structure_low": 20
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 20,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 47,
+        "population": 18,
+        "reproduction_reasons": {
+          "structure_low": 18
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 18,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 48,
+        "population": 18,
+        "reproduction_reasons": {
+          "structure_low": 18
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 18,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 49,
+        "population": 16,
+        "reproduction_reasons": {
+          "structure_low": 16
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 16,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 50,
+        "population": 15,
+        "reproduction_reasons": {
+          "structure_low": 15
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 15,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 51,
+        "population": 13,
+        "reproduction_reasons": {
+          "structure_low": 13
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 13,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 52,
+        "population": 12,
+        "reproduction_reasons": {
+          "structure_low": 12
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 12,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 53,
+        "population": 12,
+        "reproduction_reasons": {
+          "structure_low": 12
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 12,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 54,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 55,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 56,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 57,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 58,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 59,
+        "population": 11,
+        "reproduction_reasons": {
+          "structure_low": 11
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 11,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 60,
+        "population": 10,
+        "reproduction_reasons": {
+          "structure_low": 10
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 10,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 61,
+        "population": 9,
+        "reproduction_reasons": {
+          "structure_low": 9
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 9,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 62,
+        "population": 8,
+        "reproduction_reasons": {
+          "structure_low": 8
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 8,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 63,
+        "population": 8,
+        "reproduction_reasons": {
+          "structure_low": 8
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 8,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 64,
+        "population": 8,
+        "reproduction_reasons": {
+          "structure_low": 8
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 8,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 65,
+        "population": 8,
+        "reproduction_reasons": {
+          "structure_low": 8
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 8,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 66,
+        "population": 8,
+        "reproduction_reasons": {
+          "structure_low": 8
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 8,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 67,
+        "population": 7,
+        "reproduction_reasons": {
+          "structure_low": 7
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 7,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 68,
+        "population": 7,
+        "reproduction_reasons": {
+          "structure_low": 7
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 7,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 69,
+        "population": 7,
+        "reproduction_reasons": {
+          "structure_low": 7
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 7,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 70,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 71,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 72,
+        "population": 6,
+        "reproduction_reasons": {
+          "structure_low": 6
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 6,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 73,
+        "population": 5,
+        "reproduction_reasons": {
+          "structure_low": 5
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 5,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 74,
+        "population": 5,
+        "reproduction_reasons": {
+          "structure_low": 5
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 5,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 75,
+        "population": 5,
+        "reproduction_reasons": {
+          "structure_low": 5
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 5,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 76,
+        "population": 5,
+        "reproduction_reasons": {
+          "structure_low": 5
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 5,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 77,
+        "population": 5,
+        "reproduction_reasons": {
+          "structure_low": 5
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 5,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 78,
+        "population": 5,
+        "reproduction_reasons": {
+          "structure_low": 5
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 5,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 79,
+        "population": 4,
+        "reproduction_reasons": {
+          "structure_low": 4
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 4,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 80,
+        "population": 4,
+        "reproduction_reasons": {
+          "structure_low": 4
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 4,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 81,
+        "population": 4,
+        "reproduction_reasons": {
+          "structure_low": 4
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 4,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 82,
+        "population": 3,
+        "reproduction_reasons": {
+          "structure_low": 3
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 3,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 83,
+        "population": 2,
+        "reproduction_reasons": {
+          "structure_low": 2
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 2,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 84,
+        "population": 2,
+        "reproduction_reasons": {
+          "structure_low": 2
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 2,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 85,
+        "population": 2,
+        "reproduction_reasons": {
+          "structure_low": 2
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 2,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 86,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 87,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 88,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 89,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 90,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 91,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 92,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 93,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 94,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 95,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 96,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 97,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 98,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      },
+      {
+        "generation": 99,
+        "population": 1,
+        "reproduction_reasons": {
+          "structure_low": 1
+        },
+        "eligible_count": 0,
+        "mode_blocked_count": 0,
+        "tau_blocked_count": 0,
+        "energy_low_count": 0,
+        "structure_low_count": 1,
+        "probability_blocked_count": 0,
+        "threshold_blocked_count": 0
+      }
+    ]
+  }
+]

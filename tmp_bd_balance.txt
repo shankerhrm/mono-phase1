@@ -1,0 +1,92 @@
+ gen   pop births deaths   net    env    avgE avgAge                             reasons
+------------------------------------------------------------------------------------------------------------------------
+   0   145     45      0   +45  0.979    72.4    2.9                                  {}
+   1   155     10      0   +10  0.965    72.8    3.7                                  {}
+   2   169     14      0   +14  0.961    78.5    4.3                                  {}
+   3   179     10      0   +10  0.964    92.9    5.0                                  {}
+   4   211     32      0   +32  0.968   103.0    5.1                                  {}
+   5   296     85      0   +85  0.971    97.1    4.3                                  {}
+   6   317     22      1   +21  0.980   100.7    5.0          {"STRUCTURAL_COLLAPSE": 1}
+   7   376     59      0   +59  0.991   105.2    5.0                                  {}
+   8   464     89      1   +88  1.002   104.9    4.9          {"STRUCTURAL_COLLAPSE": 1}
+   9   526     63      1   +62  1.026   112.3    5.2          {"STRUCTURAL_COLLAPSE": 1}
+  10   594    106     38   +68  1.059   112.8    5.2         {"STRUCTURAL_COLLAPSE": 38}
+  11   681    101     14   +87  1.080   115.4    5.3         {"STRUCTURAL_COLLAPSE": 14}
+  12   767    107     21   +86  1.099   118.8    5.5         {"STRUCTURAL_COLLAPSE": 21}
+  13   892    163     38  +125  1.111   117.3    5.4         {"STRUCTURAL_COLLAPSE": 38}
+  14   949    122     65   +57  1.151   119.7    5.8         {"STRUCTURAL_COLLAPSE": 65}
+  15  1030    160     79   +81  1.187   124.5    5.9         {"STRUCTURAL_COLLAPSE": 79}
+  16  1117    184     97   +87  1.211   122.3    6.0 {"STRUCTURAL_COLLAPSE": 94, "ENERGY_DEPLETION": 3}
+  17  1109    122    130    -8  1.251   122.0    6.4 {"STRUCTURAL_COLLAPSE": 117, "ENERGY_DEPLETION": 13}
+  18  1158    201    152   +49  1.286   120.8    6.5 {"STRUCTURAL_COLLAPSE": 135, "ENERGY_DEPLETION": 17}
+  19  1218    205    145   +60  1.294   119.9    6.7 {"STRUCTURAL_COLLAPSE": 136, "ENERGY_DEPLETION": 9}
+  20  1167    127    178   -51  1.349   123.5    7.4 {"STRUCTURAL_COLLAPSE": 165, "ENERGY_DEPLETION": 13}
+  21  1168    198    197    +1  1.359   121.2    7.3 {"STRUCTURAL_COLLAPSE": 182, "ENERGY_DEPLETION": 15}
+  22  1151    193    210   -17  1.371   117.4    7.4 {"STRUCTURAL_COLLAPSE": 188, "ENERGY_DEPLETION": 22}
+  23  1039    109    221  -112  1.376   122.8    8.1 {"STRUCTURAL_COLLAPSE": 194, "ENERGY_DEPLETION": 27}
+  24  1053    190    176   +14  1.380   124.3    7.8 {"STRUCTURAL_COLLAPSE": 152, "ENERGY_DEPLETION": 24}
+  25  1015    181    219   -38  1.383   120.3    7.9 {"STRUCTURAL_COLLAPSE": 201, "ENERGY_DEPLETION": 18}
+  26   919    105    201   -96  1.396   128.9    8.9 {"STRUCTURAL_COLLAPSE": 184, "ENERGY_DEPLETION": 17}
+  27   907    164    176   -12  1.397   129.0    8.6 {"STRUCTURAL_COLLAPSE": 162, "ENERGY_DEPLETION": 14}
+  28   878    174    203   -29  1.395   123.0    8.7 {"STRUCTURAL_COLLAPSE": 188, "ENERGY_DEPLETION": 15}
+  29   795    108    191   -83  1.406   130.0    9.8 {"STRUCTURAL_COLLAPSE": 183, "ENERGY_DEPLETION": 8}
+  30   768    135    162   -27  1.413   133.3    9.5 {"STRUCTURAL_COLLAPSE": 154, "ENERGY_DEPLETION": 8}
+  31   698    131    201   -70  1.401   124.9    9.9 {"STRUCTURAL_COLLAPSE": 190, "ENERGY_DEPLETION": 11}
+  32   646     97    149   -52  1.390   130.3   10.6 {"STRUCTURAL_COLLAPSE": 131, "ENERGY_DEPLETION": 18}
+  33   640    123    129    -6  1.399   132.0   10.3 {"STRUCTURAL_COLLAPSE": 114, "ENERGY_DEPLETION": 15}
+  34   578    110    172   -62  1.388   127.0   10.8 {"STRUCTURAL_COLLAPSE": 165, "ENERGY_DEPLETION": 7}
+  35   553     81    106   -25  1.371   132.8   11.5 {"STRUCTURAL_COLLAPSE": 98, "ENERGY_DEPLETION": 8}
+  36   526     89    116   -27  1.370   131.6   11.4 {"STRUCTURAL_COLLAPSE": 111, "ENERGY_DEPLETION": 5}
+  37   528    112    110    +2  1.356   125.7   11.4 {"STRUCTURAL_COLLAPSE": 99, "ENERGY_DEPLETION": 11}
+  38   496     71    103   -32  1.349   129.3   12.3 {"STRUCTURAL_COLLAPSE": 97, "ENERGY_DEPLETION": 6}
+  39   513     93     76   +17  1.343   133.4   11.8 {"STRUCTURAL_COLLAPSE": 69, "ENERGY_DEPLETION": 7}
+  40   510    108    111    -3  1.342   125.4   11.9 {"STRUCTURAL_COLLAPSE": 108, "ENERGY_DEPLETION": 3}
+  41   496     72     86   -14  1.337   131.3   12.7 {"STRUCTURAL_COLLAPSE": 81, "ENERGY_DEPLETION": 5}
+  42   479     74     91   -17  1.339   131.3   13.0 {"STRUCTURAL_COLLAPSE": 84, "ENERGY_DEPLETION": 7}
+  43   455     90    114   -24  1.331   123.4   13.3 {"STRUCTURAL_COLLAPSE": 110, "ENERGY_DEPLETION": 4}
+  44   458     69     66    +3  1.320   126.4   13.6 {"STRUCTURAL_COLLAPSE": 61, "ENERGY_DEPLETION": 5}
+  45   458     74     74    +0  1.312   126.6   13.7 {"STRUCTURAL_COLLAPSE": 67, "ENERGY_DEPLETION": 7}
+  46   476     97     79   +18  1.312   124.9   13.6 {"STRUCTURAL_COLLAPSE": 76, "ENERGY_DEPLETION": 3}
+  47   451     61     86   -25  1.322   128.1   14.6 {"STRUCTURAL_COLLAPSE": 73, "ENERGY_DEPLETION": 13}
+  48   444     72     79    -7  1.314   131.6   14.7 {"STRUCTURAL_COLLAPSE": 69, "ENERGY_DEPLETION": 10}
+  49   432     87     99   -12  1.316   123.3   15.0 {"STRUCTURAL_COLLAPSE": 94, "ENERGY_DEPLETION": 5}
+  50   439     62     55    +7  1.310   128.1   15.3 {"STRUCTURAL_COLLAPSE": 49, "ENERGY_DEPLETION": 6}
+  51   417     61     83   -22  1.321   127.5   15.9 {"STRUCTURAL_COLLAPSE": 77, "ENERGY_DEPLETION": 6}
+  52   420     87     84    +3  1.304   122.9   16.0 {"STRUCTURAL_COLLAPSE": 78, "ENERGY_DEPLETION": 6}
+  53   395     51     76   -25  1.307   126.2   17.2 {"STRUCTURAL_COLLAPSE": 69, "ENERGY_DEPLETION": 7}
+  54   352     39     82   -43  1.311   129.4   19.1 {"STRUCTURAL_COLLAPSE": 74, "ENERGY_DEPLETION": 8}
+  55   338     63     77   -14  1.321   124.8   19.7 {"STRUCTURAL_COLLAPSE": 70, "ENERGY_DEPLETION": 7}
+  56   342     49     45    +4  1.317   126.0   19.8 {"STRUCTURAL_COLLAPSE": 41, "ENERGY_DEPLETION": 4}
+  57   317     35     60   -25  1.309   125.3   21.5 {"STRUCTURAL_COLLAPSE": 50, "ENERGY_DEPLETION": 10}
+  58   332     63     48   +15  1.307   125.7   20.8 {"STRUCTURAL_COLLAPSE": 45, "ENERGY_DEPLETION": 3}
+  59   331     43     44    -1  1.319   126.7   21.3 {"STRUCTURAL_COLLAPSE": 42, "ENERGY_DEPLETION": 2}
+  60   307     30     54   -24  1.310   130.0   23.1 {"STRUCTURAL_COLLAPSE": 49, "ENERGY_DEPLETION": 5}
+  61   300     55     62    -7  1.313   125.2   23.6 {"STRUCTURAL_COLLAPSE": 56, "ENERGY_DEPLETION": 6}
+  62   305     41     36    +5  1.312   126.7   23.7 {"STRUCTURAL_COLLAPSE": 30, "ENERGY_DEPLETION": 6}
+  63   267     22     60   -38  1.308   130.6   27.0 {"STRUCTURAL_COLLAPSE": 53, "ENERGY_DEPLETION": 7}
+  64   262     48     53    -5  1.297   121.7   27.5 {"STRUCTURAL_COLLAPSE": 48, "ENERGY_DEPLETION": 5}
+  65   261     40     41    -1  1.291   119.4   27.8 {"STRUCTURAL_COLLAPSE": 35, "ENERGY_DEPLETION": 6}
+  66   222     19     58   -39  1.299   126.2   32.8 {"STRUCTURAL_COLLAPSE": 50, "ENERGY_DEPLETION": 8}
+  67   229     44     37    +7  1.282   125.6   31.9 {"STRUCTURAL_COLLAPSE": 33, "ENERGY_DEPLETION": 4}
+  68   237     37     29    +8  1.265   121.0   31.3 {"STRUCTURAL_COLLAPSE": 23, "ENERGY_DEPLETION": 6}
+  69   218     19     38   -19  1.272   127.4   34.4 {"STRUCTURAL_COLLAPSE": 35, "ENERGY_DEPLETION": 3}
+  70   223     43     38    +5  1.277   124.7   33.7 {"STRUCTURAL_COLLAPSE": 35, "ENERGY_DEPLETION": 3}
+  71   206     35     52   -17  1.271   122.7   36.2 {"STRUCTURAL_COLLAPSE": 50, "ENERGY_DEPLETION": 2}
+  72   167     17     56   -39  1.261   132.2   44.1 {"STRUCTURAL_COLLAPSE": 54, "ENERGY_DEPLETION": 2}
+  73   164     38     41    -3  1.263   127.3   43.1 {"STRUCTURAL_COLLAPSE": 37, "ENERGY_DEPLETION": 4}
+  74   135     26     55   -29  1.250   120.3   47.5 {"STRUCTURAL_COLLAPSE": 50, "ENERGY_DEPLETION": 5}
+  75   113     13     35   -22  1.252   137.5   54.4 {"STRUCTURAL_COLLAPSE": 34, "ENERGY_DEPLETION": 1}
+  76    99     20     34   -14  1.242   135.0   48.4         {"STRUCTURAL_COLLAPSE": 34}
+  77    76     10     33   -23  1.230   129.5   46.6 {"STRUCTURAL_COLLAPSE": 32, "ENERGY_DEPLETION": 1}
+  78    71     11     16    -5  1.216   133.5   46.8 {"STRUCTURAL_COLLAPSE": 14, "ENERGY_DEPLETION": 2}
+  79    50      9     30   -21  1.211   122.2   48.7 {"STRUCTURAL_COLLAPSE": 27, "ENERGY_DEPLETION": 3}
+  80    41      5     14    -9  1.196   133.4   52.1         {"STRUCTURAL_COLLAPSE": 14}
+  81    28      4     17   -13  1.185   136.4   55.9         {"STRUCTURAL_COLLAPSE": 17}
+  82    19      2     11    -9  1.167   133.3   50.6 {"STRUCTURAL_COLLAPSE": 10, "ENERGY_DEPLETION": 1}
+  83    11      0      8    -8  1.149   128.2   49.4 {"STRUCTURAL_COLLAPSE": 7, "ENERGY_DEPLETION": 1}
+  84    11      3      3    +0  1.134   129.5   41.5          {"STRUCTURAL_COLLAPSE": 3}
+  85     6      0      5    -5  1.122   126.8   47.7          {"STRUCTURAL_COLLAPSE": 5}
+  86     3      0      3    -3  1.109   142.1   62.7          {"STRUCTURAL_COLLAPSE": 3}
+  87     1      0      2    -2  1.098    84.1    6.0          {"STRUCTURAL_COLLAPSE": 2}
+
+Final gen: 87, Peak: 1218

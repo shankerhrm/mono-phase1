@@ -58,7 +58,11 @@ def divide(parent, species_defaults=None, generation=None, species_memory=None, 
     # Phase-16: Mutate evolvable stress phenotypes
     child.id = dataclasses.replace(parent.id, 
         alpha=max(0.01, min(1.0, parent.id.alpha + random.gauss(0, mutation_rate))),
-        beta=max(0.01, min(1.0, parent.id.beta + random.gauss(0, mutation_rate)))
+        beta=max(0.01, min(1.0, parent.id.beta + random.gauss(0, mutation_rate))),
+        learning_rate=max(0.0, min(1.0, parent.id.learning_rate + random.gauss(0, mutation_rate))),
+        teaching_efficiency=max(0.0, min(1.0, parent.id.teaching_efficiency + random.gauss(0, mutation_rate))),
+        environment_sensitivity=max(0.0, min(1.0, parent.id.environment_sensitivity + random.gauss(0, mutation_rate))),
+        strategy_trait = parent.id.strategy_trait if random.random() > 0.1 else (1 - parent.id.strategy_trait)
     )
     
     # Cost of Mutation: high mutation_rate penalizes offspring energy

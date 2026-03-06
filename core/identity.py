@@ -88,3 +88,22 @@ class CoreIdentity:
     # Phase-16: Evolvable Stress Phenotypes
     alpha: float = 0.2  # stress sensitivity (load accumulation rate)
     beta: float = 0.3   # repair efficiency (load decay rate)
+
+    # Phase-17: Cultural Evolution
+    learning_rate: float = 0.4  # efficiency of acquiring cultural artifacts
+    teaching_efficiency: float = 0.15  # probability of successful teaching
+
+    # Phase-18: Restoration Propensity
+    p_restore: float = 0.5  # probability of choosing restoration over extraction
+
+    # Phase-19: Internal Economy
+    trade_propensity: float = 0.5  # probability of choosing trade over extraction
+
+    # Phase-21: Environmental Sensing
+    environment_sensitivity: float = 0.0  # sensitivity to environmental degradation for restoration behavior
+
+    # Strategy Trait for Specialization
+    strategy_trait: int = 0  # 0 = extractor, 1 = restorer
+
+    # Reproduction Probability (for stability)
+    reproduction_probability: float = 1.0  # base probability of reproduction when eligible

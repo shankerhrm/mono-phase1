@@ -4,7 +4,7 @@
 
 A research framework exploring the intersection of evolutionary biology, cognitive science, and artificial intelligence through evolutionary mechanisms. MONO investigates how autonomous systems can develop temporal awareness, adaptive decision-making, and robust behavior under uncertainty via heritable traits and natural selection.
 
-Phase-16 focus: Evolvable Stress Phenotypes — heritable α/β traits enabling natural selection of optimal oscillatory regulation.
+Phase-18 focus: Socio-ecological feedback with two cultural artifacts (extraction/restoration), heritable action propensity, and environmental niche construction.
 
 ## Project Phases
 
@@ -23,7 +23,9 @@ Phase-16 focus: Evolvable Stress Phenotypes — heritable α/β traits enabling 
 **Phase-13**: Endogenous temporal adaptation — entrainment without world modeling  
 **Phase-14**: Regime flip dynamics — evolutionary stability under environmental shifts  
 **Phase-15**: Physiological load accumulation — stress response modeling  
-**Phase-16**: Evolvable Stress Phenotypes — heritable α/β traits for evolutionary regulation (Current)
+**Phase-16**: Evolvable Stress Phenotypes — heritable α/β traits for evolutionary regulation  
+**Phase-17**: Cultural Niche Construction — gene-culture-environment coevolution  
+**Phase-18**: Socio-Ecological Feedback — extraction/restoration artifacts with environmental feedback (Current)
 
 ## Documentation
 
@@ -42,18 +44,20 @@ Phase-16 focus: Evolvable Stress Phenotypes — heritable α/β traits enabling 
   - [MONO_Phase12_Specification.md](MONO_Phase12_Specification.md) — Panic Architecture
   - [MONO_Phase15_Specification.md](MONO_Phase15_Specification.md) — Physiological Load
   - [MONO_Phase16_Specification.md](MONO_Phase16_Specification.md) — Evolvable Stress Phenotypes
+  - [MONO_Phase17_Specification.md](MONO_Phase17_Specification.md) — Cultural Niche Construction
+  - [MONO_Phase18_Addendum.md](MONO_Phase18_Addendum.md) — Socio-Ecological Feedback
 - **Results**: [RESULTS.md](RESULTS.md) — Experimental findings across all phases
 
-## Phase-6: Latency-Bound Organism Dynamics
+## Phase-18: Socio-Ecological Feedback
 
-**Key Innovation**: Time scarcity as primary evolutionary constraint
+**Key Innovation**: Environmental feedback with two cultural artifacts (extraction A_x, restoration A_r), heritable action propensity p_restore.
 
 **Key Findings**:
-- Viability governed by strict inequality: τ_organism < τ_failure
-- Coordination cost scales logarithmically: τ_coord ∝ log(N)
-- Cognitive advantage: **21% survival gain** under environmental shocks (Phase-6.3)
-- Conditional adaptivity: Narrative cognition maladaptive in stable regimes, strongly adaptive under pressure
-- Emergent architecture: Scene-based temporal sequencing from error-driven arbitration and modular self
+- Three regimes: stable extraction dominance (degraded sustainability), damped oscillations, collapse.
+- Oscillations transient; no persistent cycles.
+- Collapse requires extreme stress (high depletion + low restoration reward).
+- No specialization; p_restore variance = 0.
+- Demonstrates socio-ecological feedback boundaries.
 
 ## Code
 

@@ -1,0 +1,167 @@
+{
+  "1.0_1.0": {
+    "restore_mult": 1.0,
+    "trade_cost": 1.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "1.0_2.0": {
+    "restore_mult": 1.0,
+    "trade_cost": 2.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "1.0_3.0": {
+    "restore_mult": 1.0,
+    "trade_cost": 3.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "1.5_1.0": {
+    "restore_mult": 1.5,
+    "trade_cost": 1.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "1.5_2.0": {
+    "restore_mult": 1.5,
+    "trade_cost": 2.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "1.5_3.0": {
+    "restore_mult": 1.5,
+    "trade_cost": 3.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "2.0_1.0": {
+    "restore_mult": 2.0,
+    "trade_cost": 1.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "2.0_2.0": {
+    "restore_mult": 2.0,
+    "trade_cost": 2.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "2.0_3.0": {
+    "restore_mult": 2.0,
+    "trade_cost": 3.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "2.5_1.0": {
+    "restore_mult": 2.5,
+    "trade_cost": 1.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "2.5_2.0": {
+    "restore_mult": 2.5,
+    "trade_cost": 2.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "2.5_3.0": {
+    "restore_mult": 2.5,
+    "trade_cost": 3.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "3.0_1.0": {
+    "restore_mult": 3.0,
+    "trade_cost": 1.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "3.0_2.0": {
+    "restore_mult": 3.0,
+    "trade_cost": 2.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  },
+  "3.0_3.0": {
+    "restore_mult": 3.0,
+    "trade_cost": 3.0,
+    "p_extinct": 1.0,
+    "mean_survival_time": 0,
+    "mean_final_p_restore": 0.0,
+    "mean_p_restore_variance": 0.0,
+    "mean_trade_events_per_gen": 0,
+    "mean_food_to_repair_ratio": 0,
+    "sample_size": 10
+  }
+}

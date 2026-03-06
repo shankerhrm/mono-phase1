@@ -1,0 +1,75 @@
+{
+  "experiment": "Phase 26: Permanent Climate Shift",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "survived": 5,
+  "total_seeds": 5,
+  "shift_gen": 200,
+  "shift_dep_mult": 3.0,
+  "verdict": "\ud83e\uddec CASE 2 \u2014 DARWINIAN EVOLUTION DETECTED",
+  "signals": [
+    "\u2714 Behavioral adaptation sustained (restorers increased)",
+    "\u2714 GENETIC SHIFT: strategy_trait shifted by -0.0386 (EVOLVED)",
+    "\u2718 No genetic shift in env_sensitivity (-0.0074)",
+    "\u2718 No selection sweep (+0.0061)"
+  ],
+  "phase_averages": {
+    "baseline": {
+      "label": "Pre-Shift Baseline",
+      "gens": "100-200",
+      "avg_pop": 318.664,
+      "avg_env": 1.320276178907156,
+      "avg_prop_restoring": 0.5647692980827737,
+      "avg_strategy_trait": 0.47078475771143585,
+      "var_strategy_trait": 0.49766115094675883,
+      "avg_env_sensitivity": 0.5233843560223456,
+      "var_env_sensitivity": 0.2912116434511831,
+      "avg_p_restore": 0.509021856259371,
+      "avg_lineage_diversity": 318.664
+    },
+    "early_shift": {
+      "label": "Early Shift",
+      "gens": "200-500",
+      "avg_pop": 322.2233333333333,
+      "avg_env": 1.1774017059556827,
+      "avg_prop_restoring": 0.6089040587503731,
+      "avg_strategy_trait": 0.46057380364563205,
+      "var_strategy_trait": 0.4969063657706463,
+      "avg_env_sensitivity": 0.528227861026579,
+      "var_env_sensitivity": 0.2788816009609002,
+      "avg_p_restore": 0.5032138533999456,
+      "avg_lineage_diversity": 322.2233333333333
+    },
+    "mid_shift": {
+      "label": "Mid Shift",
+      "gens": "700-1000",
+      "avg_pop": 321.322,
+      "avg_env": 0.8096778847807661,
+      "avg_prop_restoring": 0.7782807133596932,
+      "avg_strategy_trait": 0.4785891881897178,
+      "var_strategy_trait": 0.49695965747587656,
+      "avg_env_sensitivity": 0.535973457704786,
+      "var_env_sensitivity": 0.27497584277407927,
+      "avg_p_restore": 0.5179324508322597,
+      "avg_lineage_diversity": 321.322
+    },
+    "late_shift": {
+      "label": "Late Shift (Final)",
+      "gens": "1200-1500",
+      "avg_pop": 314.17066666666665,
+      "avg_env": 0.6062660447304018,
+      "avg_prop_restoring": 0.8105305850473717,
+      "avg_strategy_trait": 0.4321418425163069,
+      "var_strategy_trait": 0.4915282080606322,
+      "avg_env_sensitivity": 0.5160069703006127,
+      "var_env_sensitivity": 0.2743255948962147,
+      "avg_p_restore": 0.49348689762174264,
+      "avg_lineage_diversity": 314.17066666666665
+    }
+  }
+}

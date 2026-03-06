@@ -1,0 +1,26 @@
+gen=   0 pop=  200 env=  1.040 avg_E=   67.2 total_E=    7923 repros=100 rest%=    2 avg_age=  0.5 max_age=    1 reasons={'eligible': 100}
+gen=   1 pop=  244 env=  1.533 avg_E=   53.7 total_E=    9528 repros=100 rest%=   12 avg_age=  1.0 max_age=    2 reasons={'eligible': 144}
+gen=   2 pop=  100 env=  1.850 avg_E=   77.8 total_E=   11727 repros=  0 rest%=   12 avg_age=  3.0 max_age=    3 reasons={'mode_blocked': 100}
+gen=   3 pop=  100 env=  1.952 avg_E=  166.5 total_E=   16653 repros=  0 rest%=   22 avg_age=  4.0 max_age=    4 reasons={'mode_blocked': 100}
+gen=   4 pop=  100 env=  2.000 avg_E=  194.4 total_E=   19444 repros=  0 rest%=   23 avg_age=  5.0 max_age=    5 reasons={'mode_blocked': 100}
+gen=   5 pop=  179 env=  2.000 avg_E=  170.0 total_E=   17946 repros= 79 rest%=   22 avg_age=  3.4 max_age=    6 reasons={'eligible': 79, 'mode_blocked': 21}
+gen=   6 pop=  173 env=  1.969 avg_E=  118.0 total_E=   18102 repros= 73 rest%=   15 avg_age=  4.0 max_age=    7 reasons={'eligible': 73, 'mode_blocked': 27}
+gen=   7 pop=  180 env=  1.957 avg_E=  120.5 total_E=   17920 repros= 80 rest%=   17 avg_age=  4.4 max_age=    8 reasons={'eligible': 80, 'mode_blocked': 20}
+gen=   8 pop=  112 env=  2.000 avg_E=  133.1 total_E=   19688 repros= 12 rest%=   21 avg_age=  8.0 max_age=    9 reasons={'mode_blocked': 88, 'eligible': 12}
+gen=   9 pop=  121 env=  1.951 avg_E=  175.2 total_E=   19454 repros= 21 rest%=   27 avg_age=  8.3 max_age=   10 reasons={'mode_blocked': 79, 'eligible': 21}
+gen=  10 pop=  111 env=  1.843 avg_E=  169.4 total_E=   19714 repros= 11 rest%=   25 avg_age=  9.9 max_age=   11 reasons={'mode_blocked': 89, 'eligible': 11}
+gen=  11 pop=  167 env=  1.928 avg_E=  161.8 total_E=   18258 repros= 67 rest%=   35 avg_age=  7.2 max_age=   12 reasons={'eligible': 67, 'mode_blocked': 33}
+gen=  12 pop=  153 env=  1.852 avg_E=  123.8 total_E=   18622 repros= 53 rest%=   20 avg_age=  8.5 max_age=   13 reasons={'eligible': 53, 'mode_blocked': 47}
+gen=  13 pop=  167 env=  1.892 avg_E=  127.8 total_E=   17354 repros= 71 rest%=   27 avg_age=  8.0 max_age=   14 reasons={'eligible': 71, 'mode_blocked': 25}
+gen=  14 pop=  116 env=  1.875 avg_E=  126.8 total_E=   18228 repros= 22 rest%=   25 avg_age= 12.2 max_age=   15 reasons={'eligible': 22, 'mode_blocked': 72}
+gen=  15 pop=  107 env=  1.733 avg_E=  154.9 total_E=   15072 repros= 28 rest%=   28 avg_age= 11.8 max_age=   16 reasons={'eligible': 28, 'mode_blocked': 51}
+gen=  16 pop=   84 env=  1.791 avg_E=  154.7 total_E=   13862 repros= 13 rest%=   33 avg_age= 14.4 max_age=   17 reasons={'mode_blocked': 58, 'eligible': 13}
+gen=  17 pop=   65 env=  1.770 avg_E=  145.9 total_E=    7124 repros= 26 rest%=   37 avg_age= 10.8 max_age=   18 reasons={'mode_blocked': 13, 'eligible': 26}
+gen=  18 pop=   17 env=  1.712 avg_E=  126.0 total_E=    2948 repros=  2 rest%=   28 avg_age= 16.8 max_age=   19 reasons={'mode_blocked': 13, 'eligible': 2}
+gen=  19 pop=    4 env=  1.717 avg_E=  150.8 total_E=     574 repros=  1 rest%=   53 avg_age= 15.0 max_age=   20 reasons={'mode_blocked': 2, 'eligible': 1}
+gen=  20 pop=    2 env=  1.653 avg_E=  163.7 total_E=     400 repros=  0 rest%=   25 avg_age= 21.0 max_age=   21 reasons={'mode_blocked': 2}
+
+Final gen: 20
+Final pop: 0
+Survived: False
+Peak pop: 244

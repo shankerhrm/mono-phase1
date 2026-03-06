@@ -1,0 +1,2472 @@
+{
+  "period": {
+    "20": [
+      {
+        "seed": 1,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.81,
+            "mean_load": 0.565647507065995,
+            "omega_mean": 0.036779,
+            "omega_std": 0.011286,
+            "convergence": 0.9417
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.845319253162611,
+            "omega_mean": 0.129945,
+            "omega_std": 0.006701,
+            "convergence": 0.9654
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8442061064237051,
+            "omega_mean": 0.129467,
+            "omega_std": 0.033194,
+            "convergence": 0.8287
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8448475207774917,
+            "omega_mean": 0.204099,
+            "omega_std": 0.005672,
+            "convergence": 0.9707
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8450367591347512,
+            "omega_mean": 0.140659,
+            "omega_std": 0.028255,
+            "convergence": 0.8542
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8447536271027623,
+            "omega_mean": 0.15668,
+            "omega_std": 0.008211,
+            "convergence": 0.9576
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8453714154615216,
+            "omega_mean": 0.17283,
+            "omega_std": 0.010428,
+            "convergence": 0.9462
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8449142201408214,
+            "omega_mean": 0.09926,
+            "omega_std": 0.042455,
+            "convergence": 0.7809
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8449860950011776,
+            "omega_mean": 0.041725,
+            "omega_std": 0.015744,
+            "convergence": 0.9187
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8457625569334788,
+            "omega_mean": 0.041918,
+            "omega_std": 0.02193,
+            "convergence": 0.8868
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 1.0,
+        "final_load": 0.8457625569334788,
+        "final_omega": 0.041918,
+        "final_convergence": 0.8868
+      },
+      {
+        "seed": 2,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.81,
+            "mean_load": 0.5640619878569016,
+            "omega_mean": 0.071583,
+            "omega_std": 0.040612,
+            "convergence": 0.7904
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8447831511451118,
+            "omega_mean": 0.029523,
+            "omega_std": 0.012709,
+            "convergence": 0.9344
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8448832672853226,
+            "omega_mean": 0.026941,
+            "omega_std": 0.009572,
+            "convergence": 0.9506
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8453634358707668,
+            "omega_mean": 0.052128,
+            "omega_std": 0.019198,
+            "convergence": 0.9009
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8449704601019956,
+            "omega_mean": 0.047156,
+            "omega_std": 0.012008,
+            "convergence": 0.938
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.843596099142356,
+            "omega_mean": 0.026997,
+            "omega_std": 0.009889,
+            "convergence": 0.949
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8441441394738499,
+            "omega_mean": 0.027703,
+            "omega_std": 0.015238,
+            "convergence": 0.9213
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8449172788145936,
+            "omega_mean": 0.177821,
+            "omega_std": 0.014419,
+            "convergence": 0.9256
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8458611498437005,
+            "omega_mean": 0.195707,
+            "omega_std": 0.015524,
+            "convergence": 0.9199
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8460358355050854,
+            "omega_mean": 0.050202,
+            "omega_std": 0.016245,
+            "convergence": 0.9161
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 1.0,
+        "final_load": 0.8460358355050854,
+        "final_omega": 0.050202,
+        "final_convergence": 0.9161
+      },
+      {
+        "seed": 3,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.81,
+            "mean_load": 0.5622306105858252,
+            "omega_mean": 0.164825,
+            "omega_std": 0.021891,
+            "convergence": 0.887
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.84591875592805,
+            "omega_mean": 0.112344,
+            "omega_std": 0.014666,
+            "convergence": 0.9243
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8452835907576023,
+            "omega_mean": 0.162223,
+            "omega_std": 0.033921,
+            "convergence": 0.8249
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8452597138694318,
+            "omega_mean": 0.151118,
+            "omega_std": 0.042042,
+            "convergence": 0.783
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8446634438051854,
+            "omega_mean": 0.069693,
+            "omega_std": 0.0176,
+            "convergence": 0.9092
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8447052476269062,
+            "omega_mean": 0.110859,
+            "omega_std": 0.022273,
+            "convergence": 0.885
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8444187266135282,
+            "omega_mean": 0.125257,
+            "omega_std": 0.022141,
+            "convergence": 0.8857
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8436856245846729,
+            "omega_mean": 0.193192,
+            "omega_std": 0.006799,
+            "convergence": 0.9649
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8432078414870713,
+            "omega_mean": 0.174303,
+            "omega_std": 0.030025,
+            "convergence": 0.845
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.844918692485487,
+            "omega_mean": 0.165952,
+            "omega_std": 0.020371,
+            "convergence": 0.8948
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 1.0,
+        "final_load": 0.844918692485487,
+        "final_omega": 0.165952,
+        "final_convergence": 0.8948
+      },
+      {
+        "seed": 4,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.81,
+            "mean_load": 0.5646353476008319,
+            "omega_mean": 0.165942,
+            "omega_std": 0.013295,
+            "convergence": 0.9314
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8447562445307975,
+            "omega_mean": 0.034893,
+            "omega_std": 0.020809,
+            "convergence": 0.8926
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.844931498290557,
+            "omega_mean": 0.069579,
+            "omega_std": 0.012867,
+            "convergence": 0.9336
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8439376619823025,
+            "omega_mean": 0.095175,
+            "omega_std": 0.034334,
+            "convergence": 0.8228
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8448107224052326,
+            "omega_mean": 0.116364,
+            "omega_std": 0.010512,
+            "convergence": 0.9457
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8451393508728524,
+            "omega_mean": 0.175911,
+            "omega_std": 0.025215,
+            "convergence": 0.8698
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.844369648551009,
+            "omega_mean": 0.063372,
+            "omega_std": 0.009924,
+            "convergence": 0.9488
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8459405113185516,
+            "omega_mean": 0.186216,
+            "omega_std": 0.008263,
+            "convergence": 0.9573
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8454568692764555,
+            "omega_mean": 0.186596,
+            "omega_std": 0.018351,
+            "convergence": 0.9053
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.844656594022864,
+            "omega_mean": 0.19073,
+            "omega_std": 0.010816,
+            "convergence": 0.9442
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 1.0,
+        "final_load": 0.844656594022864,
+        "final_omega": 0.19073,
+        "final_convergence": 0.9442
+      },
+      {
+        "seed": 5,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.81,
+            "mean_load": 0.5677024312892739,
+            "omega_mean": 0.033684,
+            "omega_std": 0.012653,
+            "convergence": 0.9347
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8443403684713474,
+            "omega_mean": 0.181302,
+            "omega_std": 0.011049,
+            "convergence": 0.943
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8460738103036691,
+            "omega_mean": 0.193624,
+            "omega_std": 0.019522,
+            "convergence": 0.8992
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8454892243471076,
+            "omega_mean": 0.205408,
+            "omega_std": 0.005636,
+            "convergence": 0.9709
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8452375934235353,
+            "omega_mean": 0.162325,
+            "omega_std": 0.013931,
+            "convergence": 0.9281
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8450363134531257,
+            "omega_mean": 0.094503,
+            "omega_std": 0.013836,
+            "convergence": 0.9286
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8454971098399335,
+            "omega_mean": 0.178497,
+            "omega_std": 0.02272,
+            "convergence": 0.8827
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8451900619891947,
+            "omega_mean": 0.148559,
+            "omega_std": 0.024877,
+            "convergence": 0.8716
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8444119843603141,
+            "omega_mean": 0.089024,
+            "omega_std": 0.021011,
+            "convergence": 0.8915
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 0.8449243196836491,
+            "omega_mean": 0.189688,
+            "omega_std": 0.010781,
+            "convergence": 0.9444
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 1.0,
+        "final_load": 0.8449243196836491,
+        "final_omega": 0.189688,
+        "final_convergence": 0.9444
+      }
+    ],
+    "40": [
+      {
+        "seed": 1,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.56,
+            "mean_load": 0.36460815405643604,
+            "omega_mean": 0.043908,
+            "omega_std": 0.018306,
+            "convergence": 0.9055
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46568482721009397,
+            "omega_mean": 0.091811,
+            "omega_std": 0.028669,
+            "convergence": 0.852
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.43758602140058916,
+            "omega_mean": 0.052741,
+            "omega_std": 0.027315,
+            "convergence": 0.859
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.466252867348263,
+            "omega_mean": 0.086427,
+            "omega_std": 0.036174,
+            "convergence": 0.8133
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4338598217334804,
+            "omega_mean": 0.160522,
+            "omega_std": 0.043856,
+            "convergence": 0.7736
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.469028954531282,
+            "omega_mean": 0.119534,
+            "omega_std": 0.013607,
+            "convergence": 0.9298
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4364172300082955,
+            "omega_mean": 0.145962,
+            "omega_std": 0.03703,
+            "convergence": 0.8089
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4670650989749651,
+            "omega_mean": 0.148186,
+            "omega_std": 0.004872,
+            "convergence": 0.9749
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4386305961324787,
+            "omega_mean": 0.096318,
+            "omega_std": 0.0394,
+            "convergence": 0.7966
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4666474877208117,
+            "omega_mean": 0.16092,
+            "omega_std": 0.015599,
+            "convergence": 0.9195
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.72,
+        "final_load": 0.4666474877208117,
+        "final_omega": 0.16092,
+        "final_convergence": 0.9195
+      },
+      {
+        "seed": 2,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.56,
+            "mean_load": 0.3629505664284657,
+            "omega_mean": 0.198556,
+            "omega_std": 0.01572,
+            "convergence": 0.9189
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4674964338739996,
+            "omega_mean": 0.132781,
+            "omega_std": 0.023033,
+            "convergence": 0.8811
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4346304096558777,
+            "omega_mean": 0.188706,
+            "omega_std": 0.019995,
+            "convergence": 0.8968
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46795995926255546,
+            "omega_mean": 0.20212,
+            "omega_std": 0.007639,
+            "convergence": 0.9606
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.43647037553092277,
+            "omega_mean": 0.146506,
+            "omega_std": 0.023744,
+            "convergence": 0.8774
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4662069003423186,
+            "omega_mean": 0.12903,
+            "omega_std": 0.010256,
+            "convergence": 0.9471
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4338907265408646,
+            "omega_mean": 0.156143,
+            "omega_std": 0.028366,
+            "convergence": 0.8536
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46635622268309523,
+            "omega_mean": 0.110386,
+            "omega_std": 0.030812,
+            "convergence": 0.841
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4344316335180698,
+            "omega_mean": 0.109036,
+            "omega_std": 0.02193,
+            "convergence": 0.8868
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46811426241862203,
+            "omega_mean": 0.060129,
+            "omega_std": 0.024722,
+            "convergence": 0.8724
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.72,
+        "final_load": 0.46811426241862203,
+        "final_omega": 0.060129,
+        "final_convergence": 0.8724
+      },
+      {
+        "seed": 3,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.56,
+            "mean_load": 0.36207050667825225,
+            "omega_mean": 0.113113,
+            "omega_std": 0.024354,
+            "convergence": 0.8743
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4676948385059266,
+            "omega_mean": 0.049809,
+            "omega_std": 0.021969,
+            "convergence": 0.8866
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4360294674682825,
+            "omega_mean": 0.135023,
+            "omega_std": 0.018758,
+            "convergence": 0.9032
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46713675369647745,
+            "omega_mean": 0.114419,
+            "omega_std": 0.028068,
+            "convergence": 0.8551
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.43422710645909995,
+            "omega_mean": 0.150192,
+            "omega_std": 0.036801,
+            "convergence": 0.81
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46690520254323326,
+            "omega_mean": 0.177357,
+            "omega_std": 0.01664,
+            "convergence": 0.9141
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4345860236003536,
+            "omega_mean": 0.123271,
+            "omega_std": 0.02919,
+            "convergence": 0.8493
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4673652693246121,
+            "omega_mean": 0.191352,
+            "omega_std": 0.02364,
+            "convergence": 0.878
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.43539613579301356,
+            "omega_mean": 0.16928,
+            "omega_std": 0.021316,
+            "convergence": 0.89
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4657303659803671,
+            "omega_mean": 0.200502,
+            "omega_std": 0.009739,
+            "convergence": 0.9497
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.72,
+        "final_load": 0.4657303659803671,
+        "final_omega": 0.200502,
+        "final_convergence": 0.9497
+      },
+      {
+        "seed": 4,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.56,
+            "mean_load": 0.3626232892530792,
+            "omega_mean": 0.18529,
+            "omega_std": 0.0196,
+            "convergence": 0.8988
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4694133892304345,
+            "omega_mean": 0.121699,
+            "omega_std": 0.026726,
+            "convergence": 0.862
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.43420263140691406,
+            "omega_mean": 0.187929,
+            "omega_std": 0.020005,
+            "convergence": 0.8967
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4651603861677102,
+            "omega_mean": 0.172915,
+            "omega_std": 0.017843,
+            "convergence": 0.9079
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.43582229572943476,
+            "omega_mean": 0.188663,
+            "omega_std": 0.01864,
+            "convergence": 0.9038
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46893968717668016,
+            "omega_mean": 0.08117,
+            "omega_std": 0.035525,
+            "convergence": 0.8166
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4351155017145753,
+            "omega_mean": 0.1086,
+            "omega_std": 0.019976,
+            "convergence": 0.8969
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46723183213525343,
+            "omega_mean": 0.097613,
+            "omega_std": 0.012981,
+            "convergence": 0.933
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.436700650516015,
+            "omega_mean": 0.092249,
+            "omega_std": 0.039272,
+            "convergence": 0.7973
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46615065751675255,
+            "omega_mean": 0.026448,
+            "omega_std": 0.008654,
+            "convergence": 0.9553
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.72,
+        "final_load": 0.46615065751675255,
+        "final_omega": 0.026448,
+        "final_convergence": 0.9553
+      },
+      {
+        "seed": 5,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.56,
+            "mean_load": 0.3622161765517294,
+            "omega_mean": 0.165887,
+            "omega_std": 0.033787,
+            "convergence": 0.8256
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4681785392219763,
+            "omega_mean": 0.045158,
+            "omega_std": 0.012047,
+            "convergence": 0.9378
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.43499007458271743,
+            "omega_mean": 0.026081,
+            "omega_std": 0.012619,
+            "convergence": 0.9349
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46477949090758564,
+            "omega_mean": 0.055286,
+            "omega_std": 0.010658,
+            "convergence": 0.945
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4336276801311894,
+            "omega_mean": 0.05894,
+            "omega_std": 0.033721,
+            "convergence": 0.8259
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46798320043413055,
+            "omega_mean": 0.087346,
+            "omega_std": 0.012431,
+            "convergence": 0.9358
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4365466405046797,
+            "omega_mean": 0.033828,
+            "omega_std": 0.013484,
+            "convergence": 0.9304
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.4657597510382933,
+            "omega_mean": 0.156481,
+            "omega_std": 0.050216,
+            "convergence": 0.7408
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.68,
+            "mean_load": 0.4366635010958534,
+            "omega_mean": 0.162648,
+            "omega_std": 0.032191,
+            "convergence": 0.8338
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.72,
+            "mean_load": 0.46599757729659974,
+            "omega_mean": 0.133656,
+            "omega_std": 0.013978,
+            "convergence": 0.9278
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.72,
+        "final_load": 0.46599757729659974,
+        "final_omega": 0.133656,
+        "final_convergence": 0.9278
+      }
+    ],
+    "160": [
+      {
+        "seed": 1,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.16,
+            "mean_load": 0.10707990054924447,
+            "omega_mean": 0.193355,
+            "omega_std": 0.013284,
+            "convergence": 0.9314
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.77,
+            "mean_load": 0.7052110944335788,
+            "omega_mean": 0.137833,
+            "omega_std": 0.017809,
+            "convergence": 0.9081
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.56,
+            "mean_load": 0.48903832119457497,
+            "omega_mean": 0.081785,
+            "omega_std": 0.026639,
+            "convergence": 0.8625
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.37,
+            "mean_load": 0.32251172721937144,
+            "omega_mean": 0.12137,
+            "omega_std": 0.036297,
+            "convergence": 0.8126
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.93,
+            "mean_load": 0.8064770481793592,
+            "omega_mean": 0.122511,
+            "omega_std": 0.019671,
+            "convergence": 0.8985
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.36,
+            "mean_load": 0.29341843441328064,
+            "omega_mean": 0.159835,
+            "omega_std": 0.024068,
+            "convergence": 0.8758
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.57,
+            "mean_load": 0.5247380843236054,
+            "omega_mean": 0.168247,
+            "omega_std": 0.025583,
+            "convergence": 0.8679
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.76,
+            "mean_load": 0.6871799519001286,
+            "omega_mean": 0.162521,
+            "omega_std": 0.010384,
+            "convergence": 0.9464
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.34,
+            "mean_load": 0.2314914264076631,
+            "omega_mean": 0.160221,
+            "omega_std": 0.016056,
+            "convergence": 0.9171
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.77,
+            "mean_load": 0.7047826408743334,
+            "omega_mean": 0.139193,
+            "omega_std": 0.041589,
+            "convergence": 0.7853
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.77,
+        "final_load": 0.7047826408743334,
+        "final_omega": 0.139193,
+        "final_convergence": 0.7853
+      },
+      {
+        "seed": 2,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.16,
+            "mean_load": 0.10703020645916955,
+            "omega_mean": 0.148951,
+            "omega_std": 0.020719,
+            "convergence": 0.8931
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.77,
+            "mean_load": 0.7046585650254159,
+            "omega_mean": 0.170556,
+            "omega_std": 0.032003,
+            "convergence": 0.8348
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.56,
+            "mean_load": 0.48798502326782006,
+            "omega_mean": 0.172619,
+            "omega_std": 0.018944,
+            "convergence": 0.9022
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.37,
+            "mean_load": 0.32247149893517313,
+            "omega_mean": 0.195473,
+            "omega_std": 0.013709,
+            "convergence": 0.9292
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.93,
+            "mean_load": 0.8070889405916487,
+            "omega_mean": 0.167732,
+            "omega_std": 0.025709,
+            "convergence": 0.8673
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.36,
+            "mean_load": 0.292209510667022,
+            "omega_mean": 0.183251,
+            "omega_std": 0.02757,
+            "convergence": 0.8577
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.57,
+            "mean_load": 0.5241919624724866,
+            "omega_mean": 0.15628,
+            "omega_std": 0.027492,
+            "convergence": 0.8581
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.76,
+            "mean_load": 0.6876244543569666,
+            "omega_mean": 0.179888,
+            "omega_std": 0.024536,
+            "convergence": 0.8734
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.33,
+            "mean_load": 0.2307178277169869,
+            "omega_mean": 0.174304,
+            "omega_std": 0.019177,
+            "convergence": 0.901
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.77,
+            "mean_load": 0.7051382795556185,
+            "omega_mean": 0.176889,
+            "omega_std": 0.030731,
+            "convergence": 0.8414
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.77,
+        "final_load": 0.7051382795556185,
+        "final_omega": 0.176889,
+        "final_convergence": 0.8414
+      },
+      {
+        "seed": 3,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.16,
+            "mean_load": 0.10680754311095753,
+            "omega_mean": 0.115809,
+            "omega_std": 0.028801,
+            "convergence": 0.8513
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.77,
+            "mean_load": 0.7037502388159134,
+            "omega_mean": 0.164072,
+            "omega_std": 0.024593,
+            "convergence": 0.8731
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.56,
+            "mean_load": 0.4877844190295567,
+            "omega_mean": 0.101889,
+            "omega_std": 0.058068,
+            "convergence": 0.7003
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.37,
+            "mean_load": 0.3230449292599858,
+            "omega_mean": 0.196505,
+            "omega_std": 0.009118,
+            "convergence": 0.9529
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.93,
+            "mean_load": 0.8081744312177948,
+            "omega_mean": 0.177767,
+            "omega_std": 0.022236,
+            "convergence": 0.8852
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.36,
+            "mean_load": 0.293672999847255,
+            "omega_mean": 0.029107,
+            "omega_std": 0.012016,
+            "convergence": 0.938
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.57,
+            "mean_load": 0.5237320306730006,
+            "omega_mean": 0.050407,
+            "omega_std": 0.027689,
+            "convergence": 0.8571
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.76,
+            "mean_load": 0.6872665925971235,
+            "omega_mean": 0.031726,
+            "omega_std": 0.00952,
+            "convergence": 0.9509
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.34,
+            "mean_load": 0.23103832421887152,
+            "omega_mean": 0.076278,
+            "omega_std": 0.005836,
+            "convergence": 0.9699
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.77,
+            "mean_load": 0.7053266268199517,
+            "omega_mean": 0.163549,
+            "omega_std": 0.031331,
+            "convergence": 0.8383
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.77,
+        "final_load": 0.7053266268199517,
+        "final_omega": 0.163549,
+        "final_convergence": 0.8383
+      },
+      {
+        "seed": 4,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.16,
+            "mean_load": 0.10746946007592109,
+            "omega_mean": 0.030358,
+            "omega_std": 0.019137,
+            "convergence": 0.9012
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.77,
+            "mean_load": 0.7061566858422442,
+            "omega_mean": 0.100353,
+            "omega_std": 0.028665,
+            "convergence": 0.852
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.56,
+            "mean_load": 0.48867607500406723,
+            "omega_mean": 0.07901,
+            "omega_std": 0.033791,
+            "convergence": 0.8256
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.37,
+            "mean_load": 0.32281380749696714,
+            "omega_mean": 0.053666,
+            "omega_std": 0.038324,
+            "convergence": 0.8022
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.93,
+            "mean_load": 0.8080075518742937,
+            "omega_mean": 0.046937,
+            "omega_std": 0.014202,
+            "convergence": 0.9267
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.36,
+            "mean_load": 0.2932201289913136,
+            "omega_mean": 0.102938,
+            "omega_std": 0.017594,
+            "convergence": 0.9092
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.58,
+            "mean_load": 0.5250365667168279,
+            "omega_mean": 0.099407,
+            "omega_std": 0.046302,
+            "convergence": 0.761
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.76,
+            "mean_load": 0.6887282564902211,
+            "omega_mean": 0.197156,
+            "omega_std": 0.015386,
+            "convergence": 0.9206
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.34,
+            "mean_load": 0.23224019745108532,
+            "omega_mean": 0.202978,
+            "omega_std": 0.009319,
+            "convergence": 0.9519
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.77,
+            "mean_load": 0.7050138132832432,
+            "omega_mean": 0.127904,
+            "omega_std": 0.030608,
+            "convergence": 0.842
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.77,
+        "final_load": 0.7050138132832432,
+        "final_omega": 0.127904,
+        "final_convergence": 0.842
+      },
+      {
+        "seed": 5,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.16,
+            "mean_load": 0.1068639782100236,
+            "omega_mean": 0.17773,
+            "omega_std": 0.047724,
+            "convergence": 0.7537
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.77,
+            "mean_load": 0.7055517748684983,
+            "omega_mean": 0.137234,
+            "omega_std": 0.02341,
+            "convergence": 0.8792
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.56,
+            "mean_load": 0.4883180171905686,
+            "omega_mean": 0.129437,
+            "omega_std": 0.024548,
+            "convergence": 0.8733
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.38,
+            "mean_load": 0.3245575879670962,
+            "omega_mean": 0.135305,
+            "omega_std": 0.025571,
+            "convergence": 0.868
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.93,
+            "mean_load": 0.8053211288459144,
+            "omega_mean": 0.038543,
+            "omega_std": 0.017002,
+            "convergence": 0.9122
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.36,
+            "mean_load": 0.2936834648589296,
+            "omega_mean": 0.04236,
+            "omega_std": 0.027323,
+            "convergence": 0.859
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.57,
+            "mean_load": 0.5225957640643152,
+            "omega_mean": 0.118312,
+            "omega_std": 0.036389,
+            "convergence": 0.8122
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.76,
+            "mean_load": 0.6886203394244783,
+            "omega_mean": 0.196668,
+            "omega_std": 0.008135,
+            "convergence": 0.958
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.33,
+            "mean_load": 0.23121874746794066,
+            "omega_mean": 0.16057,
+            "omega_std": 0.013279,
+            "convergence": 0.9315
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.77,
+            "mean_load": 0.7057181363545529,
+            "omega_mean": 0.078561,
+            "omega_std": 0.025327,
+            "convergence": 0.8693
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.77,
+        "final_load": 0.7057181363545529,
+        "final_omega": 0.078561,
+        "final_convergence": 0.8693
+      }
+    ],
+    "300": [
+      {
+        "seed": 1,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.0,
+            "mean_load": 0.0,
+            "omega_mean": 0.198182,
+            "omega_std": 0.020871,
+            "convergence": 0.8923
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.3879750345432077,
+            "omega_mean": 0.187017,
+            "omega_std": 0.019963,
+            "convergence": 0.897
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.080716,
+            "omega_std": 0.014941,
+            "convergence": 0.9229
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.17,
+            "mean_load": 0.12351511176276457,
+            "omega_mean": 0.185567,
+            "omega_std": 0.024478,
+            "convergence": 0.8736
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.38900041966165183,
+            "omega_mean": 0.150135,
+            "omega_std": 0.014908,
+            "convergence": 0.923
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.208622,
+            "omega_std": 0.002586,
+            "convergence": 0.9867
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.17,
+            "mean_load": 0.12312310899590802,
+            "omega_mean": 0.174116,
+            "omega_std": 0.023011,
+            "convergence": 0.8812
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.3880559394655067,
+            "omega_mean": 0.101138,
+            "omega_std": 0.026193,
+            "convergence": 0.8648
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.182625,
+            "omega_std": 0.023082,
+            "convergence": 0.8809
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.18,
+            "mean_load": 0.1248991925300938,
+            "omega_mean": 0.11349,
+            "omega_std": 0.026585,
+            "convergence": 0.8628
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.18,
+        "final_load": 0.1248991925300938,
+        "final_omega": 0.11349,
+        "final_convergence": 0.8628
+      },
+      {
+        "seed": 2,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.0,
+            "mean_load": 0.0,
+            "omega_mean": 0.138205,
+            "omega_std": 0.027115,
+            "convergence": 0.86
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.38804074345582573,
+            "omega_mean": 0.035974,
+            "omega_std": 0.018401,
+            "convergence": 0.905
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.045415,
+            "omega_std": 0.00745,
+            "convergence": 0.9615
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.17,
+            "mean_load": 0.1234823440716668,
+            "omega_mean": 0.055352,
+            "omega_std": 0.02739,
+            "convergence": 0.8586
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.38832159774165226,
+            "omega_mean": 0.133636,
+            "omega_std": 0.001724,
+            "convergence": 0.9911
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.079545,
+            "omega_std": 0.033248,
+            "convergence": 0.8284
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.17,
+            "mean_load": 0.12318633747403411,
+            "omega_mean": 0.064654,
+            "omega_std": 0.044943,
+            "convergence": 0.768
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.3881922739466174,
+            "omega_mean": 0.198447,
+            "omega_std": 0.008258,
+            "convergence": 0.9574
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.201508,
+            "omega_std": 0.011638,
+            "convergence": 0.9399
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.18,
+            "mean_load": 0.12487431481400503,
+            "omega_mean": 0.180312,
+            "omega_std": 0.022524,
+            "convergence": 0.8837
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.18,
+        "final_load": 0.12487431481400503,
+        "final_omega": 0.180312,
+        "final_convergence": 0.8837
+      },
+      {
+        "seed": 3,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.0,
+            "mean_load": 0.0,
+            "omega_mean": 0.150593,
+            "omega_std": 0.044783,
+            "convergence": 0.7688
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.3887611702267141,
+            "omega_mean": 0.028893,
+            "omega_std": 0.01124,
+            "convergence": 0.942
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.049256,
+            "omega_std": 0.017678,
+            "convergence": 0.9088
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.18,
+            "mean_load": 0.12485174903897049,
+            "omega_mean": 0.056902,
+            "omega_std": 0.0183,
+            "convergence": 0.9055
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.3875400630810474,
+            "omega_mean": 0.035693,
+            "omega_std": 0.017375,
+            "convergence": 0.9103
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.042326,
+            "omega_std": 0.018254,
+            "convergence": 0.9058
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.17,
+            "mean_load": 0.12393838794299425,
+            "omega_mean": 0.060942,
+            "omega_std": 0.01817,
+            "convergence": 0.9062
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.389011801846529,
+            "omega_mean": 0.196714,
+            "omega_std": 0.019605,
+            "convergence": 0.8988
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.157873,
+            "omega_std": 0.029047,
+            "convergence": 0.8501
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.18,
+            "mean_load": 0.12501930001050826,
+            "omega_mean": 0.064195,
+            "omega_std": 0.025214,
+            "convergence": 0.8698
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.18,
+        "final_load": 0.12501930001050826,
+        "final_omega": 0.064195,
+        "final_convergence": 0.8698
+      },
+      {
+        "seed": 4,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.0,
+            "mean_load": 0.0,
+            "omega_mean": 0.035505,
+            "omega_std": 0.01381,
+            "convergence": 0.9287
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.3897436666010044,
+            "omega_mean": 0.069214,
+            "omega_std": 0.027147,
+            "convergence": 0.8599
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.043295,
+            "omega_std": 0.012617,
+            "convergence": 0.9349
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.17,
+            "mean_load": 0.12272120447347404,
+            "omega_mean": 0.029534,
+            "omega_std": 0.014554,
+            "convergence": 0.9249
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.38861196304106804,
+            "omega_mean": 0.044453,
+            "omega_std": 0.024475,
+            "convergence": 0.8737
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.046566,
+            "omega_std": 0.008533,
+            "convergence": 0.956
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.17,
+            "mean_load": 0.12360335743017886,
+            "omega_mean": 0.125621,
+            "omega_std": 0.040474,
+            "convergence": 0.7911
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.38772965330749615,
+            "omega_mean": 0.146886,
+            "omega_std": 0.019264,
+            "convergence": 0.9006
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.062984,
+            "omega_std": 0.01619,
+            "convergence": 0.9164
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.18,
+            "mean_load": 0.12523796490998046,
+            "omega_mean": 0.057752,
+            "omega_std": 0.03077,
+            "convergence": 0.8412
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.18,
+        "final_load": 0.12523796490998046,
+        "final_omega": 0.057752,
+        "final_convergence": 0.8412
+      },
+      {
+        "seed": 5,
+        "total_gens": 1000,
+        "metrics": [
+          {
+            "gen": 100,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.0,
+            "mean_load": 0.0,
+            "omega_mean": 0.144909,
+            "omega_std": 0.038631,
+            "convergence": 0.8006
+          },
+          {
+            "gen": 200,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.38921648729716,
+            "omega_mean": 0.180522,
+            "omega_std": 0.03433,
+            "convergence": 0.8228
+          },
+          {
+            "gen": 300,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.179013,
+            "omega_std": 0.032781,
+            "convergence": 0.8308
+          },
+          {
+            "gen": 400,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.17,
+            "mean_load": 0.12427492503833348,
+            "omega_mean": 0.099978,
+            "omega_std": 0.02285,
+            "convergence": 0.8821
+          },
+          {
+            "gen": 500,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.38805375267711173,
+            "omega_mean": 0.089819,
+            "omega_std": 0.021824,
+            "convergence": 0.8873
+          },
+          {
+            "gen": 600,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.048217,
+            "omega_std": 0.015815,
+            "convergence": 0.9184
+          },
+          {
+            "gen": 700,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.17,
+            "mean_load": 0.12259064062084524,
+            "omega_mean": 0.035155,
+            "omega_std": 0.01985,
+            "convergence": 0.8975
+          },
+          {
+            "gen": 800,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.46,
+            "mean_load": 0.388284415108677,
+            "omega_mean": 0.079558,
+            "omega_std": 0.037788,
+            "convergence": 0.8049
+          },
+          {
+            "gen": 900,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 1.0,
+            "mean_load": 1.0,
+            "omega_mean": 0.142695,
+            "omega_std": 0.045074,
+            "convergence": 0.7673
+          },
+          {
+            "gen": 1000,
+            "mean_alpha": 0.2,
+            "mean_beta": 0.3,
+            "alpha_beta_ratio": 0.6666666666666667,
+            "fp": 0.17,
+            "mean_load": 0.12429089471151833,
+            "omega_mean": 0.179498,
+            "omega_std": 0.030032,
+            "convergence": 0.845
+          }
+        ],
+        "final_alpha": 0.2,
+        "final_beta": 0.3,
+        "final_ratio": 0.6666666666666667,
+        "final_fp": 0.17,
+        "final_load": 0.12429089471151833,
+        "final_omega": 0.179498,
+        "final_convergence": 0.845
+      }
+    ]
+  }
+}
