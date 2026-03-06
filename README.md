@@ -4,7 +4,7 @@
 
 A research framework exploring the intersection of evolutionary biology, cognitive science, and artificial intelligence through evolutionary mechanisms. MONO investigates how autonomous systems can develop temporal awareness, adaptive decision-making, and robust behavior under uncertainty via heritable traits and natural selection.
 
-Phase-18 focus: Socio-ecological feedback with two cultural artifacts (extraction/restoration), heritable action propensity, and environmental niche construction.
+Phase-27 focus: Darwinian evolution confirmed via adaptive tracking of environmental change, utilizing evolvable stress phenotypes, basal metabolism, and age-based generational turnover.
 
 ## Project Phases
 
@@ -25,7 +25,16 @@ Phase-18 focus: Socio-ecological feedback with two cultural artifacts (extractio
 **Phase-15**: Physiological load accumulation — stress response modeling  
 **Phase-16**: Evolvable Stress Phenotypes — heritable α/β traits for evolutionary regulation  
 **Phase-17**: Cultural Niche Construction — gene-culture-environment coevolution  
-**Phase-18**: Socio-Ecological Feedback — extraction/restoration artifacts with environmental feedback (Current)
+**Phase-18**: Socio-Ecological Feedback — extraction/restoration artifacts with environmental feedback  
+**Phase-19**: Internal Economy — localized extraction/restoration trade and cultural transmission  
+**Phase-20**: Individual Learning — running averages & dynamic market pricing  
+**Phase-21**: Adaptive Sensing — environment-driven behavioral adaptation  
+**Phase-22**: Resource Competition — density-dependent carrying capacity discovery  
+**Phase-23**: Ecological Stability — environment-coupled quadratic reproduction  
+**Phase-24**: Engine Immortalization — asynchronous reproduction and structural maintenance fixes  
+**Phase-25**: Resilience Basin — testing reactive homeostasis vs evolution under shock  
+**Phase-26**: Hard Selection — basal metabolism, age-based death, and extinction dynamics  
+**Phase-27**: Adaptive Tracking — Darwinian evolution confirmed under gradual climate ramp (Current)
 
 ## Documentation
 
@@ -46,18 +55,26 @@ Phase-18 focus: Socio-ecological feedback with two cultural artifacts (extractio
   - [MONO_Phase16_Specification.md](MONO_Phase16_Specification.md) — Evolvable Stress Phenotypes
   - [MONO_Phase17_Specification.md](MONO_Phase17_Specification.md) — Cultural Niche Construction
   - [MONO_Phase18_Addendum.md](MONO_Phase18_Addendum.md) — Socio-Ecological Feedback
+  - [MONO_Phase19_Addendum.md](MONO_Phase19_Addendum.md) — Internal Economy
+  - [MONO_Phase20_Addendum.md](MONO_Phase20_Addendum.md) — Individual Learning
+  - [MONO_Phase21_Addendum.md](MONO_Phase21_Addendum.md) — Adaptive Sensing
+  - [MONO_Phase22_Addendum.md](MONO_Phase22_Addendum.md) — Resource Competition
+  - [MONO_Phase23_Specification.md](MONO_Phase23_Specification.md) — Ecological Stability
+  - [MONO_Phase24_Specification.md](MONO_Phase24_Specification.md) — Engine Stability
+  - [MONO_Phase25_Specification.md](MONO_Phase25_Specification.md) — Shock Test & Resilience Basin
+  - [MONO_Phase26_Specification.md](MONO_Phase26_Specification.md) — Evolution & Adaptive Tracking (Covers Phases 26-27)
 - **Results**: [RESULTS.md](RESULTS.md) — Experimental findings across all phases
 
-## Phase-18: Socio-Ecological Feedback
+## Phase-27: Darwinian Evolution Confirmed
 
-**Key Innovation**: Environmental feedback with two cultural artifacts (extraction A_x, restoration A_r), heritable action propensity p_restore.
+**Key Innovation**: Achieved true Darwinian evolution by escaping perfect homeostasis. Solved the "Invincible Restorer" paradox and implemented basal metabolism (2.0 E/gen) alongside age-based generational turnover (MAX_AGE=200).
 
 **Key Findings**:
-- Three regimes: stable extraction dominance (degraded sustainability), damped oscillations, collapse.
-- Oscillations transient; no persistent cycles.
-- Collapse requires extreme stress (high depletion + low restoration reward).
-- No specialization; p_restore variance = 0.
-- Demonstrates socio-ecological feedback boundaries.
+- **Three Evolutionary Regimes Discovered:**
+  1. **Reactive Homeostasis (Case 1)**: Temporary 3× shock. Behavior shifts to restore the environment (56% → 82%), returning to the baseline Resilience Basin (~328 pop) post-shock. No permanent genetic change.
+  2. **Selection + Extinction (Case 2)**: Permanent 8× instant shock. Population collapses (319 → 0) due to extreme environmental pressure. Darwinian selection occurs (genetic trait shift of -0.391) but evolutionary rescue fails.
+  3. **Adaptive Tracking (Case 3)**: Permanent 3× gradual ramp. Population survives (319 → 314) successfully tracking the changing environment. Significant behavioral plasticity (81% restorer) prevents a death spiral, enabling a permanent genetic shift (-0.039) over 1500 generations.
+- **Engine Stability:** Reached 100% survival and stable carrying capacity (~1100 pop in lush conditions) prior to shocks through repairing asynchronous reproduction and maintenance loops.
 
 ## Code
 
