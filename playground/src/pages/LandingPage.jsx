@@ -1,0 +1,833 @@
+import { Link } from "react-router-dom";
+
+export default function LandingPage() {
+    return (
+        <>
+            <style>
+                {`
+                    body {
+                        /* Aggressive B&W styling */
+                        -webkit-font-smoothing: antialiased;
+                        text-rendering: optimizeLegibility;
+                    }
+
+                    /* Brutalist Design Utilities */
+                    .brutal-border {
+                        border: 3px solid black;
+                        box-shadow: 8px 8px 0px black;
+                        transition: transform 0.15s ease, box-shadow 0.15s ease;
+                    }
+
+                    .brutal-border:hover {
+                        transform: translate(4px, 4px);
+                        box-shadow: 4px 4px 0px black;
+                    }
+
+                    .brutal-border-sm {
+                        border: 2px solid black;
+                        box-shadow: 4px 4px 0px black;
+                    }
+
+                    .brutal-border-inverted {
+                        border: 3px solid white;
+                        box-shadow: 8px 8px 0px white;
+                    }
+
+                    .brutal-badge {
+                        border: 2px solid black;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        letter-spacing: 0.05em;
+                    }
+
+                    /* Enforce Black and white on emojis */
+                    .grayscale-all {
+                        filter: grayscale(100%) contrast(110%);
+                    }
+
+                    ::selection {
+                        background: black;
+                        color: white;
+                    }
+
+                    /* Custom Scrollbar B&W */
+                    ::-webkit-scrollbar {
+                        width: 12px;
+                    }
+
+                    ::-webkit-scrollbar-track {
+                        background: #ffffff;
+                        border-left: 2px solid #000;
+                    }
+
+                    ::-webkit-scrollbar-thumb {
+                        background: #000000;
+                        border: 2px solid #ffffff;
+                    }
+                `}
+            </style>
+            <div className="bg-white text-black font-sans selection:bg-black selection:text-white pb-24 scroll-smooth">
+                {/* Header / Nav */}
+                <nav className="sticky top-0 z-50 bg-white border-b-4 border-black px-6 md:px-12 py-4 flex justify-between items-center">
+                    <div className="flex items-center gap-3">
+                        <img src="/Mono_logo.png" alt="MONO" className="h-10 w-10" style={{ filter: 'none' }} />
+                        <span className="font-black text-2xl tracking-tighter uppercase">MONO Project</span>
+                    </div>
+                    <div className="hidden md:flex gap-6 font-mono text-sm font-bold uppercase items-center">
+                        <a href="#innovation" className="hover:underline underline-offset-4 decoration-2">Innovation</a>
+                        <a href="#trajectory" className="hover:underline underline-offset-4 decoration-2">Trajectory</a>
+                        <a href="#phase16" className="hover:underline underline-offset-4 decoration-2">Phase 16</a>
+                        <a href="#phase23" className="hover:underline underline-offset-4 decoration-2">Stability</a>
+                        <a href="#evolution" className="hover:underline underline-offset-4 decoration-2">Evolution</a>
+                        <Link to="/playground" className="brutal-badge bg-black text-white px-3 py-1 ml-4 hover:bg-white hover:text-black transition-colors">Playground</Link>
+                    </div>
+                </nav>
+
+                {/* Hero Section */}
+                <header className="pt-24 pb-16 px-6 md:px-12 border-b-4 border-black bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiNlNTVlNSIgZmlsbC1vcGFjaXR5PSIwLjQiLz48L3N2Zz4=')]">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="flex flex-col md:flex-row md:items-start gap-6 lg:gap-12 mb-8">
+                            <img src="/Mono_logo.png" alt="MONO Logo" className="h-24 w-24 md:h-32 md:w-32 flex-shrink-0" style={{ filter: 'none' }} />
+                            <div>
+                                <div className="inline-block brutal-badge px-3 py-1 text-xs font-mono bg-black text-white mb-6">
+                                    RESEARCH & DESIGN OVERVIEW
+                                </div>
+                                <h1 className="text-5xl md:text-7xl lg:text-[6.5rem] font-black uppercase tracking-tighter leading-[0.9] mb-8 lg:mb-0">
+                                    AI that knows when <br /> it's too late to think.
+                                </h1>
+                            </div>
+                        </div>
+                        <p className="text-2xl md:text-4xl font-medium max-w-4xl mb-16 leading-tight">
+                            We separate physics failure from cognitive failure in AI systems.
+                            A latency-aware architecture for time-critical autonomy.
+                        </p>
+                        <p className="font-mono text-base md:text-lg font-bold max-w-4xl mb-16">
+                            Phase 27: Darwinian evolution confirmed — adaptive tracking of environmental change with permanent
+                            genetic shift.
+                        </p>
+
+                        {/* Deep Truth Contrast Blocks */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+                            <div className="bg-black text-white p-8 md:p-12 brutal-border-inverted hover:translate-x-0 hover:translate-y-0 cursor-default">
+                                <h3 className="text-sm font-mono tracking-widest uppercase text-gray-400 mb-6 border-b border-gray-800 pb-2">
+                                    The Problem</h3>
+                                <div className="text-3xl font-bold mb-6">Most AI:</div>
+                                <ul className="space-y-4 font-mono text-base md:text-lg text-gray-300">
+                                    <li className="flex gap-4"><span>&gt;</span> Fails silently</li>
+                                    <li className="flex gap-4"><span>&gt;</span> Hallucinates under stress</li>
+                                    <li className="flex gap-4"><span>&gt;</span> Collapses when time is scarce</li>
+                                </ul>
+                            </div>
+                            <div className="bg-white text-black p-8 md:p-12 brutal-border cursor-default">
+                                <h3 className="text-sm font-mono tracking-widest uppercase text-gray-500 mb-6 border-b border-gray-200 pb-2">
+                                    The Deep Truth</h3>
+                                <div className="text-3xl font-bold mb-6">MONO Architecture:</div>
+                                <ul className="space-y-4 font-mono text-base md:text-lg font-bold">
+                                    <li className="flex gap-4"><span>&gt;</span> Knows when it's failing</li>
+                                    <li className="flex gap-4"><span>&gt;</span> Knows when thinking hurts</li>
+                                    <li className="flex gap-4"><span>&gt;</span> Knows when to switch modes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                {/* Section 1: Innovation in Business Terms */}
+                <section id="innovation" className="py-24 px-6 md:px-12 border-b-4 border-black bg-white">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-16">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">What We've Achieved</h2>
+                            <div className="h-2 w-32 bg-black mb-6"></div>
+                            <p className="text-xl md:text-2xl font-mono text-gray-600">The innovation — translated into business terms.</p>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div className="bg-gray-100 p-8 brutal-border flex flex-col h-full cursor-default">
+                                <div className="text-5xl mb-6">1</div>
+                                <h3 className="text-2xl font-bold mb-4 uppercase leading-tight">A Time-Bounded AI Architecture</h3>
+                                <div className="bg-black text-white text-xs font-mono inline-block px-2 py-1 mb-4 w-max">NOT ANOTHER MODEL</div>
+                                <p className="mb-8 font-medium text-gray-800 leading-relaxed flex-grow">
+                                    Survival, decision quality, and intelligence are constrained by <strong>response time</strong> — not accuracy, not reward. Optimizes for catastrophic delay avoidance.
+                                </p>
+                                <div className="border-t-2 border-black pt-4">
+                                    <span className="block text-xs font-mono uppercase mb-1 text-gray-600">Business Value</span>
+                                    <span className="font-bold text-lg leading-snug">"AI that knows when it's too late to think."</span>
+                                </div>
+                            </div>
+
+                            <div className="bg-white p-8 brutal-border flex flex-col h-full cursor-default">
+                                <div className="text-5xl mb-6">2</div>
+                                <h3 className="text-2xl font-bold mb-4 uppercase leading-tight">General Decision Engine</h3>
+                                <div className="bg-black text-white text-xs font-mono inline-block px-2 py-1 mb-4 w-max">FOR TIME-CRITICAL SYSTEMS</div>
+                                <p className="mb-8 font-medium text-gray-800 leading-relaxed flex-grow">
+                                    Cognition is not always beneficial. Prediction only pays off under shock or volatility. Reactive systems outperform cognition in stable environments. Adaptive mode-switching based on pressure.
+                                </p>
+                                <div className="border-t-2 border-black pt-4">
+                                    <span className="block text-xs font-mono uppercase mb-1 text-gray-600">Business Value</span>
+                                    <span className="font-bold text-lg leading-snug">"Switches between reactive and predictive modes."</span>
+                                </div>
+                            </div>
+
+                            <div className="bg-gray-100 p-8 brutal-border flex flex-col h-full cursor-default">
+                                <div className="text-5xl mb-6">3</div>
+                                <h3 className="text-2xl font-bold mb-4 uppercase leading-tight">Cost-Aware Cognition</h3>
+                                <div className="bg-black text-white text-xs font-mono inline-block px-2 py-1 mb-4 w-max">MEASURABLE OVERHEAD</div>
+                                <p className="mb-8 font-medium text-gray-800 leading-relaxed flex-grow">
+                                    Intelligence can be maladaptive. We proved cognition has measurable overhead (energy, latency, coordination costs) and quantified the tradeoffs.
+                                </p>
+                                <div className="border-t-2 border-black pt-4">
+                                    <span className="block text-xs font-mono uppercase mb-1 text-gray-600">Business Value</span>
+                                    <span className="font-bold text-lg leading-snug">"Built-in cost-benefit awareness for thinking itself."</span>
+                                </div>
+                            </div>
+
+                            <div className="bg-white p-8 brutal-border flex flex-col h-full cursor-default">
+                                <div className="text-5xl mb-6">4</div>
+                                <h3 className="text-2xl font-bold mb-4 uppercase leading-tight">Narrative Control System</h3>
+                                <div className="bg-black text-white text-xs font-mono inline-block px-2 py-1 mb-4 w-max">NOT JUST PLANNING</div>
+                                <p className="mb-8 font-medium text-gray-800 leading-relaxed flex-grow">
+                                    Features temporal sequencing, scene switching, and error-driven attention. This is not RL planning; this is execution governance.
+                                </p>
+                                <div className="border-t-2 border-black pt-4">
+                                    <span className="block text-xs font-mono uppercase mb-1 text-gray-600">Business Value</span>
+                                    <span className="font-bold text-lg leading-snug">"AI systems that don't thrash, oscillate, or overreact during incidents."</span>
+                                </div>
+                            </div>
+
+                            <div className="bg-black text-white p-8 brutal-border flex flex-col h-full cursor-default border-black">
+                                <div className="text-5xl mb-6 text-gray-500">5</div>
+                                <h3 className="text-2xl font-bold mb-4 uppercase leading-tight text-white">A Scientific Proof</h3>
+                                <div className="bg-white text-black text-xs font-bold inline-block px-2 py-1 mb-4 w-max">NOT A DEMO</div>
+                                <p className="mb-8 font-medium text-gray-300 leading-relaxed flex-grow text-xl">
+                                    A falsifiable theory with negative results (proving cognition hurts sometimes). This is a conditional adaptivity proof. That is research-grade innovation, not hobby work.
+                                </p>
+                            </div>
+
+                            <div className="bg-gray-100 p-8 brutal-border flex flex-col h-full cursor-default">
+                                <div className="text-5xl mb-6">6</div>
+                                <h3 className="text-2xl font-bold mb-4 uppercase leading-tight">Evolvable Stress Phenotypes</h3>
+                                <div className="bg-black text-white text-xs font-mono inline-block px-2 py-1 mb-4 w-max">PHASE-16 EVOLVABLE STRESS PHENOTYPES</div>
+                                <p className="mb-8 font-medium text-gray-800 leading-relaxed flex-grow">
+                                    Heritable α/β traits enabling natural selection of optimal oscillatory regulation. Proves evolvable adaptive cognition via evolutionary topology.
+                                </p>
+                                <div className="border-t-2 border-black pt-4">
+                                    <span className="block text-xs font-mono uppercase mb-1 text-gray-600">Business Value</span>
+                                    <span className="font-bold text-lg leading-snug">"AI that evolves its own regulatory systems through natural selection."</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section 2: Categorization */}
+                <section id="category" className="py-24 px-6 md:px-12 border-b-4 border-black bg-gray-100">
+                    <div className="max-w-6xl mx-auto">
+                        <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight mb-16 text-center">What Category This Belongs To</h2>
+
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                            {/* NOT */}
+                            <div className="bg-white p-8 md:p-12 brutal-border-sm cursor-default">
+                                <h3 className="text-3xl font-black uppercase mb-8 pb-4 border-b-4 border-black flex items-center justify-between">
+                                    <span>Not</span>
+                                    <span className="text-4xl grayscale-all">❌</span>
+                                </h3>
+                                <ul className="space-y-6 text-xl font-medium text-gray-600 line-through decoration-black decoration-2">
+                                    <li>LLM framework</li>
+                                    <li>Agent swarm</li>
+                                    <li>Autonomous AI hype</li>
+                                    <li>AGI claim</li>
+                                </ul>
+                            </div>
+                            {/* IS */}
+                            <div className="bg-white p-8 md:p-12 brutal-border-sm relative overflow-hidden cursor-default">
+                                <div className="absolute top-0 right-0 w-16 h-16 bg-black"></div>
+                                <h3 className="text-3xl font-black uppercase mb-8 pb-4 border-b-4 border-black flex items-center justify-between">
+                                    <span>It Is</span>
+                                    <span className="text-4xl grayscale-all">✅</span>
+                                </h3>
+                                <ul className="space-y-6 text-xl font-bold uppercase tracking-tight">
+                                    <li>Latency-Aware Autonomous Systems Architecture</li>
+                                    <li>Cognitive Operating System <span className="text-sm font-mono text-gray-500 block normal-case mt-1">(for AI & robotics)</span></li>
+                                    <li>Decision Substrate <span className="text-sm font-mono text-gray-500 block normal-case mt-1">(for Time-Critical Domains)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="mt-12 max-w-5xl mx-auto p-8 border-4 border-black font-mono text-lg md:text-xl text-center bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+                            <span className="font-bold uppercase tracking-widest text-sm text-gray-500 block mb-2">Think:</span>
+                            "Brainstem + cortex switching. Reflex vs planning. Fight/flight vs deliberation."
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section 3: Strategic Trajectory */}
+                <section id="trajectory" className="py-24 px-6 md:px-12 bg-black text-white border-b-4 border-black">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-20 text-center">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase mb-6 tracking-tight">Strategic Trajectory</h2>
+                            <p className="text-xl md:text-2xl font-mono text-gray-400">Where this is heading in the commercial & industrial landscape.</p>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center relative cursor-default">
+                            {/* Decorative Timeline Line */}
+                            <div className="hidden md:block absolute top-[52px] left-10 right-10 h-1 bg-gray-800 z-0"></div>
+
+                            {/* Near Term */}
+                            <div className="relative z-10 group">
+                                <div className="w-28 h-28 mx-auto bg-black border-4 border-white flex items-center justify-center rounded-full mb-8 transition-transform group-hover:scale-110">
+                                    <span className="text-4xl font-black">6<span className="text-xl text-gray-400">M</span></span>
+                                </div>
+                                <div className="uppercase font-mono text-white bg-white/20 inline-block px-3 py-1 mb-6 tracking-widest text-xs font-bold font-white">Near-Term</div>
+                                <h3 className="text-2xl font-bold mb-4 uppercase">Infrastructure Intelligence</h3>
+                                <p className="text-gray-400 font-medium">An execution-layer intelligence that sits under AI models. Controls when to invoke LLMs, decides how much thinking is allowed, and aborts cognition when time is gone.</p>
+                            </div>
+
+                            {/* Mid Term */}
+                            <div className="relative z-10 group">
+                                <div className="w-28 h-28 mx-auto bg-black border-4 border-white flex items-center justify-center rounded-full mb-8 transition-transform group-hover:scale-110">
+                                    <span className="text-4xl font-black">18<span className="text-xl text-gray-400">M</span></span>
+                                </div>
+                                <div className="uppercase font-mono text-white bg-white/20 inline-block px-3 py-1 mb-6 tracking-widest text-xs font-bold font-white">Mid-Term</div>
+                                <h3 className="text-2xl font-bold mb-4 uppercase">AI Runtime for Real Systems</h3>
+                                <p className="text-gray-400 font-medium">A runtime layer for robots, factories, cloud infra, and agents that switches modes under shock, prevents cascading failures, and maintains coherence under stress.</p>
+                            </div>
+
+                            {/* Long Term */}
+                            <div className="relative z-10 group">
+                                <div className="w-28 h-28 mx-auto bg-black border-4 border-white flex items-center justify-center rounded-full mb-8 transition-transform group-hover:scale-110">
+                                    <span className="text-4xl font-black">5<span className="text-xl text-gray-400">Y</span></span>
+                                </div>
+                                <div className="uppercase font-mono text-white bg-white/20 inline-block px-3 py-1 mb-6 tracking-widest text-xs font-bold font-white">Long-Term</div>
+                                <h3 className="text-2xl font-bold mb-4 uppercase">Pre-Conscious Architecture</h3>
+                                <p className="text-gray-400 font-medium">Without claiming AGI, systems that have bounded internal time, self-limited cognition, failure-aware intelligence, and narrative continuity. How real cognition scales safely.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section 4: Positioning & Pitches */}
+                <section id="positioning" className="py-24 px-6 md:px-12 bg-white">
+                    <div className="max-w-6xl mx-auto">
+                        <h2 className="text-4xl md:text-5xl font-black uppercase mb-16 tracking-tight border-b-4 border-black pb-8">
+                            Positioning & Pitches
+                        </h2>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24 cursor-default">
+                            {/* Pitches */}
+                            <div className="p-8 bg-gray-100 brutal-border-sm group hover:bg-black hover:text-white transition-colors">
+                                <div className="font-mono text-xs uppercase mb-4 text-gray-500 group-hover:text-gray-400">Executives / Buyers</div>
+                                <div className="text-xl font-bold leading-tight">"Reliability-first AI: it prevents costly delays and aborts cognition when time is gone."</div>
+                            </div>
+
+                            <div className="p-8 bg-gray-100 brutal-border-sm group hover:bg-black hover:text-white transition-colors">
+                                <div className="font-mono text-xs uppercase mb-4 text-gray-500 group-hover:text-gray-400">Public / General</div>
+                                <div className="text-xl font-bold leading-tight">"It reacts first, thinks second. If thinking would make it too late, it doesn’t think."</div>
+                            </div>
+
+                            <div className="p-8 bg-gray-100 brutal-border-sm group hover:bg-black hover:text-white transition-colors">
+                                <div className="font-mono text-xs uppercase mb-4 text-gray-500 group-hover:text-gray-400">Engineers / Architects</div>
+                                <div className="text-xl font-bold leading-tight">"A runtime control layer that gates cognition based on time-to-failure and measurable cost."</div>
+                            </div>
+
+                            <div className="p-8 bg-gray-100 brutal-border-sm group hover:bg-black hover:text-white transition-colors">
+                                <div className="font-mono text-xs uppercase mb-4 text-gray-500 group-hover:text-gray-400">Researchers</div>
+                                <div className="text-xl font-bold leading-tight">"A falsifiable program: quantify when cognition helps, and measure Species Memory failure modes under selection."</div>
+                            </div>
+                        </div>
+
+                        {/* What MONO Is Not */}
+                        <div className="border-4 border-black p-8 md:p-12 relative cursor-default">
+                            <div className="absolute -top-4 left-8 bg-white px-4 font-bold uppercase tracking-widest border-2 border-black">What MONO Is Not</div>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-4">
+                                <div>
+                                    <h3 className="text-xl font-bold uppercase mb-6 text-gray-500">Not these <span className="grayscale-all">❌</span></h3>
+                                    <ul className="space-y-4 font-mono font-medium text-lg line-through text-gray-400">
+                                        <li>AGI</li>
+                                        <li>Consciousness</li>
+                                        <li>Self-awareness</li>
+                                        <li>General intelligence</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 className="text-xl font-bold uppercase mb-6 text-black">Instead, this <span className="grayscale-all">✅</span></h3>
+                                    <ul className="space-y-4 font-mono font-bold text-lg">
+                                        <li className="flex items-center gap-3"><span className="w-2 h-2 bg-black"></span> Cognitive primitives</li>
+                                        <li className="flex items-center gap-3"><span className="w-2 h-2 bg-black"></span> Narrative execution</li>
+                                        <li className="flex items-center gap-3"><span className="w-2 h-2 bg-black"></span> Latency-aware intelligence</li>
+                                        <li className="flex items-center gap-3"><span className="w-2 h-2 bg-black"></span> Conditionally predictive systems</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                {/* Section 5: Phase 16 Stress Test Results */}
+                <section id="phase16" className="py-24 px-6 md:px-12 bg-black text-white border-b-4 border-black">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-16">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">Phase 16 Stress Test Results</h2>
+                            <div className="h-2 w-32 bg-white mb-6"></div>
+                            <p className="text-xl md:text-2xl font-mono text-gray-400">Scientific validation of topological invariant in α/β phenotype space.</p>
+                        </div>
+
+                        {/* Key Findings Summary */}
+                        <div className="border-4 border-white p-8 md:p-12 mb-16 bg-white text-black shadow-[8px_8px_0px_0px_rgba(255,255,255,1)]">
+                            <h3 className="text-2xl font-black uppercase mb-6">Key Findings</h3>
+                            <ul className="space-y-4 font-mono text-lg font-bold">
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Topological Invariant:</strong> Consistent convergence to α=0.2, β=0.3 across all 35 stress test conditions</li>
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Evolutionary Robustness:</strong> Phenotype canalization against mutation noise (0.1× to 5.0× scales)</li>
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Environmental Adaptation:</strong> FP rates adapt from 1.0 to 0.72, load from 0.72 to 0.85, while α/β remains invariant</li>
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Hysteresis Optimum:</strong> α - β = 0.1 metabolic setpoint validated through natural selection</li>
+                            </ul>
+                        </div>
+
+                        {/* Visualization Gallery */}
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase16_mutation_convergence.png" alt="Mutation Convergence Plot" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">Mutation Sweep: Attractor Robustness</figcaption>
+                                <p className="mt-2 text-base font-medium">Evolution converges to (α=0.2, β=0.3) despite mutation noise amplification. Proves phenotypic canalization in stress response traits.</p>
+                            </figure>
+
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase16_period_adaptation.png" alt="Period Adaptation Plot" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">Period Sweep: Environmental Adaptation</figcaption>
+                                <p className="mt-2 text-base font-medium">Performance metrics adapt to environment period while regulatory phenotypes remain invariant. Demonstrates robust oscillatory control.</p>
+                            </figure>
+
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase16_evolution_trajectory.png" alt="Evolution Trajectory Plot" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">Evolution Trajectory: Convergence Dynamics</figcaption>
+                                <p className="mt-2 text-base font-medium">Time-series showing α/β evolution, ratio convergence, and performance metrics. Illustrates natural selection optimizing hysteresis control.</p>
+                            </figure>
+                        </div>
+
+                        <div className="mt-16 text-center">
+                            <p className="font-mono text-lg text-gray-400">35 independent evolutionary runs • No extinctions • Stable topological invariant</p>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section 6: Phase 17 Cultural Niche Construction Results */}
+                <section id="phase17" className="py-24 px-6 md:px-12 bg-black text-white border-b-4 border-black">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-16">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">Phase 17 Cultural Niche Construction</h2>
+                            <div className="h-2 w-32 bg-white mb-6"></div>
+                            <p className="text-xl md:text-2xl font-mono text-gray-400">Gene-culture-environment coevolution with ecological feedback.</p>
+                        </div>
+
+                        {/* Key Findings Summary */}
+                        <div className="border-4 border-white p-8 md:p-12 mb-16 bg-white text-black shadow-[8px_8px_0px_0px_rgba(255,255,255,1)]">
+                            <h3 className="text-2xl font-black uppercase mb-6">Key Findings</h3>
+                            <ul className="space-y-4 font-mono text-lg font-bold">
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Cultural Ratchet:</strong> Biased mutation enables artifact accumulation from 1.0 to 1.003 over 300 generations</li>
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Ecological Feedback:</strong> Environmental quality declines 0.03% per generation as depletion &gt; regeneration</li>
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Gene-Culture Coevolution:</strong> Learning/teaching traits evolve under ecological strain</li>
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Oscillatory Dynamics:</strong> Boom-bust cycles emerge from niche construction feedback</li>
+                            </ul>
+                        </div>
+
+                        {/* Visualization Gallery */}
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase17_artifact_trajectory.png" alt="Artifact Trajectory Plot" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">Cultural Accumulation: Ratchet Effect</figcaption>
+                                <p className="mt-2 text-base font-medium">Mean artifact value rises steadily due to 90% improvement bias in cultural mutation. Demonstrates cumulative culture.</p>
+                            </figure>
+
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase17_environmental_decline.png" alt="Environmental Decline Plot" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">Ecological Feedback: Niche Construction</figcaption>
+                                <p className="mt-2 text-base font-medium">Environmental quality declines as artifact values trigger depletion. Shows culture altering environment.</p>
+                            </figure>
+
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase17_coevolution_trajectory.png" alt="Coevolution Trajectory Plot" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">Coevolution: Gene-Culture Dynamics</figcaption>
+                                <p className="mt-2 text-base font-medium">Learning/teaching traits evolve alongside cultural artifacts. Illustrates multi-level selection pressures.</p>
+                            </figure>
+                        </div>
+
+                        <div className="mt-16 text-center">
+                            <p className="font-mono text-lg text-gray-400">5 evolutionary runs • Ecological feedback demonstrated • Gene-culture-environment coevolution</p>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section 7: Phase 18 Socio-Ecological Feedback Results */}
+                <section id="phase18" className="py-24 px-6 md:px-12 bg-black text-white border-b-4 border-black">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-16">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">Phase 18 Socio-Ecological Feedback</h2>
+                            <div className="h-2 w-32 bg-white mb-6"></div>
+                            <p className="text-xl md:text-2xl font-mono text-gray-400">Two cultural artifacts with environmental niche construction and socio-ecological dynamics.</p>
+                        </div>
+
+                        {/* Key Findings Summary */}
+                        <div className="border-4 border-white p-8 md:p-12 mb-16 bg-white text-black shadow-[8px_8px_0px_0px_rgba(255,255,255,1)]">
+                            <h3 className="text-2xl font-black uppercase mb-6">Key Findings</h3>
+                            <ul className="space-y-4 font-mono text-lg font-bold">
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Three Regimes:</strong> Stable extraction dominance (degraded sustainability), damped oscillations, collapse</li>
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Socio-Ecological Feedback:</strong> Extraction depletes, restoration regenerates with diminishing returns</li>
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>Regime Boundaries:</strong> Clear transitions from stability to oscillations to collapse</li>
+                                <li className="flex items-start gap-4"><span className="text-2xl">✓</span> <strong>No Specialization:</strong> p_restore variance = 0; no division of labor</li>
+                            </ul>
+                        </div>
+
+                        {/* Visualization Gallery */}
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase18_regime_diagram.png" alt="Regime Phase Diagram" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">Phase Diagram: Socio-Ecological Regimes</figcaption>
+                                <p className="mt-2 text-base font-medium">Three distinct regimes emerge: stable degraded extraction (I), damped oscillations (II), collapse (III). Shows parameter boundaries.</p>
+                            </figure>
+
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase18_proportion_restoring.png" alt="Proportion Restoring Trajectory" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">Restoration Dynamics: Public Goods Oscillation</figcaption>
+                                <p className="mt-2 text-base font-medium">Proportion choosing restoration oscillates early, damps to stable level. Demonstrates tragedy-of-commons dynamics.</p>
+                            </figure>
+
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase18_environmental_trajectory.png" alt="Environmental Quality Trajectory" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">Environmental Feedback: Niche Construction</figcaption>
+                                <p className="mt-2 text-base font-medium">Environmental quality responds to population actions, stabilizing degraded or collapsing.</p>
+                            </figure>
+                        </div>
+
+                        <div className="mt-16 text-center">
+                            <p className="font-mono text-lg text-gray-400">99 parameter combinations • 3 regimes identified • Socio-ecological feedback boundaries mapped</p>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section: Phase 23 Ecological Stability */}
+                <section id="phase23" className="py-24 px-6 md:px-12 bg-white border-b-4 border-black">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-16">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">Phase 23-24 Ecological Stability</h2>
+                            <div className="h-2 w-32 bg-black mb-6"></div>
+                            <p className="text-xl md:text-2xl font-mono text-gray-600">From 100% extinction to 100% survival — the engine that changed everything.</p>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                            <div className="bg-gray-100 p-8 brutal-border-sm text-center">
+                                <div className="text-5xl font-black mb-2">27/27</div>
+                                <div className="font-mono text-sm uppercase text-gray-500">Survival Rate</div>
+                            </div>
+                            <div className="bg-gray-100 p-8 brutal-border-sm text-center">
+                                <div className="text-5xl font-black mb-2">~1100</div>
+                                <div className="font-mono text-sm uppercase text-gray-500">Carrying Capacity</div>
+                            </div>
+                            <div className="bg-gray-100 p-8 brutal-border-sm text-center">
+                                <div className="text-5xl font-black mb-2">61%</div>
+                                <div className="font-mono text-sm uppercase text-gray-500">Restorer Specialization</div>
+                            </div>
+                            <div className="bg-gray-100 p-8 brutal-border-sm text-center">
+                                <div className="text-5xl font-black mb-2">0</div>
+                                <div className="font-mono text-sm uppercase text-gray-500">Structural Deaths</div>
+                            </div>
+                        </div>
+
+                        <div className="p-8 md:p-12 brutal-border bg-white">
+                            <h3 className="text-2xl font-black uppercase mb-6">Engine Bugs Fixed</h3>
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <div>
+                                    <div className="font-mono text-sm text-gray-500 uppercase mb-2">Bug 1</div>
+                                    <div className="font-bold text-lg">Orphaned Maintenance</div>
+                                    <p className="mt-2 text-gray-600">perform_maintenance() was never called. Structure could only decay.</p>
+                                </div>
+                                <div>
+                                    <div className="font-mono text-sm text-gray-500 uppercase mb-2">Bug 2</div>
+                                    <div className="font-bold text-lg">Double Energy Deduction</div>
+                                    <p className="mt-2 text-gray-600">Actions deducted energy twice — via direct mutation and via update().</p>
+                                </div>
+                                <div>
+                                    <div className="font-mono text-sm text-gray-500 uppercase mb-2">Bug 3</div>
+                                    <div className="font-bold text-lg">Synchronized Reproduction</div>
+                                    <p className="mt-2 text-gray-600">All cells reproduced simultaneously, causing boom-bust extinction spirals.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section: Phase 25-27 Evolution Breakthrough */}
+                <section id="evolution" className="py-24 px-6 md:px-12 bg-black text-white border-b-4 border-black">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-16">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">Darwinian Evolution Confirmed</h2>
+                            <div className="h-2 w-32 bg-white mb-6"></div>
+                            <p className="text-xl md:text-2xl font-mono text-gray-400">Three evolutionary regimes discovered through systematic environmental stress testing.</p>
+                        </div>
+
+                        {/* Three Regimes */}
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                            <div className="p-8 border-4 border-gray-800 bg-gray-900">
+                                <div className="font-mono text-xs uppercase tracking-widest text-gray-500 mb-4">Case 1</div>
+                                <h3 className="text-2xl font-bold uppercase mb-4">Reactive Homeostasis</h3>
+                                <div className="font-mono text-sm text-gray-400 mb-4">Phase 25 · 3× Temporary Shock</div>
+                                <div className="space-y-3 font-mono text-base">
+                                    <div className="flex justify-between"><span className="text-gray-500">Behavior</span><span className="text-white">56% → 82% → 56%</span></div>
+                                    <div className="flex justify-between"><span className="text-gray-500">Genetics</span><span className="text-gray-600">No shift</span></div>
+                                    <div className="flex justify-between"><span className="text-gray-500">Population</span><span className="text-white">328 → 328</span></div>
+                                </div>
+                                <div className="mt-6 pt-4 border-t border-gray-800 font-bold text-gray-500">Behavior only. No evolution.</div>
+                            </div>
+
+                            <div className="p-8 border-4 border-gray-600 bg-gray-900">
+                                <div className="font-mono text-xs uppercase tracking-widest text-gray-400 mb-4">Case 2</div>
+                                <h3 className="text-2xl font-bold uppercase mb-4">Selection + Extinction</h3>
+                                <div className="font-mono text-sm text-gray-300 mb-4">Phase 26 · 8× Instant Shock</div>
+                                <div className="space-y-3 font-mono text-base">
+                                    <div className="flex justify-between"><span className="text-gray-400">Behavior</span><span className="text-white">56% → 93%</span></div>
+                                    <div className="flex justify-between"><span className="text-gray-400">Genetics</span><span className="font-bold text-white">StratT -0.391</span></div>
+                                    <div className="flex justify-between"><span className="text-gray-400">Population</span><span className="text-white">319 → 0</span></div>
+                                </div>
+                                <div className="mt-6 pt-4 border-t border-gray-600 font-bold text-gray-300">Evolution detected. Rescue failed.</div>
+                            </div>
+
+                            <div className="p-8 bg-black brutal-border-inverted relative">
+                                <div className="absolute -top-3 -right-3 bg-white text-black font-bold uppercase text-xs px-2 py-1 brutal-border-sm">Winner</div>
+                                <div className="font-mono text-xs uppercase tracking-widest text-gray-300 mb-4">Case 3 ✔</div>
+                                <h3 className="text-xl lg:text-2xl font-bold uppercase mb-4 text-white">Adaptive Tracking</h3>
+                                <div className="font-mono text-sm text-gray-300 mb-4">Phase 27 · 3× Gradual Ramp</div>
+                                <div className="space-y-3 font-mono text-base">
+                                    <div className="flex justify-between"><span className="text-gray-400">Behavior</span><span className="font-bold text-white">56% → 81%</span></div>
+                                    <div className="flex justify-between"><span className="text-gray-400">Genetics</span><span className="font-bold text-white">StratT -0.039</span></div>
+                                    <div className="flex justify-between"><span className="text-gray-400">Population</span><span className="font-bold text-white">319 → 314</span></div>
+                                </div>
+                                <div className="mt-6 pt-4 border-t-2 border-white font-bold text-white">Evolution + Survival. Adaptive tracking achieved.</div>
+                            </div>
+                        </div>
+
+                        {/* Key Findings */}
+                        <div className="p-8 md:p-12 bg-black brutal-border-inverted">
+                            <h3 className="text-2xl font-black uppercase mb-6 text-white">Evolution Engine Changes</h3>
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                                <div className="border-2 border-gray-700 p-4 bg-gray-900 border-l-4 border-l-white">
+                                    <div className="font-mono text-xs uppercase text-gray-400 mb-2">Fix 1</div>
+                                    <div className="font-bold text-white">Energy scales WITH environment</div>
+                                    <p className="text-sm text-gray-400 mt-1">Removed "invincible restorer" paradox</p>
+                                </div>
+                                <div className="border-2 border-gray-700 p-4 bg-gray-900 border-l-4 border-l-white">
+                                    <div className="font-mono text-xs uppercase text-gray-400 mb-2">Fix 2</div>
+                                    <div className="font-bold text-white">Basal Metabolism</div>
+                                    <p className="text-sm text-gray-400 mt-1">2.0 E/gen — the Second Law of Thermodynamics</p>
+                                </div>
+                                <div className="border-2 border-gray-700 p-4 bg-gray-900 border-l-4 border-l-white">
+                                    <div className="font-mono text-xs uppercase text-gray-400 mb-2">Fix 3</div>
+                                    <div className="font-bold text-white">Age-Based Death</div>
+                                    <p className="text-sm text-gray-400 mt-1">MAX_AGE=200, forcing generational turnover</p>
+                                </div>
+                                <div className="border-2 border-gray-700 p-4 bg-gray-900 border-l-4 border-l-white">
+                                    <div className="font-mono text-xs uppercase text-gray-400 mb-2">Fix 4</div>
+                                    <div className="font-bold text-white">Gradual Climate Ramp</div>
+                                    <p className="text-sm text-gray-400 mt-1">800-gen linear interpolation for evolutionary rescue</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="mt-16 text-center">
+                            <p className="font-mono text-lg text-gray-400">5 seeds × 1500 generations • Darwinian selection confirmed • Adaptive tracking achieved</p>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section: Phase 27 Oscillating Climate Evolution */}
+                <section id="phase27-oscillating" className="py-24 px-6 md:px-12 bg-white text-black border-b-4 border-black">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-16">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">Phase 27: Oscillating Climate</h2>
+                            <div className="h-2 w-32 bg-black mb-6"></div>
+                            <p className="text-xl md:text-2xl font-mono text-gray-600">Evolutionary tracking tested against a smooth 400-generation sine wave environment.</p>
+                        </div>
+
+                        {/* Conclusion Card */}
+                        <div className="bg-black text-white p-8 md:p-12 brutal-border-inverted mb-16 relative">
+                            <div className="absolute -top-3 -right-3 bg-white text-black font-bold uppercase text-xs px-2 py-1 brutal-border-sm">Result</div>
+                            <h3 className="text-3xl font-bold uppercase mb-4">Case C: Polymorphism Detected</h3>
+                            <p className="text-lg font-mono text-gray-400 mb-6">The strategy trait cleanly bifurcates rather than converging. Sustained high variance indicates stable coexistence of fast exploiters and slow restorers traversing the cyclic environment together. True ecological diversity.</p>
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 font-mono text-sm border-t-2 border-white pt-6">
+                                <div>
+                                    <span className="text-gray-500 block mb-1">Population State</span>
+                                    <span className="font-bold text-white text-lg">Stable Multi-Niche</span>
+                                </div>
+                                <div>
+                                    <span className="text-gray-500 block mb-1">Trait Oscillation</span>
+                                    <span className="font-bold text-white text-lg">Tracks Env with Lag</span>
+                                </div>
+                                <div>
+                                    <span className="text-gray-500 block mb-1">Evolutionary Milestone</span>
+                                    <span className="font-bold text-white text-lg">Continuous Evolution</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Visualization Grid */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {/* Environment vs Trait Tracking */}
+                            <div className="bg-gray-100 p-6 brutal-border">
+                                <h3 className="font-bold uppercase mb-2 text-xl tracking-tight">Adaptive Tracking (Env vs Trait)</h3>
+                                <div className="aspect-w-4 aspect-h-3 bg-white border-2 border-black mb-4 flex items-center justify-center overflow-hidden">
+                                    <img src="/phase27_env_vs_trait.png" alt="Environment vs Trait Tracking" className="object-cover w-full h-full" />
+                                </div>
+                                <p className="font-mono text-sm text-gray-600 leading-relaxed">
+                                    The population's average strategy trait distinctly follows the environmental quality sine wave. The slight delay represents <strong>Evolutionary Trait Lag</strong>.
+                                </p>
+                            </div>
+
+                            {/* Trait Variance and Polymorphism */}
+                            <div className="bg-gray-100 p-6 brutal-border">
+                                <h3 className="font-bold uppercase mb-2 text-xl tracking-tight">Trait Variance & Niches</h3>
+                                <div className="aspect-w-4 aspect-h-3 bg-white border-2 border-black mb-4 flex items-center justify-center overflow-hidden">
+                                    <img src="/phase27_trait_variance.png" alt="Trait Variance Heatmap" className="object-cover w-full h-full" />
+                                </div>
+                                <p className="font-mono text-sm text-gray-600 leading-relaxed">
+                                    A persistent high trait variance (and bimodal clustering in the waterfall distribution) confirms two coexisting survival strategies.
+                                </p>
+                            </div>
+
+                            {/* Population Dynamics */}
+                            <div className="bg-gray-100 p-6 brutal-border">
+                                <h3 className="font-bold uppercase mb-2 text-xl tracking-tight">Population Stability</h3>
+                                <div className="aspect-w-4 aspect-h-3 bg-white border-2 border-black mb-4 flex items-center justify-center overflow-hidden">
+                                    <img src="/phase27_population.png" alt="Phase 27 Population Graph" className="object-cover w-full h-full" />
+                                </div>
+                                <p className="font-mono text-sm text-gray-600 leading-relaxed">
+                                    After initial structural shock, the cyclic evolution allows the population to survive the hostile (depletion = 0.15) valleys securely.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Fast Oscillation Test Alert */}
+                        <div className="mt-16 bg-black text-white p-8 md:p-12 brutal-border-inverted relative">
+                            <div className="absolute -top-3 -right-3 bg-white text-black font-bold uppercase text-xs px-2 py-1 brutal-border-sm">Stress Test</div>
+                            <h3 className="text-3xl font-bold uppercase mb-4">Fast Oscillation: 150-Gen Period</h3>
+                            <p className="text-lg font-mono text-gray-400 mb-6">We ran a subsequent resilience test with a dangerously fast 150-generation climate cycle to verify evolutionary response time. Result: <strong className="text-white">Case C — Polymorphism maintained.</strong> The population successfully tracked the rapid shifts without collapsing or reverting to a middle-ground generalist.</p>
+
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 border-t-2 border-gray-800 pt-8">
+                                <div>
+                                    <div className="aspect-w-4 aspect-h-3 bg-white border-2 border-black mb-4 overflow-hidden">
+                                        <img src="/phase27_fast_env_vs_trait.png" alt="Fast Env vs Trait Tracking" className="object-cover w-full h-full" />
+                                    </div>
+                                    <p className="font-mono text-xs text-gray-500">Fast Adaptive Tracking (Trait vs Env)</p>
+                                </div>
+                                <div>
+                                    <div className="aspect-w-4 aspect-h-3 bg-white border-2 border-black mb-4 overflow-hidden">
+                                        <img src="/phase27_fast_trait_variance.png" alt="Fast Trait Variance Heatmap" className="object-cover w-full h-full" />
+                                    </div>
+                                    <p className="font-mono text-xs text-gray-500">Fast Polymorphism Waterfall (Bimodal Variance)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                {/* Section: Phase 28 Spatial Ecosystems */}
+                <section id="phase28" className="py-24 px-6 md:px-12 bg-gray-100 text-black border-b-4 border-black">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-16">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">Phase 28: Spatial Ecosystems</h2>
+                            <div className="h-2 w-32 bg-black mb-6"></div>
+                            <p className="text-xl md:text-2xl font-mono text-gray-600">Introducing geographic isolation via a 50x50 Moor neighborhood grid, Density Limits, and localized Two-Layer resources to trigger true speciation.</p>
+                        </div>
+
+                        {/* Conclusion Card */}
+                        <div className="bg-black text-white p-8 md:p-12 brutal-border-inverted mb-16 relative">
+                            <div className="absolute -top-3 -right-3 bg-white text-black font-bold uppercase text-xs px-2 py-1 brutal-border-sm">Speciation Proven</div>
+                            <h3 className="text-3xl font-bold uppercase mb-4">Geographic Divergence Achieved</h3>
+                            <p className="text-lg font-mono text-gray-400 mb-6">By restricting gene flow and localizing environmental teaching, the global population split into distinct geographic clusters. "Restorers" dominated and stabilized heavily damaged environmental pockets, while "Extractors" clustered around resource-rich zones, giving rise to localized proto-species.</p>
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 font-mono text-sm border-t-2 border-white pt-6">
+                                <div>
+                                    <span className="text-gray-500 block mb-1">Grid Dimension</span>
+                                    <span className="font-bold text-white text-lg">50 x 50 Tiles</span>
+                                </div>
+                                <div>
+                                    <span className="text-gray-500 block mb-1">Max Population Cap</span>
+                                    <span className="font-bold text-white text-lg">25,000 Organisms</span>
+                                </div>
+                                <div>
+                                    <span className="text-gray-500 block mb-1">Evolutionary Milestone</span>
+                                    <span className="font-bold text-white text-lg">Lineage Spatial Spallation</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Visualization Grid */}
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                            {/* Spatial Heatmaps */}
+                            <div className="bg-white p-6 brutal-border">
+                                <h3 className="font-bold uppercase mb-2 text-xl tracking-tight">Geographic Lineage Heatmaps</h3>
+                                <div className="aspect-w-3 aspect-h-4 bg-gray-200 border-2 border-black mb-4 flex items-center justify-center overflow-hidden">
+                                    <img src="/phase28_spatial_heatmaps_seed42.png" alt="Spatial Divergence Heatmap" className="object-cover w-full h-full" />
+                                </div>
+                                <p className="font-mono text-sm text-gray-600 leading-relaxed mt-4">
+                                    Left: <strong>Environment Quality</strong> (Dark=Damaged, Light=Healthy). Right:
+                                    <strong>Strategy Trait Clustering</strong> (Blue=Extractor, Red=Restorer, Gray=Empty). Over
+                                    time, isolated clusters form highly concentrated genetic regimes based entirely on the spatial
+                                    geography of their sector.
+                                </p>
+                            </div>
+
+                            {/* Structural Stability Time Series */}
+                            <div className="bg-white p-6 brutal-border">
+                                <h3 className="font-bold uppercase mb-2 text-xl tracking-tight">Global Metapopulation Dynamics</h3>
+                                <div className="aspect-w-4 aspect-h-3 bg-gray-200 border-2 border-black mb-4 flex items-center justify-center overflow-hidden mt-12">
+                                    <img src="/phase28_spatial_timeseries_seed42.png" alt="Phase 28 Spatial Dynamics Graph" className="object-cover w-full h-full" />
+                                </div>
+                                <p className="font-mono text-sm text-gray-600 leading-relaxed mt-4">
+                                    The aggregate population safely reached carrying capacity despite harsh cyclic depletion
+                                    intervals. High trait-variance highlights the stability of the co-existing divergent species.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* 1500-Gen Long-Term Stability Alert */}
+                        <div className="mt-16 bg-black text-white p-8 md:p-12 brutal-border-inverted relative">
+                            <div className="absolute -top-3 -right-3 bg-white text-black font-bold uppercase text-xs px-2 py-1 brutal-border-sm">Long-Term Simulation</div>
+                            <h3 className="text-3xl font-bold uppercase mb-4">1500-Generation Geographic Stability</h3>
+                            <p className="text-lg font-mono text-gray-400 mb-6">A massive 1490+ generation continuous run was successfully completed. The 50x50 map safely housed <strong>~30,900 overlapping entities</strong> surviving the grueling 0.05 to 0.15 cyclic depletion. The resulting spatial clusters proved infinitely stable—Restorer-dominated sectors permanently locked in a deep ecological mutualism with their environment, effectively turning the grid into a living, breathing meta-organism. Speciation is not just an artifact; it is an enduring pillar of the MONO architecture.</p>
+                        </div>
+
+                        {/* Phase 28.1 Resilience Tests */}
+                        <div className="mt-16 bg-white p-6 md:p-12 brutal-border relative">
+                            <div className="absolute -top-3 -right-3 bg-black text-white font-bold uppercase text-xs px-2 py-1 brutal-border-sm">Phase 28.1</div>
+                            <h3 className="text-3xl font-bold uppercase mb-4 tracking-tight">Ecosystem Resilience Testing</h3>
+                            <p className="text-lg font-mono text-gray-700 leading-relaxed max-w-4xl mb-8">
+                                To prevent <em>Evolutionary Stagnation</em> from the exactness of the ESS, a
+                                <strong>Mutation-Selection Balance</strong> was introduced (10% chance of micro-drift). We then subjected the global metapopulation to two extreme stressors to test recovery.
+                            </p>
+
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                                <div>
+                                    <div className="text-xl font-bold uppercase mb-2">1. The K-T Event (Gen 800)</div>
+                                    <p className="font-mono text-sm text-gray-600 mb-4">A hard 50% mass extinction completely eradicated half the tiles. Result: The surviving 16,000 spatial island clusters expanded exponentially outward, fully repopulating the grid back to the 32,000 carrying capacity in exactly 30 generations. The Strategy Trait remained perfectly stable.</p>
+                                </div>
+                                <div>
+                                    <div className="text-xl font-bold uppercase mb-2">2. Global Famine (Gen 1100-1150)</div>
+                                    <p className="font-mono text-sm text-gray-600 mb-4">Resource regeneration was suppressed by 96% globally. Result: The population dipped slightly but endured cleanly due to massive mutualistic Restoration traits pre-established by the environment. The ecosystem acts as a shock absorber.</p>
+                                </div>
+                            </div>
+
+                            <div className="aspect-w-4 aspect-h-3 bg-gray-200 border-2 border-black flex items-center justify-center overflow-hidden">
+                                <img src="/phase28_1_timeseries_seed42.png" alt="Phase 28.1 Resilience Testing Graph" className="object-cover w-full h-full" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Footer */}
+                <footer className="bg-black text-white py-12 px-6 text-center border-t-8 border-gray-900 mt-24">
+                    <div className="font-black text-3xl uppercase tracking-tighter mb-4">MONO</div>
+                    <p className="font-mono text-sm text-gray-500">Latency-Aware Autonomous Systems Architecture <br /> Research & Design Framework</p>
+                    <p className="font-mono text-xs text-gray-600 mt-4">Copyright 2024 Techbilla Software Pvt Ltd. All rights reserved.<br />Project Started February 2026</p>
+                </footer>
+            </div>
+        </>
+    );
+}

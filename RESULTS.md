@@ -338,3 +338,7 @@ Phase-28.1 introduced a **Mutation-Selection Balance** and subjected the spatial
 - **Global Famine (Gen 1100)**: A 50-generation resource-regeneration collapse (down 96%) resulted in minimal population drop. The pre-established Restorer entities acted as deep shock absorbers, repairing the environment mutually to outlast the famine.
 
 **Phase-28.1 Officially Graduated.** Speciation, ESS architecture, and shock-resilience confirmed natively.
+#   P h a s e   2 9 :   C h a t b o t   S a n d b o x   P l a y g r o u n d   C o m p l e t e d  
+  
+ O u r   C h a t b o t   P l a y g r o u n d   i s   s u c c e s s f u l l y   l i v e .   T h e   b a c k e n d   m a n a g e s   t h e   l i f e c y c l e   o f   M o n o   a g e n t s ,   w h i c h   e v o l v e   a n d   m u t a t e   v a r i a b l e s   l i k e   ' T e m p e r a t u r e '   a c r o s s   g e n e r a t i o n s   ( S t o r e d   i n   S Q L i t e ) .   W h e n   t h e   u s e r   t a l k s   t o   i t ,   t h e   a g e n t   t r a n s i t i o n s   t o   ' A C T I N G ' ,   e x p e n d i n g   e n e r g y ,   a n d   t h e   R e d   Q u e e n   P r e d a t o r   a c t i v e l y   h u n t s   t h e   r u n n i n g   a g e n t s   b a s e d   o n   t h e i r   a c t i o n   s t a t e s .   W e   c o n f i r m e d   r e a l - t i m e   W e b S o c k e t   c o m m u n i c a t i o n   f r o m   a   R e a c t   V i t e   d a s h b o a r d   w o r k s   f l a w l e s s l y .  
+ 

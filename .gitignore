@@ -9,3 +9,4 @@ snapshots/
 # MONO experiment artifacts
 phase10_artifacts/
 snapshots/
+node_modules/
