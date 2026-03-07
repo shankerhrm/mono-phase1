@@ -354,7 +354,7 @@ def run_generation_phase19(cells, species_memory, generation, observer, depletio
     return new_pop, stats
 
 
-def run_evolution(seed, total_gens=500, target_pop=100, dep_rate=0.15, reg_rate=0.005, env_exponent=2.0, restore_mult=0.2, trade_cost=1.0, exchange_rate=1.0, target=10, fixed_env=False, max_pop=1000, shock_start=None, shock_end=None, shock_dep_mult=1.0, include_metrics=False):
+def run_evolution(seed, total_gens=500, target_pop=100, dep_rate=0.15, reg_rate=0.005, env_exponent=2.0, restore_mult=0.2, trade_cost=1.0, exchange_rate=1.0, target=10, fixed_env=False, max_pop=1000, shock_start=None, shock_end=None, shock_dep_mult=1.0, include_metrics=False, oscillate_climate=False, oscillation_period=400.0):
     global depletion_rate, regeneration_rate, environmental_quality, price_food, price_repair
     depletion_rate = dep_rate
     regeneration_rate = reg_rate
@@ -379,8 +379,17 @@ def run_evolution(seed, total_gens=500, target_pop=100, dep_rate=0.15, reg_rate=
     for gen in range(total_gens):
         observer.set_generation(gen)
         
+        # Phase-27: Smooth Sine-wave environmental oscillation
+        if oscillate_climate:
+            import math
+            base = 0.10
+            amplitude = 0.05
+            period = oscillation_period
+            depletion_rate = base + amplitude * math.sin(2 * math.pi * gen / period)
+            if gen % 100 == 0:
+                print(f"🌊 OSCILLATION gen {gen}: env={environmental_quality:.3f}, depletion_rate = {depletion_rate:.4f}", file=sys.stderr)
         # Phase-25: Environmental shock injection (instant or gradual ramp)
-        if shock_start is not None and shock_end is not None:
+        elif shock_start is not None and shock_end is not None:
             if gen == shock_start:
                 if shock_end > total_gens:
                     # Gradual ramp mode: linearly increase over ramp_duration
@@ -460,6 +469,11 @@ def run_evolution(seed, total_gens=500, target_pop=100, dep_rate=0.15, reg_rate=
         mean_env_sensitivity = safe_mean(env_sensitivities)
         var_env_sensitivity = safe_stdev(env_sensitivities)
         
+        # Phase-27: Trait histogram for polymorphism detection
+        import numpy as np
+        strategy_histogram, _ = np.histogram(strategy_traits, bins=20, range=(0.0, 1.0))
+        strategy_histogram = strategy_histogram.tolist()
+        
         # Phase-25: Lineage diversity (unique parent lineages)
         lineage_ids = set()
         for cell in pop:
@@ -528,6 +542,7 @@ def run_evolution(seed, total_gens=500, target_pop=100, dep_rate=0.15, reg_rate=
             'mean_env_sensitivity': mean_env_sensitivity,
             'var_env_sensitivity': var_env_sensitivity,
             'lineage_diversity': lineage_diversity,
+            'strategy_histogram': strategy_histogram,
         })
 
     all_reproducer_artifacts = [a for m in metrics_per_gen for a in m['reproducer_artifacts']]
@@ -586,6 +601,8 @@ if __name__ == "__main__":
     parser.add_argument('--shock_end', type=int, default=None, help='Generation to end environmental shock')
     parser.add_argument('--shock_dep_mult', type=float, default=1.0, help='Depletion rate multiplier during shock')
     parser.add_argument('--include_metrics', action='store_true', help='Force include per-gen metrics in output')
+    parser.add_argument('--oscillate_climate', action='store_true', help='Phase-27: Apply smooth sine wave to depletion rate')
+    parser.add_argument('--oscillation_period', type=float, default=400.0, help='Phase-27: Period for the oscillating climate sine wave')
     args = parser.parse_args()
 
     result = run_evolution(
@@ -604,6 +621,8 @@ if __name__ == "__main__":
         shock_end=args.shock_end,
         shock_dep_mult=args.shock_dep_mult,
         include_metrics=args.include_metrics,
+        oscillate_climate=args.oscillate_climate,
+        oscillation_period=args.oscillation_period,
     )
 
     # Output result as JSON for sweep collection

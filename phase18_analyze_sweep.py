@@ -56,6 +56,9 @@ def main():
         extinct_count = sum(1 for r in group if r['result']['summary']['extinct'])
         p_extinct = extinct_count / len(group)
 
+        surviving = []
+        oscillatory_count = 0
+
         if p_extinct >= 0.5:
             regime = 'III'
         else:
@@ -89,8 +92,9 @@ def main():
         print()
 
     # Save detailed results
+    phase_diagram_str_keys = {str(k): v for k, v in phase_diagram.items()}
     with open('phase18_sweep/phase_diagram.json', 'w') as f:
-        json.dump(phase_diagram, f, indent=2)
+        json.dump(phase_diagram_str_keys, f, indent=2)
 
     print("Phase diagram saved to phase18_sweep/phase_diagram.json")
 
