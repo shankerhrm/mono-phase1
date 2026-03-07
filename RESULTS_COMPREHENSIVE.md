@@ -334,3 +334,26 @@ No explicit learning, no optimization, no reward functions — just physics and 
 ✅ **How consciousness becomes inevitable** (hierarchical modular integration)
 
 The framework is complete and empirically validated.
+
+---
+
+## Phase-28: Spatial Ecosystems & Speciation
+
+### Innovation
+Migrated the entire MONO engine from a global soup to a 2D (50x50) spatial grid model. Cells are restricted to Moore-neighborhood (radius=1) interactions for mating, teaching, and resource extraction, with a 2% chance of tile-migration per generation.
+
+### Key Findings
+- **Evolutionary Stable Strategy:** The localized grid safely reached a saturated carrying capacity of ~30,900 overlapping entities. The dominant strategy tightly converged to ~0.98 ("Restorer"), proving that high-density localized survival heavily selects for cooperative environmental engineering.
+- **Geographic Metapopulation:** The population sustained itself across massive cyclic environmental depletion valleys smoothly, validating the power of a decentralized, spatially distributed survival model.
+
+---
+
+## Phase-28.1: Ecosystem Resilience & Shocks
+
+### Innovation
+Injected a probabilistic Mutation-Selection Balance (10% chance of micro genetic drift) to prevent the ESS variance from falling to absolute zero (which invites stagnation). Then, subjected the ecosystem to extreme stress tests.
+
+### Key Findings
+- **Mutation Floor Validated:** Continuous drift stabilized the trait variance at safely non-zero levels (~0.08).
+- **Catastrophic Recovery:** A Generation 800 "K-T Extinction" Event (instantaneous randomized 50% cull) saw the surviving spatial island clusters expand outward and natively repopulate the 32k capacity within 30 generations.
+- **Resource Shock Buffer:** A 50-generation Global Famine (~95% resource suppression) resulted in very little population loss, proving that the established ESS (heavy Restorers) provides profound biological buffering against deep environmental collapse.

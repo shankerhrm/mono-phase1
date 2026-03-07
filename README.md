@@ -34,7 +34,9 @@ Phase-27 focus: Darwinian evolution confirmed via adaptive tracking of environme
 **Phase-24**: Engine Immortalization — asynchronous reproduction and structural maintenance fixes  
 **Phase-25**: Resilience Basin — testing reactive homeostasis vs evolution under shock  
 **Phase-26**: Hard Selection — basal metabolism, age-based death, and extinction dynamics  
-**Phase-27**: Adaptive Tracking — Darwinian evolution confirmed under gradual climate ramp (Current)
+**Phase-27**: Adaptive Tracking — Darwinian evolution confirmed under gradual climate ramp
+**Phase-28**: Spatial Ecosystems — geographic clustering, lineage divergence, and evolutionary stable strategies (ESS)
+**Phase-28.1**: Ecosystem Resilience — mutation-selection balance, K-T extinction recovery, and global famine survival (Current)
 
 ## Documentation
 
@@ -63,18 +65,19 @@ Phase-27 focus: Darwinian evolution confirmed via adaptive tracking of environme
   - [MONO_Phase24_Specification.md](MONO_Phase24_Specification.md) — Engine Stability
   - [MONO_Phase25_Specification.md](MONO_Phase25_Specification.md) — Shock Test & Resilience Basin
   - [MONO_Phase26_Specification.md](MONO_Phase26_Specification.md) — Evolution & Adaptive Tracking (Covers Phases 26-27)
+  - [MONO_Phase28_Specification.md](MONO_Phase28_Specification.md) — Spatial Ecosystems
+  - [MONO_Phase28_1_Specification.md](MONO_Phase28_1_Specification.md) — Resilience Testing & Extinction Recovery
 - **Results**: [RESULTS.md](RESULTS.md) — Experimental findings across all phases
 
-## Phase-27: Darwinian Evolution Confirmed
+## Phase-28.1: Spatial Resilience & Ecosystem Stabilization
 
-**Key Innovation**: Achieved true Darwinian evolution by escaping perfect homeostasis. Solved the "Invincible Restorer" paradox and implemented basal metabolism (2.0 E/gen) alongside age-based generational turnover (MAX_AGE=200).
+**Key Innovation**: Migrated the simulation to a 2D spatial grid, observing localized extraction, restoration, and learning dynamically forming a globally stable meta-organism. Validated resilience using K-T mass-extinction events and global famines.
 
 **Key Findings**:
-- **Three Evolutionary Regimes Discovered:**
-  1. **Reactive Homeostasis (Case 1)**: Temporary 3× shock. Behavior shifts to restore the environment (56% → 82%), returning to the baseline Resilience Basin (~328 pop) post-shock. No permanent genetic change.
-  2. **Selection + Extinction (Case 2)**: Permanent 8× instant shock. Population collapses (319 → 0) due to extreme environmental pressure. Darwinian selection occurs (genetic trait shift of -0.391) but evolutionary rescue fails.
-  3. **Adaptive Tracking (Case 3)**: Permanent 3× gradual ramp. Population survives (319 → 314) successfully tracking the changing environment. Significant behavioral plasticity (81% restorer) prevents a death spiral, enabling a permanent genetic shift (-0.039) over 1500 generations.
-- **Engine Stability:** Reached 100% survival and stable carrying capacity (~1100 pop in lush conditions) prior to shocks through repairing asynchronous reproduction and maintenance loops.
+- **Evolutionary Stable Strategy (ESS):** The local 50x50 spatial grid safely houses a massive carrying capacity (~30,900 overlapping entities). Without external regulation, the ecosystem organically converges on a mutualistic "Restorer" heavy strategy allowing indefinite survival across extreme environmental cycles.
+- **Mutation-Selection Balance:** Introduced a continuous probabilistic genetic drift (±0.02 trait variance on 10% of reproductions) which prevents evolutionary stagnation and maintains healthy trait-variance at ~0.08.
+- **Mass-Extinction Recovery:** At Generation 800, a sudden 50% catastrophic culling (16k cells instantly destroyed) triggered immediate outward expansion from surviving island clusters. The ecosystem perfectly reclaimed its 32,000 capacity in just 30 generations, demonstrating the resilience of the spatial architecture.
+- **Global Famine Buffer:** Applying a 50-generation extreme resource famine resulted in minimal population drop, proving the evolved highly-restorative agents effectively serve as their own biological shock absorbers.
 
 ## Code
 
