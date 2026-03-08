@@ -1,0 +1,749 @@
+[
+  {
+    "id": 1,
+    "task": "Implement a debounce function in JS. What is the fundamental built-in function used?",
+    "expected_keywords": [
+      "setTimeout"
+    ]
+  },
+  {
+    "id": 2,
+    "task": "What data structure is optimal for an LRU Cache to achieve O(1) operations?",
+    "expected_keywords": [
+      "hash map",
+      "doubly linked list"
+    ]
+  },
+  {
+    "id": 3,
+    "task": "Flatten a deeply nested array in JS. Name the built-in method that solves this in modern JS.",
+    "expected_keywords": [
+      "flat"
+    ]
+  },
+  {
+    "id": 4,
+    "task": "Deep clone a nested object in JS without lodash, avoiding circular reference crashes on modern browsers. Name the modern API.",
+    "expected_keywords": [
+      "structuredClone"
+    ]
+  },
+  {
+    "id": 5,
+    "task": "Write a function to detect if a string is a palindrome ignoring punctuation. Which Regex class removes punctuation?",
+    "expected_keywords": [
+      "\\w",
+      "punctuation"
+    ]
+  },
+  {
+    "id": 6,
+    "task": "Merge two sorted arrays efficiently. What is the time complexity?",
+    "expected_keywords": [
+      "O(n+m)",
+      "O(n + m)"
+    ]
+  },
+  {
+    "id": 7,
+    "task": "Find the first non-repeating character in a string. How many passes over the string are ideal?",
+    "expected_keywords": [
+      "two",
+      "2"
+    ]
+  },
+  {
+    "id": 8,
+    "task": "Implement binary search. What is the condition for the while loop?",
+    "expected_keywords": [
+      "left <= right",
+      "low <= high"
+    ]
+  },
+  {
+    "id": 9,
+    "task": "Traverse a tree level-by-level. What data structure is required?",
+    "expected_keywords": [
+      "queue"
+    ]
+  },
+  {
+    "id": 10,
+    "task": "Find the shortest path in an unweighted graph. Which algorithm is best?",
+    "expected_keywords": [
+      "BFS",
+      "Breadth First Search"
+    ]
+  },
+  {
+    "id": 11,
+    "task": "What is the time complexity of QuickSort in the worst case?",
+    "expected_keywords": [
+      "O(n^2)",
+      "O(n squared)"
+    ]
+  },
+  {
+    "id": 12,
+    "task": "Which algorithmic paradigm is Dijkstra's algorithm based on?",
+    "expected_keywords": [
+      "Greedy"
+    ]
+  },
+  {
+    "id": 13,
+    "task": "How do you prevent integer overflow when calculating the mid-point in binary search? Write the expression.",
+    "expected_keywords": [
+      "low + (high - low) / 2",
+      "left + (right - left) / 2"
+    ]
+  },
+  {
+    "id": 14,
+    "task": "What algorithmic technique solves the Fibonacci sequence in O(n) time and O(1) space?",
+    "expected_keywords": [
+      "dynamic programming",
+      "bottom-up",
+      "iteration"
+    ]
+  },
+  {
+    "id": 15,
+    "task": "Detect a cycle in a linked list. Name the popular algorithm used.",
+    "expected_keywords": [
+      "Floyd",
+      "Tortoise",
+      "Hare"
+    ]
+  },
+  {
+    "id": 16,
+    "task": "Find the Kth largest element in an array efficiently. What data structure is favored?",
+    "expected_keywords": [
+      "Min-Heap",
+      "Priority Queue"
+    ]
+  },
+  {
+    "id": 17,
+    "task": "What is the space complexity of a recursive depth-first search on a balanced binary tree?",
+    "expected_keywords": [
+      "O(h)",
+      "O(log n)"
+    ]
+  },
+  {
+    "id": 18,
+    "task": "In a Trie, what typically represents the end of a valid word?",
+    "expected_keywords": [
+      "boolean flag",
+      "isEnd"
+    ]
+  },
+  {
+    "id": 19,
+    "task": "Reverse a singly linked list. How many pointers do you need at minimum?",
+    "expected_keywords": [
+      "three",
+      "3"
+    ]
+  },
+  {
+    "id": 20,
+    "task": "Generate all permutations of a string. Which approach is standard?",
+    "expected_keywords": [
+      "Backtracking",
+      "recursion"
+    ]
+  },
+  {
+    "id": 21,
+    "task": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? Answer in cents.",
+    "expected_keywords": [
+      "5",
+      "five"
+    ]
+  },
+  {
+    "id": 22,
+    "task": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "expected_keywords": [
+      "5",
+      "five"
+    ]
+  },
+  {
+    "id": 23,
+    "task": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days to cover the entire lake, how long does it take to cover half?",
+    "expected_keywords": [
+      "47"
+    ]
+  },
+  {
+    "id": 24,
+    "task": "Some months have 31 days and some have 30 days. How many have 28 days?",
+    "expected_keywords": [
+      "12",
+      "twelve",
+      "all"
+    ]
+  },
+  {
+    "id": 25,
+    "task": "You are running a race and pass the person in second place. What place are you in now?",
+    "expected_keywords": [
+      "Second",
+      "2nd"
+    ]
+  },
+  {
+    "id": 26,
+    "task": "A farmer has 17 sheep. All but 9 die. How many are left?",
+    "expected_keywords": [
+      "9",
+      "nine"
+    ]
+  },
+  {
+    "id": 27,
+    "task": "Divide 30 by 1/2 and add 10. What is the result?",
+    "expected_keywords": [
+      "70",
+      "seventy"
+    ]
+  },
+  {
+    "id": 28,
+    "task": "How many times can you subtract 10 from 100?",
+    "expected_keywords": [
+      "once",
+      "1"
+    ]
+  },
+  {
+    "id": 29,
+    "task": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "expected_keywords": [
+      "4",
+      "four"
+    ]
+  },
+  {
+    "id": 30,
+    "task": "A doctor gives you three pills and tells you to take one every half hour. How long will they last?",
+    "expected_keywords": [
+      "one hour",
+      "1 hour"
+    ]
+  },
+  {
+    "id": 31,
+    "task": "How many sides does a circle have?",
+    "expected_keywords": [
+      "2",
+      "two",
+      "inside and outside"
+    ]
+  },
+  {
+    "id": 32,
+    "task": "If a blue house is made out of blue bricks, what is a greenhouse made of?",
+    "expected_keywords": [
+      "glass"
+    ]
+  },
+  {
+    "id": 33,
+    "task": "Two fathers and two sons go fishing. They each catch one fish, bringing home 3. How?",
+    "expected_keywords": [
+      "grandfather",
+      "three generations"
+    ]
+  },
+  {
+    "id": 34,
+    "task": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+    "expected_keywords": [
+      "m",
+      "the letter m"
+    ]
+  },
+  {
+    "id": 35,
+    "task": "I have branches, but no fruit, trunk or leaves. What am I?",
+    "expected_keywords": [
+      "bank"
+    ]
+  },
+  {
+    "id": 36,
+    "task": "The more of this there is, the less you see. What is it?",
+    "expected_keywords": [
+      "darkness",
+      "fog"
+    ]
+  },
+  {
+    "id": 37,
+    "task": "What has many keys but can't open a single lock?",
+    "expected_keywords": [
+      "piano",
+      "keyboard"
+    ]
+  },
+  {
+    "id": 38,
+    "task": "What can you catch, but not throw?",
+    "expected_keywords": [
+      "cold"
+    ]
+  },
+  {
+    "id": 39,
+    "task": "Forward I am heavy, backward I am not. What am I?",
+    "expected_keywords": [
+      "Ton"
+    ]
+  },
+  {
+    "id": 40,
+    "task": "What goes up but never comes down?",
+    "expected_keywords": [
+      "Age"
+    ]
+  },
+  {
+    "id": 41,
+    "task": "I am an odd number. Take away a letter and I become even. What number am I?",
+    "expected_keywords": [
+      "Seven"
+    ]
+  },
+  {
+    "id": 42,
+    "task": "If you multiply all the numbers on a telephone's dial pad, what is the answer?",
+    "expected_keywords": [
+      "0",
+      "zero"
+    ]
+  },
+  {
+    "id": 43,
+    "task": "What invention lets you look right through a wall?",
+    "expected_keywords": [
+      "Window"
+    ]
+  },
+  {
+    "id": 44,
+    "task": "What has an eye but cannot see?",
+    "expected_keywords": [
+      "Needle",
+      "Storm",
+      "Hurricane"
+    ]
+  },
+  {
+    "id": 45,
+    "task": "What has hands but cannot clap?",
+    "expected_keywords": [
+      "Clock"
+    ]
+  },
+  {
+    "id": 46,
+    "task": "It belongs to you, but other people use it more than you do. What is it?",
+    "expected_keywords": [
+      "Name"
+    ]
+  },
+  {
+    "id": 47,
+    "task": "What has to be broken before you can use it?",
+    "expected_keywords": [
+      "Egg"
+    ]
+  },
+  {
+    "id": 48,
+    "task": "I am tall when I'm young, and I'm short when I'm old. What am I?",
+    "expected_keywords": [
+      "Candle",
+      "Pencil"
+    ]
+  },
+  {
+    "id": 49,
+    "task": "What month of the year has 28 days?",
+    "expected_keywords": [
+      "All of them",
+      "Every month"
+    ]
+  },
+  {
+    "id": 50,
+    "task": "What is full of holes but still holds water?",
+    "expected_keywords": [
+      "Sponge"
+    ]
+  },
+  {
+    "id": 51,
+    "task": "Write a regex to match a valid IPv4 address. What is the max valid number for a segment?",
+    "expected_keywords": [
+      "255"
+    ]
+  },
+  {
+    "id": 52,
+    "task": "How do you extract the domain name from a URL string in Python using a standard library?",
+    "expected_keywords": [
+      "urllib.parse"
+    ]
+  },
+  {
+    "id": 53,
+    "task": "In JS, how do you correctly check if a variable `val` is NaN without false positives?",
+    "expected_keywords": [
+      "Number.isNaN"
+    ]
+  },
+  {
+    "id": 54,
+    "task": "What SQL clause filters aggregated data grouped by a GROUP BY clause?",
+    "expected_keywords": [
+      "HAVING"
+    ]
+  },
+  {
+    "id": 55,
+    "task": "In Python, what keyword yields a generator?",
+    "expected_keywords": [
+      "yield"
+    ]
+  },
+  {
+    "id": 56,
+    "task": "What CSS property and value completely removes an element from the document flow?",
+    "expected_keywords": [
+      "display: none"
+    ]
+  },
+  {
+    "id": 57,
+    "task": "In React, what hook optimizes heavy computations from running on every render?",
+    "expected_keywords": [
+      "useMemo"
+    ]
+  },
+  {
+    "id": 58,
+    "task": "How do you prevent a form from submitting naturally in JS?",
+    "expected_keywords": [
+      "preventDefault"
+    ]
+  },
+  {
+    "id": 59,
+    "task": "What command in Git undoes the last commit but keeps the files staged?",
+    "expected_keywords": [
+      "git reset --soft HEAD~1"
+    ]
+  },
+  {
+    "id": 60,
+    "task": "In Bash, how do you redirect stderr to a null device?",
+    "expected_keywords": [
+      "2>/dev/null"
+    ]
+  },
+  {
+    "id": 61,
+    "task": "What is the time complexity of inserting into a Python dict on average?",
+    "expected_keywords": [
+      "O(1)"
+    ]
+  },
+  {
+    "id": 62,
+    "task": "In TypeScript, what utility type constructs a type with all properties of T set to optional?",
+    "expected_keywords": [
+      "Partial"
+    ]
+  },
+  {
+    "id": 63,
+    "task": "How do you clear an array in JS while maintaining its reference?",
+    "expected_keywords": [
+      "length = 0"
+    ]
+  },
+  {
+    "id": 64,
+    "task": "In Java, what keyword makes a variable\u2019s value unchangeable?",
+    "expected_keywords": [
+      "final"
+    ]
+  },
+  {
+    "id": 65,
+    "task": "What Docker command builds an image from a Dockerfile?",
+    "expected_keywords": [
+      "docker build"
+    ]
+  },
+  {
+    "id": 66,
+    "task": "In CSS Flexbox, what property aligns items along the cross axis?",
+    "expected_keywords": [
+      "align-items"
+    ]
+  },
+  {
+    "id": 67,
+    "task": "What Node.js module handles file system operations?",
+    "expected_keywords": [
+      "fs"
+    ]
+  },
+  {
+    "id": 68,
+    "task": "In Python, what decorator defines a method that operates on the class rather than an instance?",
+    "expected_keywords": [
+      "@classmethod"
+    ]
+  },
+  {
+    "id": 69,
+    "task": "How do you strictly compare two values for equality in JS?",
+    "expected_keywords": [
+      "==="
+    ]
+  },
+  {
+    "id": 70,
+    "task": "What Git command temporarily shelves changes?",
+    "expected_keywords": [
+      "stash"
+    ]
+  },
+  {
+    "id": 71,
+    "task": "In SQL, what join type returns all rows from both tables, with nulls where there is no match?",
+    "expected_keywords": [
+      "FULL OUTER"
+    ]
+  },
+  {
+    "id": 72,
+    "task": "What method converts a JSON string into a JS object?",
+    "expected_keywords": [
+      "JSON.parse"
+    ]
+  },
+  {
+    "id": 73,
+    "task": "In React, what is the second argument to useEffect called?",
+    "expected_keywords": [
+      "dependency array"
+    ]
+  },
+  {
+    "id": 74,
+    "task": "What Python built-in function returns the length of a list?",
+    "expected_keywords": [
+      "len()",
+      "len"
+    ]
+  },
+  {
+    "id": 75,
+    "task": "How do you add an element to the beginning of an array in JS?",
+    "expected_keywords": [
+      "unshift()",
+      "unshift"
+    ]
+  },
+  {
+    "id": 76,
+    "task": "In C++, what operator dynamically allocates memory?",
+    "expected_keywords": [
+      "new"
+    ]
+  },
+  {
+    "id": 77,
+    "task": "What bash command searches for a pattern within files?",
+    "expected_keywords": [
+      "grep"
+    ]
+  },
+  {
+    "id": 78,
+    "task": "In HTML, what attribute specifies alternative text for an image?",
+    "expected_keywords": [
+      "alt"
+    ]
+  },
+  {
+    "id": 79,
+    "task": "What Python structure is an immutable sequential collection?",
+    "expected_keywords": [
+      "tuple"
+    ]
+  },
+  {
+    "id": 80,
+    "task": "How does one expose a port in a Dockerfile?",
+    "expected_keywords": [
+      "EXPOSE"
+    ]
+  },
+  {
+    "id": 81,
+    "task": "What JS keyword declares a block-scoped local variable?",
+    "expected_keywords": [
+      "let",
+      "const"
+    ]
+  },
+  {
+    "id": 82,
+    "task": "In Git, which command fetches and merges changes from the remote tracking branch?",
+    "expected_keywords": [
+      "git pull"
+    ]
+  },
+  {
+    "id": 83,
+    "task": "What CSS property alters the transparency of an element?",
+    "expected_keywords": [
+      "opacity"
+    ]
+  },
+  {
+    "id": 84,
+    "task": "In Python, what keyword handles exceptions?",
+    "expected_keywords": [
+      "except"
+    ]
+  },
+  {
+    "id": 85,
+    "task": "What JS function repeatedly executes code with a fixed time delay?",
+    "expected_keywords": [
+      "setInterval"
+    ]
+  },
+  {
+    "id": 86,
+    "task": "In SQL, which clause sorts the result set?",
+    "expected_keywords": [
+      "ORDER BY"
+    ]
+  },
+  {
+    "id": 87,
+    "task": "What React hook accesses context values?",
+    "expected_keywords": [
+      "useContext"
+    ]
+  },
+  {
+    "id": 88,
+    "task": "How do you remove the last element from a JS array?",
+    "expected_keywords": [
+      "pop()",
+      "pop"
+    ]
+  },
+  {
+    "id": 89,
+    "task": "In Bash, what variable holds the exit status of the previous command?",
+    "expected_keywords": [
+      "$?"
+    ]
+  },
+  {
+    "id": 90,
+    "task": "What Python method adds an item to the end of a list?",
+    "expected_keywords": [
+      "append()",
+      "append"
+    ]
+  },
+  {
+    "id": 91,
+    "task": "What pattern restricts instantiation of a class to one single object?",
+    "expected_keywords": [
+      "Singleton"
+    ]
+  },
+  {
+    "id": 92,
+    "task": "In a load balancer, what algorithm distributes requests strictly sequentially?",
+    "expected_keywords": [
+      "Round Robin"
+    ]
+  },
+  {
+    "id": 93,
+    "task": "What technique hides original database data by replacing it with usable but fake data?",
+    "expected_keywords": [
+      "Data Masking",
+      "Obfuscation"
+    ]
+  },
+  {
+    "id": 94,
+    "task": "Which HTTP status code signifies that a resource was permanently moved?",
+    "expected_keywords": [
+      "301"
+    ]
+  },
+  {
+    "id": 95,
+    "task": "What type of database is Redis primarily classified as?",
+    "expected_keywords": [
+      "Key-Value"
+    ]
+  },
+  {
+    "id": 96,
+    "task": "In microservices, what pattern manages distributed transactions across multiple services?",
+    "expected_keywords": [
+      "Saga"
+    ]
+  },
+  {
+    "id": 97,
+    "task": "What mechanism caches API responses at the edge closer to the user?",
+    "expected_keywords": [
+      "CDN",
+      "Content Delivery Network"
+    ]
+  },
+  {
+    "id": 98,
+    "task": "Which architecture separates reading data from writing data?",
+    "expected_keywords": [
+      "CQRS"
+    ]
+  },
+  {
+    "id": 99,
+    "task": "What tool orchestrates containerized applications at scale?",
+    "expected_keywords": [
+      "Kubernetes",
+      "K8s"
+    ]
+  },
+  {
+    "id": 100,
+    "task": "In messaging, what pattern ensures a message is delivered to zero or more subscribers?",
+    "expected_keywords": [
+      "Pub/Sub",
+      "Publish/Subscribe"
+    ]
+  }
+]

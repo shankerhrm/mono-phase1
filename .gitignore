@@ -10,3 +10,4 @@ snapshots/
 phase10_artifacts/
 snapshots/
 node_modules/
+.env

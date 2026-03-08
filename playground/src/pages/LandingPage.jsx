@@ -79,6 +79,7 @@ export default function LandingPage() {
                         <a href="#phase16" className="hover:underline underline-offset-4 decoration-2">Phase 16</a>
                         <a href="#phase23" className="hover:underline underline-offset-4 decoration-2">Stability</a>
                         <a href="#evolution" className="hover:underline underline-offset-4 decoration-2">Evolution</a>
+                        <a href="#phase30" className="hover:underline underline-offset-4 decoration-2">Phase 30</a>
                         <Link to="/playground" className="brutal-badge bg-black text-white px-3 py-1 ml-4 hover:bg-white hover:text-black transition-colors">Playground</Link>
                     </div>
                 </nav>
@@ -817,6 +818,49 @@ export default function LandingPage() {
                             <div className="aspect-w-4 aspect-h-3 bg-gray-200 border-2 border-black flex items-center justify-center overflow-hidden">
                                 <img src="/phase28_1_timeseries_seed42.png" alt="Phase 28.1 Resilience Testing Graph" className="object-cover w-full h-full" />
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section: Phase 30: Natural Selection of Intelligence */}
+                <section id="phase30" className="py-24 px-6 md:px-12 bg-black text-white border-b-4 border-black">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-16">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">Phase 30: Intelligence Selection</h2>
+                            <div className="h-2 w-32 bg-white mb-6"></div>
+                            <p className="text-xl md:text-2xl font-mono text-gray-400">Experimental proof of performance improvement through natural selection.</p>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                            <div className="bg-white text-black p-8 brutal-border-sm text-center">
+                                <div className="text-5xl font-black mb-2">+64%</div>
+                                <div className="font-mono text-sm uppercase text-gray-500">Accuracy Growth</div>
+                            </div>
+                            <div className="bg-white text-black p-8 brutal-border-sm text-center">
+                                <div className="text-5xl font-black mb-2">89.5%</div>
+                                <div className="font-mono text-sm uppercase text-gray-500">Final Success Rate</div>
+                            </div>
+                            <div className="bg-white text-black p-8 brutal-border-sm text-center">
+                                <div className="text-5xl font-black mb-2">~290%</div>
+                                <div className="font-mono text-sm uppercase text-gray-500">Energy Efficiency</div>
+                            </div>
+                            <div className="bg-white text-black p-8 brutal-border-sm text-center">
+                                <div className="text-5xl font-black mb-2">8 Gen</div>
+                                <div className="font-mono text-sm uppercase text-gray-500">Evolutionary Time</div>
+                            </div>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase30_accuracy_growth.png" alt="Accuracy Growth Plot" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">Intelligence Selection: Accuracy Growth</figcaption>
+                                <p className="mt-2 text-base font-medium">Comparison of MONO agent success rates against baseline Ollama (Llama 3). Shows significant convergence to high-accuracy traits over time.</p>
+                            </figure>
+                            <figure className="bg-white text-black p-8 brutal-border">
+                                <img src="/phase30_efficiency_growth.png" alt="Efficiency Growth Plot" className="w-full h-auto" />
+                                <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">System Dynamics: Energy Reserves</figcaption>
+                                <p className="mt-2 text-base font-medium">Evolution of average energy reserves. Increasing reserves indicate the selection of more energy-efficient decision heuristics.</p>
+                            </figure>
                         </div>
                     </div>
                 </section>

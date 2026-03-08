@@ -2,8 +2,14 @@ import asyncio
 import uuid
 import time
 import random
-from phase29_species_memory import SpeciesMemoryDB
+import os
+from dotenv import load_dotenv
 
+# Load environment variables from .env
+load_dotenv()
+
+from phase29_species_memory import SpeciesMemoryDB
+from ollama_api import OllamaClient
 class MonoAgent:
     def __init__(self, generation, traits, starting_energy=100):
         self.id = f"AG-{str(uuid.uuid4())[:8].upper()}"
@@ -33,6 +39,7 @@ class InstanceManager:
         self.active_agent = None
         self.broadcast = broadcast_callback
         self.running = False
+        self.gemini_client = OllamaClient()
         
     async def run_ecosystem(self):
         self.running = True
@@ -95,11 +102,28 @@ class InstanceManager:
         
         # Simulated LLM processing based on inherited temperature
         temp = self.active_agent.traits['temperature']
-        await asyncio.sleep(1.0 + random.uniform(0.1, 1.0) * temp)
-        
-        # Generating a simulated response using the agent's heuristic genes
         gene_influence = " | ".join(self.active_agent.traits['heuristic_genes'])
-        response = f"[Gen {self.generation} | Temp: {temp:.2f}]\n\nProcessing: '{query}'\nApplying Heuristics: [{gene_influence}]\n\nSimulation OK. Energy -5 for action, +15 for successful task completion."
+        
+        prompt = f"""
+        [SYSTEM ROLE]
+        You are a newborn MONO Agent (Generation {self.generation}). 
+        Your survival depends on conserving energy and responding effectively to the environment.
+        Your inherited biological heuristics (genes) are: [{gene_influence}]
+        You must apply these heuristics to govern your response.
+        
+        [USER QUERY]
+        {query}
+        
+        [RESPONSE]
+        """
+        
+        try:
+            # Query Gemini API (the wrapper will handle actual call vs mock depending on API key)
+            gemini_response = await self.gemini_client.generate(prompt=prompt)
+            # Format the output for the console
+            response = f"[Gen {self.generation} | Temp: {temp:.2f}]\nApplying Heuristics: [{gene_influence}]\n\n{gemini_response}\n\n[Energy -5 for acting, +15 for successful task completion.]"
+        except Exception as e:
+            response = f"System Failure during thought generation: {e}"
         
         self.active_agent.energy -= 5.0 # Action cost
         

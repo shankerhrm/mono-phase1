@@ -1,0 +1,12 @@
+[
+  {
+    "generation": 0,
+    "success_rate": 0.545,
+    "avg_energy": 182.0,
+    "dominant_heuristics": [
+      "Be concise",
+      "Act biologically"
+    ],
+    "population_size": 20
+  }
+]

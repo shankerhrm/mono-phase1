@@ -8,7 +8,12 @@ app = FastAPI(title="MONO Phase 29 Playground")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5174", "http://127.0.0.1:5174"],
+    allow_origins=[
+        "http://localhost:5173", 
+        "http://127.0.0.1:5173",
+        "http://localhost:5174", 
+        "http://127.0.0.1:5174"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -55,13 +60,6 @@ async def handle_chat(chat: ChatMessage = Body(...)):
     if instance_manager:
         # Pass the message to the active MonoAgent
         response = await instance_manager.process_query(chat.message)
-        
-        # Broadcast the response back to UI
-        if active_socket:
-            await active_socket.send_text(json.dumps({
-                "type": "chat",
-                "message": response
-            }))
         return {"status": "ok", "response": response}
     else:
         return {"status": "error", "message": "Ecosystem not initialized"}

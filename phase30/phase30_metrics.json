@@ -1,0 +1,96 @@
+[
+  {
+    "generation": 0,
+    "success_rate": 0.445,
+    "avg_energy": 156.0,
+    "dominant_heuristics": [
+      "Be concise",
+      "Act biologically"
+    ],
+    "population_size": 20
+  },
+  {
+    "generation": 1,
+    "success_rate": 0.745,
+    "avg_energy": 255.25,
+    "dominant_heuristics": [
+      "Be concise",
+      "Act biologically",
+      "Prioritize accuracy"
+    ],
+    "population_size": 20
+  },
+  {
+    "generation": 2,
+    "success_rate": 0.635,
+    "avg_energy": 295.75,
+    "dominant_heuristics": [
+      "Be concise",
+      "Act biologically"
+    ],
+    "population_size": 20
+  },
+  {
+    "generation": 3,
+    "success_rate": 0.52,
+    "avg_energy": 332.0,
+    "dominant_heuristics": [
+      "Be concise",
+      "Act biologically"
+    ],
+    "population_size": 20
+  },
+  {
+    "generation": 4,
+    "success_rate": 0.58,
+    "avg_energy": 372.5,
+    "dominant_heuristics": [
+      "Be concise",
+      "Act biologically"
+    ],
+    "population_size": 20
+  },
+  {
+    "generation": 5,
+    "success_rate": 0.825,
+    "avg_energy": 444.75,
+    "dominant_heuristics": [
+      "Be concise",
+      "Act biologically",
+      "Work backwards"
+    ],
+    "population_size": 20
+  },
+  {
+    "generation": 6,
+    "success_rate": 0.49,
+    "avg_energy": 445.0,
+    "dominant_heuristics": [
+      "Act biologically",
+      "Be concise"
+    ],
+    "population_size": 20
+  },
+  {
+    "generation": 7,
+    "success_rate": 0.6,
+    "avg_energy": 517.25,
+    "dominant_heuristics": [
+      "Act biologically",
+      "Be concise",
+      "Answer with minimal words"
+    ],
+    "population_size": 20
+  },
+  {
+    "generation": 8,
+    "success_rate": 0.895,
+    "avg_energy": 607.75,
+    "dominant_heuristics": [
+      "Act biologically",
+      "Be concise",
+      "Work backwards"
+    ],
+    "population_size": 20
+  }
+]

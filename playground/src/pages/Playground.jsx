@@ -22,20 +22,40 @@ function Playground() {
     scrollToBottom();
   }, [messages]);
 
-  // Mock WebSocket connection logic
+  // WebSocket connection logic with auto-reconnect
   useEffect(() => {
-    const ws = new WebSocket("ws://127.0.0.1:8000/ws");
+    let ws;
+    let reconnectTimer;
 
-    ws.onmessage = (event) => {
-      const data = JSON.parse(event.data);
-      if (data.type === 'telemetry') {
-        setTelemetry(data.data);
-      } else if (data.type === 'chat') {
-        setMessages(prev => [...prev, { text: data.message, sender: 'agent' }]);
-      }
+    const connect = () => {
+      ws = new WebSocket("ws://127.0.0.1:8000/ws");
+
+      ws.onopen = () => console.log("WS Connected");
+
+      ws.onmessage = (event) => {
+        const data = JSON.parse(event.data);
+        if (data.type === 'telemetry') {
+          setTelemetry(data.data);
+        }
+      };
+
+      ws.onclose = () => {
+        console.log("WS Disconnected - Retrying in 2s...");
+        reconnectTimer = setTimeout(connect, 2000);
+      };
+
+      ws.onerror = (err) => {
+        console.error("WS Error:", err);
+        ws.close();
+      };
     };
 
-    return () => ws.close();
+    connect();
+
+    return () => {
+      if (ws) ws.close();
+      clearTimeout(reconnectTimer);
+    };
   }, []);
 
   const sendMessage = (e) => {
@@ -45,12 +65,22 @@ function Playground() {
     // Optimistic UI update
     setMessages(prev => [...prev, { text: inputMessage, sender: 'user' }]);
 
-    // Send to backend via HTTP (or WS)
+    // Send to backend via HTTP
     fetch("http://127.0.0.1:8000/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: inputMessage })
-    }).catch(err => console.error("Failed to send:", err));
+    })
+      .then(res => res.json())
+      .then(data => {
+        if (data.status === 'ok') {
+          setMessages(prev => [...prev, { text: data.response, sender: 'agent' }]);
+        }
+      })
+      .catch(err => {
+        console.error("Failed to send:", err);
+        setMessages(prev => [...prev, { text: "Connection error. Is the backend running?", sender: 'agent' }]);
+      });
 
     setInputMessage("");
   };
