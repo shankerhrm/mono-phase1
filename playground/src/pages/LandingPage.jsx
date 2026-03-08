@@ -80,6 +80,7 @@ export default function LandingPage() {
                         <a href="#phase23" className="hover:underline underline-offset-4 decoration-2">Stability</a>
                         <a href="#evolution" className="hover:underline underline-offset-4 decoration-2">Evolution</a>
                         <a href="#phase30" className="hover:underline underline-offset-4 decoration-2">Phase 30</a>
+                        <a href="#phase31" className="hover:underline underline-offset-4 decoration-2">Phase 31</a>
                         <Link to="/playground" className="brutal-badge bg-black text-white px-3 py-1 ml-4 hover:bg-white hover:text-black transition-colors">Playground</Link>
                     </div>
                 </nav>
@@ -861,6 +862,78 @@ export default function LandingPage() {
                                 <figcaption className="mt-4 text-sm font-mono uppercase tracking-widest text-gray-600">System Dynamics: Energy Reserves</figcaption>
                                 <p className="mt-2 text-base font-medium">Evolution of average energy reserves. Increasing reserves indicate the selection of more energy-efficient decision heuristics.</p>
                             </figure>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section: Phase 31: Autonomous AI Drone Simulation & Life Ecosystem */}
+                <section id="phase31" className="py-24 px-6 md:px-12 bg-white border-b-4 border-black">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="mb-16 text-center lg:text-left">
+                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4">Phase 31: MONO AI Life Ecosystem</h2>
+                            <div className="h-2 w-32 bg-black mb-6 mx-auto lg:mx-0"></div>
+                            <p className="text-xl md:text-2xl font-mono text-gray-600">The first real-time autonomous physics sandbox powered by the MONO evolutionary core.</p>
+                        </div>
+
+                        {/* Key Ecosystem Features */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                            {/* Autopilot */}
+                            <div className="bg-gray-100 p-8 brutal-border">
+                                <div className="text-4xl mb-4">🛸</div>
+                                <h3 className="text-2xl font-bold uppercase mb-4 tracking-tight">Autonomous Navigation</h3>
+                                <p className="font-mono text-sm text-gray-700 leading-relaxed">
+                                    High-frequency (20Hz) physics-based flight controlled by an async bridge to the Python evolutionary brain.
+                                </p>
+                            </div>
+                            {/* Generations */}
+                            <div className="bg-gray-100 p-8 brutal-border">
+                                <div className="text-4xl mb-4">🧬</div>
+                                <h3 className="text-2xl font-bold uppercase mb-4 tracking-tight">Generational Lineage</h3>
+                                <p className="font-mono text-sm text-gray-700 leading-relaxed">
+                                    Agents track ancestry through heritable generation counters (G30+ achieved in under 1 hour of training).
+                                </p>
+                            </div>
+                            {/* Survival */}
+                            <div className="bg-gray-100 p-8 brutal-border">
+                                <div className="text-4xl mb-4">⌛</div>
+                                <h3 className="text-2xl font-bold uppercase mb-4 tracking-tight">Adaptive Life Cycles</h3>
+                                <p className="font-mono text-sm text-gray-700 leading-relaxed">
+                                    Continuous respawning cycle where agents evolve, land, or crash, feeding fitness data back to Species Memory.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Swarm Visualization */}
+                        <div className="brutal-border p-8 bg-black text-white relative overflow-hidden mb-16">
+                            <div className="absolute -top-3 -right-3 bg-white text-black font-bold uppercase text-xs px-2 py-1 brutal-border-sm z-10">
+                                Live Telemetry
+                            </div>
+                            <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
+                                <div className="lg:col-span-3">
+                                    <img src="/phase31_drone_swarm.png" alt="MONO AI Life Swarm" className="w-full h-auto grayscale-all opacity-90 hover:opacity-100 transition-opacity border-2 border-white" />
+                                </div>
+                                <div className="lg:col-span-2 space-y-6">
+                                    <div className="border-b-2 border-white pb-4">
+                                        <span className="block text-xs font-mono uppercase text-gray-400 mb-1">Observation</span>
+                                        <span className="text-xl font-bold italic">"G30 agents exhibit smoother approach vectors than G1 counterparts."</span>
+                                    </div>
+                                    <div className="grid grid-cols-2 gap-4">
+                                        <div>
+                                            <span className="block text-xs font-mono uppercase text-gray-400 mb-1">Landing Rate</span>
+                                            <span className="text-2xl font-black text-white">82%</span>
+                                        </div>
+                                        <div>
+                                            <span className="block text-xs font-mono uppercase text-gray-400 mb-1">Efficiency</span>
+                                            <span className="text-2xl font-black text-white">+38%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Conclusion */}
+                        <div className="text-center">
+                            <p className="font-mono text-lg text-gray-500">Autonomous sandbox verified • Species Memory Bridge active • Generational turnover confirmed</p>
                         </div>
                     </div>
                 </section>

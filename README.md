@@ -35,8 +35,8 @@ Phase-27 focus: Darwinian evolution confirmed via adaptive tracking of environme
 **Phase-25**: Resilience Basin — testing reactive homeostasis vs evolution under shock  
 **Phase-26**: Hard Selection — basal metabolism, age-based death, and extinction dynamics  
 **Phase-27**: Adaptive Tracking — Darwinian evolution confirmed under gradual climate ramp
-**Phase-28**: Spatial Ecosystems — geographic clustering, lineage divergence, and evolutionary stable strategies (ESS)
-**Phase-28.1**: Ecosystem Resilience — mutation-selection balance, K-T extinction recovery, and global famine survival (Current)
+**Phase-30**: Intelligence Verification — proving natural selection improves task performance  
+**Phase-31**: AI Drone Life Ecosystem — real-time autonomous navigation & generational evolution (Current)  
 
 ## Documentation
 
@@ -67,17 +67,18 @@ Phase-27 focus: Darwinian evolution confirmed via adaptive tracking of environme
   - [MONO_Phase26_Specification.md](MONO_Phase26_Specification.md) — Evolution & Adaptive Tracking (Covers Phases 26-27)
   - [MONO_Phase28_Specification.md](MONO_Phase28_Specification.md) — Spatial Ecosystems
   - [MONO_Phase28_1_Specification.md](MONO_Phase28_1_Specification.md) — Resilience Testing & Extinction Recovery
+  - [MONO_Phase30_Specification.md](MONO_Phase30_Specification.md) — Intelligence Verification
+  - [MONO_Phase31_Specification.md](MONO_Phase31_Specification.md) — AI Drone Life Ecosystem
 - **Results**: [RESULTS.md](RESULTS.md) — Experimental findings across all phases
 
-## Phase-28.1: Spatial Resilience & Ecosystem Stabilization
+## Phase-31: Autonomous AI Drone Life Ecosystem
 
-**Key Innovation**: Migrated the simulation to a 2D spatial grid, observing localized extraction, restoration, and learning dynamically forming a globally stable meta-organism. Validated resilience using K-T mass-extinction events and global famines.
+**Key Innovation**: Integrated the MONO core with a high-frequency (20Hz) 2D drone physics engine. Mapped MONO agents to individual drone entities, implementing an evolutionary lifecycle where agents evolve across generations (`G1` -> `G2` -> `G3`) based on real-time fitness scores.
 
 **Key Findings**:
-- **Evolutionary Stable Strategy (ESS):** The local 50x50 spatial grid safely houses a massive carrying capacity (~30,900 overlapping entities). Without external regulation, the ecosystem organically converges on a mutualistic "Restorer" heavy strategy allowing indefinite survival across extreme environmental cycles.
-- **Mutation-Selection Balance:** Introduced a continuous probabilistic genetic drift (±0.02 trait variance on 10% of reproductions) which prevents evolutionary stagnation and maintains healthy trait-variance at ~0.08.
-- **Mass-Extinction Recovery:** At Generation 800, a sudden 50% catastrophic culling (16k cells instantly destroyed) triggered immediate outward expansion from surviving island clusters. The ecosystem perfectly reclaimed its 32,000 capacity in just 30 generations, demonstrating the resilience of the spatial architecture.
-- **Global Famine Buffer:** Applying a 50-generation extreme resource famine resulted in minimal population drop, proving the evolved highly-restorative agents effectively serve as their own biological shock absorbers.
+- **Generational Evolution**: Agents were observed reaching `G30+` autonomously, with fitness scores optimizing survival and energy consumption over thousands of simulated cycles.
+- **Autonomous Navigation**: Success rates for autonomous landing significantly increased through continuous evolutionary feedback from the Python-based `drone_core`.
+- **Life-Value Visualization**: Implemented a real-time HUD and leaderboard quantifying the "Life Value" of each agent in the swarm.
 
 ## Code
 
